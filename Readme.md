@@ -1,1 +1,1 @@
-# Shopora - Ecomm WebApp
+# Shopora

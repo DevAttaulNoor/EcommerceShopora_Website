@@ -3,7 +3,7 @@ import { InnerContainer } from "@/layouts/InnerContainer";
 export default function Home() {
     return (
         <InnerContainer>
-            <div className="flex">
+            <div>
                 Home
             </div>
         </InnerContainer>

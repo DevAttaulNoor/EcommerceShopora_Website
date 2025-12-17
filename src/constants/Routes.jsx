@@ -9,6 +9,32 @@ export const Routes = {
         }
     },
 
+    CATEGORIES: {
+        path: "/categories",
+        title: "Categories",
+        meta: {
+            title: "Categories | Shopora",
+            description: "Browse product categories at Shopora.",
+        },
+    },
+
+    CATEGORY: (slug) => ({
+        path: `/categories/${slug}`,
+    }),
+
+    BRANDS: {
+        path: "/brands",
+        title: "Brands",
+        meta: {
+            title: "Brands | Shopora",
+            description: "Browse product brands at Shopora.",
+        },
+    },
+
+    BRAND: (slug) => ({
+        path: `/brands/${slug}`,
+    }),
+
     // ---------- User Account Pages ----------
     ACCOUNT: {
         path: '/account',
@@ -57,7 +83,7 @@ export const Routes = {
     },
 
     FAQ: {
-        path: '/faq',
+        path: '/faqs',
         title: "FAQ",
         meta: {
             title: "FAQ | Shopora",

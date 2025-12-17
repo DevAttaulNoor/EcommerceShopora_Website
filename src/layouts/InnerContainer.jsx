@@ -1,7 +1,7 @@
-import { TopBar } from "@/components/TopBar";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { BottomBar } from "@/components/BottomBar";
+import { TopBar } from "@/components/compound/container-related/TopBar";
+import { Header } from "@/components/compound/container-related/Header";
+import { Footer } from "@/components/compound/container-related/Footer";
+import { BottomBar } from "@/components/compound/container-related/BottomBar";
 
 export const InnerContainer = ({ children }) => {
     return (

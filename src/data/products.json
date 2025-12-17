@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "title": "iPhone 15 Pro Max",
+        "category": "electronics",
+        "brand": "Apple",
+        "price": 1299,
+        "likes": 124,
+        "comments": 30,
+        "description": "Experience the next generation smartphone with advanced camera, sleek design, and powerful performance.",
+        "image": "/images/products/iphone-15.png"
+    },
+    {
+        "id": 2,
+        "title": "Galaxy S23 Ultra",
+        "category": "electronics",
+        "brand": "Samsung",
+        "price": 1199,
+        "likes": 98,
+        "comments": 21,
+        "description": "Capture stunning photos and enjoy a seamless mobile experience with Samsung's flagship device.",
+        "image": "/images/products/galaxy-s23.png"
+    },
+    {
+        "id": 3,
+        "title": "MacBook Pro 16-inch",
+        "category": "laptops-computers",
+        "brand": "Apple",
+        "price": 2499,
+        "likes": 210,
+        "comments": 45,
+        "description": "Powerful laptop with M2 chip, retina display, and long-lasting battery for professionals and creatives.",
+        "image": "/images/products/macbook-pro.png"
+    },
+    {
+        "id": 4,
+        "title": "AirPods Pro",
+        "category": "audio-headphones",
+        "brand": "Apple",
+        "price": 249,
+        "likes": 180,
+        "comments": 50,
+        "description": "Active noise cancellation, spatial audio, and a comfortable fit for all-day listening.",
+        "image": "/images/products/airpods-pro.png"
+    },
+    {
+        "id": 5,
+        "title": "Nike Air Max 270",
+        "category": "footwear",
+        "brand": "Nike",
+        "price": 150,
+        "likes": 300,
+        "comments": 65,
+        "description": "Comfortable sneakers with modern design, perfect for running and casual wear.",
+        "image": "/images/products/nike-airmax.png"
+    },
+    {
+        "id": 6,
+        "title": "Adidas Ultraboost",
+        "category": "footwear",
+        "brand": "Adidas",
+        "price": 180,
+        "likes": 250,
+        "comments": 40,
+        "description": "High-performance running shoes with Boost cushioning for ultimate comfort.",
+        "image": "/images/products/adidas-ultraboost.png"
+    },
+    {
+        "id": 7,
+        "title": "Sony Bravia 55-inch 4K TV",
+        "category": "electronics",
+        "brand": "Sony",
+        "price": 799,
+        "likes": 130,
+        "comments": 28,
+        "description": "Ultra HD smart TV with HDR, voice control, and immersive sound quality.",
+        "image": "/images/products/sony-tv.png"
+    },
+    {
+        "id": 8,
+        "title": "Instant Pot Duo 7-in-1",
+        "category": "home-appliances",
+        "brand": "Instant Pot",
+        "price": 99,
+        "likes": 95,
+        "comments": 15,
+        "description": "Multi-functional pressure cooker for easy and fast cooking.",
+        "image": "/images/products/instant-pot.png"
+    },
+    {
+        "id": 9,
+        "title": "Dyson V15 Vacuum Cleaner",
+        "category": "home-appliances",
+        "brand": "Dyson",
+        "price": 699,
+        "likes": 80,
+        "comments": 12,
+        "description": "Cordless vacuum cleaner with powerful suction and advanced filtration.",
+        "image": "/images/products/dyson-vacuum.png"
+    },
+    {
+        "id": 10,
+        "title": "Samsung Galaxy Watch 6",
+        "category": "smartwatches-wearables",
+        "brand": "Samsung",
+        "price": 399,
+        "likes": 150,
+        "comments": 35,
+        "description": "Smartwatch with fitness tracking, heart rate monitoring, and stylish design.",
+        "image": "/images/products/galaxy-watch.png"
+    },
+    {
+        "id": 11,
+        "title": "Fitbit Charge 6",
+        "category": "sports-fitness",
+        "brand": "Fitbit",
+        "price": 149,
+        "likes": 120,
+        "comments": 20,
+        "description": "Advanced fitness tracker to monitor activity, sleep, and health metrics.",
+        "image": "/images/products/fitbit-charge.png"
+    },
+    {
+        "id": 12,
+        "title": "Canon EOS R6 Camera",
+        "category": "photography",
+        "brand": "Canon",
+        "price": 2499,
+        "likes": 110,
+        "comments": 22,
+        "description": "Full-frame mirrorless camera with high-speed performance and 4K video recording.",
+        "image": "/images/products/canon-eos-r6.png"
+    },
+    {
+        "id": 13,
+        "title": "KitchenAid Stand Mixer",
+        "category": "kitchen-appliances",
+        "brand": "KitchenAid",
+        "price": 399,
+        "likes": 85,
+        "comments": 18,
+        "description": "Versatile stand mixer for baking, mixing, and preparing various recipes.",
+        "image": "/images/products/kitchenaid-mixer.png"
+    },
+    {
+        "id": 14,
+        "title": "Levi's 501 Jeans",
+        "category": "fashion",
+        "brand": "Levi's",
+        "price": 60,
+        "likes": 200,
+        "comments": 45,
+        "description": "Classic straight-leg jeans with durable denim for everyday wear.",
+        "image": "/images/products/levis-501.png"
+    },
+    {
+        "id": 15,
+        "title": "Ray-Ban Aviator Sunglasses",
+        "category": "eyewear",
+        "brand": "Ray-Ban",
+        "price": 150,
+        "likes": 140,
+        "comments": 25,
+        "description": "Iconic aviator sunglasses with UV protection and stylish design.",
+        "image": "/images/products/rayban-aviator.png"
+    },
+    {
+        "id": 16,
+        "title": "Oculus Quest 3 VR Headset",
+        "category": "gaming",
+        "brand": "Meta",
+        "price": 499,
+        "likes": 175,
+        "comments": 30,
+        "description": "Wireless VR headset with immersive gaming experience and high-resolution display.",
+        "image": "/images/products/oculus-quest-3.png"
+    },
+    {
+        "id": 17,
+        "title": "Logitech MX Master 3 Mouse",
+        "category": "computers-accessories",
+        "brand": "Logitech",
+        "price": 99,
+        "likes": 90,
+        "comments": 15,
+        "description": "Advanced wireless mouse with ergonomic design and precision tracking.",
+        "image": "/images/products/logitech-mx-master.png"
+    },
+    {
+        "id": 18,
+        "title": "HP Pavilion 15 Laptop",
+        "category": "laptops-computers",
+        "brand": "HP",
+        "price": 749,
+        "likes": 130,
+        "comments": 20,
+        "description": "Affordable laptop with reliable performance, ideal for work and study.",
+        "image": "/images/products/hp-pavilion.png"
+    },
+    {
+        "id": 19,
+        "title": "Bose QuietComfort Earbuds",
+        "category": "audio-headphones",
+        "brand": "Bose",
+        "price": 279,
+        "likes": 110,
+        "comments": 25,
+        "description": "Noise-cancelling wireless earbuds with clear sound and comfort.",
+        "image": "/images/products/bose-earbuds.png"
+    },
+    {
+        "id": 20,
+        "title": "Sony WH-1000XM5 Headphones",
+        "category": "audio-headphones",
+        "brand": "Sony",
+        "price": 349,
+        "likes": 140,
+        "comments": 32,
+        "description": "Industry-leading noise cancellation headphones with superior sound quality.",
+        "image": "/images/products/sony-wh1000xm5.png"
+    }
+]

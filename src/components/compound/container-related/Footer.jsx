@@ -1,0 +1,125 @@
+import Link from "next/link";
+import Image from "next/image";
+import { Routes } from "@/constants/Routes";
+import categories from "@data/categories.json"
+import brands from "@data/brands.json"
+
+const companyLinks = [
+    {
+        id: 1,
+        href: Routes.ABOUT.path,
+        title: Routes.ABOUT.title
+    },
+    {
+        id: 2,
+        href: Routes.CONTACT.path,
+        title: Routes.CONTACT.title
+    },
+    {
+        id: 3,
+        href: Routes.ABOUT.path,
+        title: Routes.ABOUT.title
+    },
+    {
+        id: 4,
+        href: Routes.CONTACT.path,
+        title: Routes.CONTACT.title
+    },
+];
+
+const helpcenterLinks = [
+    {
+        id: 1,
+        href: Routes.PRIVACY_POLICY.path,
+        title: Routes.PRIVACY_POLICY.title
+    },
+    {
+        id: 2,
+        href: Routes.TERMS_POLICY.path,
+        title: Routes.TERMS_POLICY.title
+    },
+    {
+        id: 3,
+        href: Routes.RETURNS_POLICY.path,
+        title: Routes.RETURNS_POLICY.title
+    },
+    {
+        id: 4,
+        href: Routes.FAQ.path,
+        title: Routes.FAQ.title
+    },
+];
+
+export const Footer = () => {
+    return (
+        <footer className="flex justify-between px-8 py-2 text-white bg-black">
+            <div className="flex flex-col">
+                <div className="relative">
+                    <Image
+                        width={48}
+                        height={48}
+                        priority
+                        src="/logo.png"
+                        alt="Logo of Shopora"
+                        className="w-full h-full object-cover"
+                    />
+                </div>
+
+                <p>Address</p>
+                <p>Contact</p>
+            </div>
+
+            <div className="flex flex-col gap-1">
+                <h5 className="text-lg font-medium mb-2.5">Top Categories</h5>
+
+                {categories?.slice(0, 7).map(cat => (
+                    <Link
+                        key={cat.id}
+                        href={Routes.CATEGORY(cat.slug).path}
+                    >
+                        {cat.title}
+                    </Link>
+                ))}
+            </div>
+
+            <div className="flex flex-col gap-1">
+                <h5 className="text-lg font-medium mb-2.5">Top Brands</h5>
+
+                {brands?.slice(0, 7).map(cat => (
+                    <Link
+                        key={cat.id}
+                        href={Routes.BRAND(cat.slug).path}
+                    >
+                        {cat.title}
+                    </Link>
+                ))}
+            </div>
+
+            <div className="flex flex-col gap-1">
+                <h5 className="text-lg font-medium mb-2.5">Company</h5>
+
+                {companyLinks.map(item => (
+                    <Link
+                        key={item.id}
+                        href={item.href}
+                    >
+                        {item.title}
+                    </Link>
+                ))}
+            </div>
+
+            <div className="flex flex-col gap-1">
+                <h5 className="text-lg font-medium mb-2.5">Help Center</h5>
+
+                {helpcenterLinks.map(item => (
+                    <Link
+                        key={item.id}
+                        href={item.href}
+                    >
+                        {item.title}
+                    </Link>
+                ))}
+            </div>
+        </footer>
+    );
+};

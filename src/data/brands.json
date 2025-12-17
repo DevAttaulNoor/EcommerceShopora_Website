@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "title": "Apple",
+        "slug": "apple",
+        "image": "/images/brands/apple.png",
+        "meta": {
+            "title": "Apple | Brands | Shopora",
+            "description": "Shop the latest Apple including iPhones, MacBooks, AirPods, and accessories at Shopora."
+        }
+    },
+    {
+        "id": 2,
+        "title": "Samsung",
+        "slug": "samsung",
+        "image": "/images/brands/samsung.png",
+        "meta": {
+            "title": "Samsung | Brands | Shopora",
+            "description": "Explore Samsung electronics, smartphones, smartwatches, TVs, and accessories at Shopora."
+        }
+    },
+    {
+        "id": 3,
+        "title": "Nike",
+        "slug": "nike",
+        "image": "/images/brands/nike.png",
+        "meta": {
+            "title": "Nike | Brands | Shopora",
+            "description": "Shop the latest Nike footwear, apparel, and accessories for men, women, and kids at Shopora."
+        }
+    },
+    {
+        "id": 4,
+        "title": "Adidas",
+        "slug": "adidas",
+        "image": "/images/brands/adidas.png",
+        "meta": {
+            "title": "Adidas | Brands | Shopora",
+            "description": "Discover Adidas sneakers, sportswear, and accessories for all your fitness and lifestyle needs."
+        }
+    },
+    {
+        "id": 5,
+        "title": "Sony",
+        "slug": "sony",
+        "image": "/images/brands/sony.png",
+        "meta": {
+            "title": "Sony | Brands | Shopora",
+            "description": "Find Sony TVs, headphones, cameras, and electronics for entertainment and home use."
+        }
+    },
+    {
+        "id": 6,
+        "title": "Dyson",
+        "slug": "dyson",
+        "image": "/images/brands/dyson.png",
+        "meta": {
+            "title": "Dyson | Brands | Shopora",
+            "description": "Shop Dyson vacuum cleaners, hair dryers, air purifiers, and innovative home appliances."
+        }
+    },
+    {
+        "id": 7,
+        "title": "Canon",
+        "slug": "canon",
+        "image": "/images/brands/canon.png",
+        "meta": {
+            "title": "Canon | Brands | Shopora",
+            "description": "Explore Canon cameras, lenses, and photography accessories at Shopora."
+        }
+    },
+    {
+        "id": 8,
+        "title": "Bose",
+        "slug": "bose",
+        "image": "/images/brands/bose.png",
+        "meta": {
+            "title": "Bose | Brands | Shopora",
+            "description": "Shop Bose headphones, speakers, and audio devices for premium sound quality."
+        }
+    },
+    {
+        "id": 9,
+        "title": "HP",
+        "slug": "hp",
+        "image": "/images/brands/hp.png",
+        "meta": {
+            "title": "HP | Brands | Shopora",
+            "description": "Find HP laptops, desktops, printers, and accessories for work, study, and gaming."
+        }
+    },
+    {
+        "id": 10,
+        "title": "KitchenAid",
+        "slug": "kitchenaid",
+        "image": "/images/brands/kitchenaid.png",
+        "meta": {
+            "title": "KitchenAid | Brands | Shopora",
+            "description": "Discover KitchenAid mixers, blenders, and kitchen appliances for culinary enthusiasts."
+        }
+    },
+    {
+        "id": 11,
+        "title": "Levi's",
+        "slug": "levis",
+        "image": "/images/brands/levis.png",
+        "meta": {
+            "title": "Levi's | Brands | Shopora",
+            "description": "Shop classic Levi's jeans, jackets, and apparel for men and women."
+        }
+    },
+    {
+        "id": 12,
+        "title": "Ray-Ban",
+        "slug": "ray-ban",
+        "image": "/images/brands/rayban.png",
+        "meta": {
+            "title": "Ray-Ban | Brands | Shopora",
+            "description": "Explore iconic Ray-Ban sunglasses and optical glasses with stylish designs."
+        }
+    },
+    {
+        "id": 13,
+        "title": "Meta",
+        "slug": "meta",
+        "image": "/images/brands/meta.png",
+        "meta": {
+            "title": "Meta | Brands | Shopora",
+            "description": "Discover Meta VR headsets, smart devices, and innovative tech products."
+        }
+    },
+    {
+        "id": 14,
+        "title": "Logitech",
+        "slug": "logitech",
+        "image": "/images/brands/logitech.png",
+        "meta": {
+            "title": "Logitech | Brands | Shopora",
+            "description": "Shop Logitech keyboards, mice, webcams, and computer accessories."
+        }
+    },
+    {
+        "id": 15,
+        "title": "Fitbit",
+        "slug": "fitbit",
+        "image": "/images/brands/fitbit.png",
+        "meta": {
+            "title": "Fitbit | Brands | Shopora",
+            "description": "Track your fitness and health with Fitbit smartwatches and wearable devices."
+        }
+    },
+    {
+        "id": 16,
+        "title": "Oculus",
+        "slug": "oculus",
+        "image": "/images/brands/oculus.png",
+        "meta": {
+            "title": "Oculus | Brands | Shopora",
+            "description": "Explore Oculus VR headsets and accessories for immersive gaming and experiences."
+        }
+    },
+    {
+        "id": 17,
+        "title": "Under Armour",
+        "slug": "under-armour",
+        "image": "/images/brands/under-armour.png",
+        "meta": {
+            "title": "Under Armour | Brands | Shopora",
+            "description": "Shop Under Armour sportswear, footwear, and fitness gear for active lifestyles."
+        }
+    },
+    {
+        "id": 18,
+        "title": "Puma",
+        "slug": "puma",
+        "image": "/images/brands/puma.png",
+        "meta": {
+            "title": "Puma | Brands | Shopora",
+            "description": "Discover Puma sneakers, apparel, and accessories for sports and casual wear."
+        }
+    },
+    {
+        "id": 19,
+        "title": "Dell",
+        "slug": "dell",
+        "image": "/images/brands/dell.png",
+        "meta": {
+            "title": "Dell | Brands | Shopora",
+            "description": "Find Dell laptops, desktops, monitors, and computer accessories for work and gaming."
+        }
+    },
+    {
+        "id": 20,
+        "title": "Asus",
+        "slug": "asus",
+        "image": "/images/brands/asus.png",
+        "meta": {
+            "title": "Asus | Brands | Shopora",
+            "description": "Shop Asus laptops, motherboards, and gaming accessories for performance and productivity."
+        }
+    }
+]

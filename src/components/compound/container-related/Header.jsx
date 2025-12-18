@@ -24,7 +24,7 @@ const navLinks = [
 
 export const Header = () => {
     return (
-        <header className="flex items-center justify-between px-8 py-2 text-white bg-black">
+        <header className="flex items-center justify-between py-2 innerContainerPadding text-white bg-black">
             <div className="relative">
                 <Image
                     width={48}

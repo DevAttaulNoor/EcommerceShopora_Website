@@ -35,6 +35,19 @@ export const Routes = {
         path: `/brands/${slug}`,
     }),
 
+    PRODUCTS: {
+        path: "/products",
+        title: "Products",
+        meta: {
+            title: "All Products | Shopora",
+            description: "Browse all products at Shopora across electronics, fashion, home, and more.",
+        },
+    },
+
+    PRODUCT: (slug) => ({
+        path: `/products/${slug}`,
+    }),
+
     // ---------- User Account Pages ----------
     ACCOUNT: {
         path: '/account',

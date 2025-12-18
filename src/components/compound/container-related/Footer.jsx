@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Routes } from "@/constants/Routes";
-import categories from "@data/categories.json"
 import brands from "@data/brands.json"
+import categories from "@data/categories.json"
 
 const companyLinks = [
     {
@@ -52,7 +52,7 @@ const helpcenterLinks = [
 
 export const Footer = () => {
     return (
-        <footer className="flex justify-between px-8 py-2 text-white bg-black">
+        <footer className="flex justify-between py-2 innerContainerPadding text-white bg-black">
             <div className="flex flex-col">
                 <div className="relative">
                     <Image

@@ -10,7 +10,7 @@ export const InnerContainer = ({ children }) => {
                 <TopBar />
                 <Header />
 
-                <div className="innerContainerStyle innerContainerPadding">
+                <div className="innerContainerStyle">
                     {children}
                 </div>
             </div>

@@ -11,7 +11,7 @@ import categories from "@data/categories.json"
 export default function Home() {
     return (
         <InnerContainer>
-            <section className="sectionStyle">
+            <section className="sectionStyle innerContainerPadding">
                 <HeadingWithLink
                     heading={'Popular Categories'}
                     linkData={{
@@ -51,7 +51,7 @@ export default function Home() {
                 </SwiperCarousel>
             </section>
 
-            <section className="sectionStyle">
+            <section className="sectionStyle innerContainerPadding">
                 <HeadingWithLink
                     heading={'Best Sellers'}
                     linkData={{

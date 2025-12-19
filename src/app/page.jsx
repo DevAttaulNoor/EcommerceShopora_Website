@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
+import { Banner } from "@/components/compound/banners/Banner";
 import { SwiperCarousel } from "@/components/atomic/SwiperCarousel";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
 import { HeadingWithLink } from "@/components/compound/headings/HeadingWithLink";
@@ -11,6 +12,15 @@ import categories from "@data/categories.json"
 export default function Home() {
     return (
         <InnerContainer>
+            <section className="innerContainerPadding">
+                <Banner
+                    bannerContainerStyle="h-72 w-full"
+                    bannerData={{
+                        imageUrl: '/banners/banner1.png'
+                    }}
+                />
+            </section>
+
             <section className="sectionStyle innerContainerPadding">
                 <HeadingWithLink
                     heading={'Popular Categories'}

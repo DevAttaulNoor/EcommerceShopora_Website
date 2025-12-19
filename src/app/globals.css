@@ -6,6 +6,7 @@
 
   /* Width */
   --max-width-outerContainer: 1920px;
+  --max-width-innerContainer: 1440px;
 
   /* Font Sizes */
   --font-size-xs: 12px;
@@ -24,7 +25,10 @@
   --font-size-10xl: 40px;
 
   /* Colors */
-  --color-custom-orange: #f85606;
+  --color-custom-charcoal: #111827;
+  --color-custom-gold: #eab308;
+  --color-customHover: #ca8a04;
+  --color-customMuted: #f3f4f6;
 }
 
 @layer base {
@@ -45,7 +49,7 @@
   }
 
   .innerContainerStyle {
-    @apply flex flex-col gap-6 xs:gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16 2xl:gap-18;
+    @apply max-w-innerContainer w-full flex flex-col mx-auto gap-6 xs:gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16;
   }
 
   .innerContainerPadding {
@@ -61,7 +65,7 @@
   }
 
   .titleStyle {
-    @apply text-xl font-semibold xs:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl;
+    @apply text-xl font-semibold sm:text-2xl lg:text-3xl 2xl:text-4xl;
   }
 
   .descriptionStyle {

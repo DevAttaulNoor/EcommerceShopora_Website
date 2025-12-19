@@ -52,18 +52,15 @@ const helpcenterLinks = [
 
 export const Footer = () => {
     return (
-        <footer className="flex justify-between py-2 innerContainerPadding text-white bg-black">
-            <div className="flex flex-col">
-                <div className="relative">
-                    <Image
-                        width={48}
-                        height={48}
-                        priority
-                        src="/logo.png"
-                        alt="Logo of Shopora"
-                        className="w-full h-full object-cover"
-                    />
-                </div>
+        <footer className="flex justify-between py-4 innerContainerPadding text-customMuted bg-custom-charcoal">
+            <div className="flex flex-col gap-2">
+                <Image
+                    width={52}
+                    height={52}
+                    src="/logo.png"
+                    alt="Logo of Shopora"
+                    className="object-cover"
+                />
 
                 <p>Address</p>
                 <p>Contact</p>
@@ -76,6 +73,7 @@ export const Footer = () => {
                     <Link
                         key={cat.id}
                         href={Routes.CATEGORY(cat.slug).path}
+                        className="hover:text-custom-gold"
                     >
                         {cat.title}
                     </Link>
@@ -89,6 +87,7 @@ export const Footer = () => {
                     <Link
                         key={cat.id}
                         href={Routes.BRAND(cat.slug).path}
+                        className="hover:text-custom-gold"
                     >
                         {cat.title}
                     </Link>
@@ -102,6 +101,7 @@ export const Footer = () => {
                     <Link
                         key={item.id}
                         href={item.href}
+                        className="hover:text-custom-gold"
                     >
                         {item.title}
                     </Link>
@@ -115,6 +115,7 @@ export const Footer = () => {
                     <Link
                         key={item.id}
                         href={item.href}
+                        className="hover:text-custom-gold"
                     >
                         {item.title}
                     </Link>

@@ -5,14 +5,14 @@ import { BottomBar } from "@/components/compound/container-related/BottomBar";
 
 export const InnerContainer = ({ children }) => {
     return (
-        <div className=" w-full h-full min-h-screen flex flex-col justify-between overflow-x-hidden overflow-y-auto">
+        <div className="w-full h-full min-h-screen innerContainerGap overflow-x-hidden overflow-y-auto">
             <div className="flex flex-col">
                 <TopBar />
                 <Header />
+            </div>
 
-                <div className="innerContainerStyle">
-                    {children}
-                </div>
+            <div className="innerContainerStyle">
+                {children}
             </div>
 
             <div className="flex flex-col">

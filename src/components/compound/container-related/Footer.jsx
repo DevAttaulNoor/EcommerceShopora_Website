@@ -52,74 +52,76 @@ const helpcenterLinks = [
 
 export const Footer = () => {
     return (
-        <footer className="flex justify-between py-4 innerContainerPadding text-customMuted bg-custom-charcoal">
-            <div className="flex flex-col gap-2">
-                <Image
-                    width={52}
-                    height={52}
-                    src="/logo.png"
-                    alt="Logo of Shopora"
-                    className="object-cover"
-                />
+        <footer className="w-full py-4 text-customMuted bg-custom-charcoal">
+            <div className="max-w-innerContainer w-full flex justify-between mx-auto">
+                <div className="flex flex-col gap-2">
+                    <Image
+                        width={52}
+                        height={52}
+                        src="/logo.png"
+                        alt="Logo of Shopora"
+                        className="object-cover"
+                    />
 
-                <p>Address</p>
-                <p>Contact</p>
-            </div>
+                    <p>Address</p>
+                    <p>Contact</p>
+                </div>
 
-            <div className="flex flex-col gap-1">
-                <h5 className="text-lg font-medium mb-2.5">Top Categories</h5>
+                <div className="flex flex-col gap-1">
+                    <h5 className="text-lg font-medium mb-2.5">Top Categories</h5>
 
-                {categories?.slice(0, 7).map(cat => (
-                    <Link
-                        key={cat.id}
-                        href={Routes.CATEGORY(cat.slug).path}
-                        className="hover:text-custom-gold"
-                    >
-                        {cat.title}
-                    </Link>
-                ))}
-            </div>
+                    {categories?.slice(0, 7).map(cat => (
+                        <Link
+                            key={cat.id}
+                            href={Routes.CATEGORY(cat.slug).path}
+                            className="hover:text-custom-gold"
+                        >
+                            {cat.title}
+                        </Link>
+                    ))}
+                </div>
 
-            <div className="flex flex-col gap-1">
-                <h5 className="text-lg font-medium mb-2.5">Top Brands</h5>
+                <div className="flex flex-col gap-1">
+                    <h5 className="text-lg font-medium mb-2.5">Top Brands</h5>
 
-                {brands?.slice(0, 7).map(cat => (
-                    <Link
-                        key={cat.id}
-                        href={Routes.BRAND(cat.slug).path}
-                        className="hover:text-custom-gold"
-                    >
-                        {cat.title}
-                    </Link>
-                ))}
-            </div>
+                    {brands?.slice(0, 7).map(cat => (
+                        <Link
+                            key={cat.id}
+                            href={Routes.BRAND(cat.slug).path}
+                            className="hover:text-custom-gold"
+                        >
+                            {cat.title}
+                        </Link>
+                    ))}
+                </div>
 
-            <div className="flex flex-col gap-1">
-                <h5 className="text-lg font-medium mb-2.5">Company</h5>
+                <div className="flex flex-col gap-1">
+                    <h5 className="text-lg font-medium mb-2.5">Company</h5>
 
-                {companyLinks.map(item => (
-                    <Link
-                        key={item.id}
-                        href={item.href}
-                        className="hover:text-custom-gold"
-                    >
-                        {item.title}
-                    </Link>
-                ))}
-            </div>
+                    {companyLinks.map(item => (
+                        <Link
+                            key={item.id}
+                            href={item.href}
+                            className="hover:text-custom-gold"
+                        >
+                            {item.title}
+                        </Link>
+                    ))}
+                </div>
 
-            <div className="flex flex-col gap-1">
-                <h5 className="text-lg font-medium mb-2.5">Help Center</h5>
+                <div className="flex flex-col gap-1">
+                    <h5 className="text-lg font-medium mb-2.5">Help Center</h5>
 
-                {helpcenterLinks.map(item => (
-                    <Link
-                        key={item.id}
-                        href={item.href}
-                        className="hover:text-custom-gold"
-                    >
-                        {item.title}
-                    </Link>
-                ))}
+                    {helpcenterLinks.map(item => (
+                        <Link
+                            key={item.id}
+                            href={item.href}
+                            className="hover:text-custom-gold"
+                        >
+                            {item.title}
+                        </Link>
+                    ))}
+                </div>
             </div>
         </footer>
     );

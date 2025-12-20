@@ -6,7 +6,7 @@
 
   /* Width */
   --max-width-outerContainer: 1920px;
-  --max-width-innerContainer: 1440px;
+  --max-width-innerContainer: 1380px;
 
   /* Font Sizes */
   --font-size-xs: 12px;
@@ -49,12 +49,16 @@
   }
 
   .innerContainerStyle {
-    @apply max-w-innerContainer w-full flex flex-col mx-auto gap-6 xs:gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16;
+    @apply max-w-innerContainer w-full flex flex-col mx-auto;
   }
 
-  .innerContainerPadding {
-    @apply px-4 xs:px-5 sm:px-7 md:px-8 lg:px-10 xl:px-12 2xl:px-14;
+  .innerContainerGap {
+    @apply gap-6 xs:gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16;
   }
+
+  /* .innerContainerPadding {
+    @apply px-4 xs:px-5 sm:px-7 md:px-8 lg:px-10 xl:px-12 2xl:px-14;
+  } */
 
   .sectionStyle {
     @apply flex flex-col gap-4 xs:gap-5 sm:gap-6 md:gap-7 lg:gap-8 xl:gap-9 2xl:gap-10;

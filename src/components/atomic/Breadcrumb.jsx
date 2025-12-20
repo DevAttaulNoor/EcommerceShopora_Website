@@ -15,17 +15,17 @@ export const Breadcrumb = ({ breadcrumbData }) => {
                 return (
                     <div
                         key={index}
-                        className="flex items-center"
+                        className="flex items-center justify-center"
                     >
                         {index !== 0 && (
-                            <span>
+                            <span className="text-xl">
                                 {Icons.SLASH}
                             </span>
                         )}
 
                         <Link
                             href={item.path}
-                            className={`font-medium transition-colors hover:underline ${isActive ? "text-red-500" : "text-black hover:text-red-500"}`}
+                            className={`font-medium transition-colors hover:underline ${isActive ? "text-custom-gold" : "text-black"} hover:text-customHover`}
                         >
                             {item.title}
                         </Link>

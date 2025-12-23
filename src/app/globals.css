@@ -49,7 +49,7 @@
   }
 
   .innerContainerStyle {
-    @apply max-w-innerContainer w-full flex flex-col mx-auto;
+    @apply max-w-innerContainer w-full flex flex-col mx-auto gap-6 xs:gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16;
   }
 
   .innerContainerGap {
@@ -77,7 +77,7 @@
   }
 
   .btnStyle {
-    @apply w-fit text-sm font-medium px-5 py-3 whitespace-nowrap transition-all duration-300 cursor-pointer md:text-base;
+    @apply w-fit text-sm font-medium whitespace-nowrap transition-all duration-300 cursor-pointer md:text-base;
   }
 
   .basicTextInputStyle {

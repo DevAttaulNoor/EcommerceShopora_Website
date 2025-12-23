@@ -12,16 +12,14 @@ import categories from "@data/categories.json"
 export default function Home() {
     return (
         <InnerContainer>
-            <section className="innerContainerPadding">
-                <Banner
-                    bannerContainerStyle="h-72 w-full"
-                    bannerData={{
-                        imageUrl: '/banners/banner1.png'
-                    }}
-                />
-            </section>
+            <Banner
+                bannerContainerStyle="h-72 w-full"
+                bannerData={{
+                    imageUrl: '/banners/banner1.png'
+                }}
+            />
 
-            <section className="sectionStyle innerContainerPadding">
+            <section className="sectionStyle">
                 <HeadingWithLink
                     heading={'Popular Categories'}
                     linkData={{
@@ -61,7 +59,7 @@ export default function Home() {
                 </SwiperCarousel>
             </section>
 
-            <section className="sectionStyle innerContainerPadding">
+            <section className="sectionStyle">
                 <HeadingWithLink
                     heading={'Best Sellers'}
                     linkData={{

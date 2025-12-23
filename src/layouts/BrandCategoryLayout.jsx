@@ -59,7 +59,7 @@ export const BrandCategoryLayout = ({ title, breadcrumbData, attributeType, attr
                 <span>🚚 Nationwide delivery</span>
             </section>
 
-            <section className="sectionStyle innerContainerPadding">
+            <section className="sectionStyle">
                 <Searchbar
                     searchbarData={{
                         placeholder: `Search for ${attributeType}s...`,

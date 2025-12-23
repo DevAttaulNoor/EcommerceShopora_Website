@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { Icons } from "@/constants/Icons";
 
-export const Accordion = ({ accordionData }) => {
+export const Accordion = ({ accordionData = [] }) => {
     const [openItems, setOpenItems] = useState([]);
 
     const toggleAccordion = (id) => {
@@ -14,34 +15,34 @@ export const Accordion = ({ accordionData }) => {
     };
 
     return (
-        <div className="border rounded-md">
-            {accordionData?.flatMap(category => category.content.map(data => {
-                const isOpen = openItems.includes(data.id);
-                const isLastItem = data.id === category.content.length - 1;
+        <div className="border rounded-lg overflow-hidden">
+            {accordionData.map((item, index) => {
+                const isOpen = openItems.includes(item.id);
+                const isLast = index === accordionData.length - 1;
 
                 return (
-                    <div key={data.id}>
+                    <div key={item.id}>
                         <button
-                            onClick={() => toggleAccordion(data.id)}
-                            className={`w-full flex items-center justify-between p-4 gap-3 border-b transition-colors cursor-pointer border-custom-blue/20 hover:text-white hover:bg-custom-blue ${isOpen && "text-white bg-custom-blue"} ${isLastItem && !isOpen && "border-b-0"}`}
+                            onClick={() => toggleAccordion(item.id)}
+                            className={`w-full flex items-center justify-between p-4 gap-3 text-left transition cursor-pointer ${isOpen ? "bg-custom-gold text-white" : "hover:bg-customHover"} ${!isLast && "border-b"}`}
                         >
-                            <span className="text-start text-sm font-medium md:text-base xl:text-lg">
-                                {data.question}
+                            <span className="text-sm font-medium md:text-base">
+                                {item.question}
                             </span>
 
-                            {/* <span className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
-                                {ReactIcons.DOWN}
-                            </span> */}
+                            <span className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
+                                {Icons.DOWN}
+                            </span>
                         </button>
 
                         <div
-                            className={`text-sm transition-all duration-300 overflow-hidden text-gray-500 md:text-base xl:text-lg ${isOpen ? `max-h-96 p-4 ${!isLastItem ? "border-b" : ""} opacity-100` : "max-h-0 opacity-0"}`}
+                            className={`text-sm overflow-hidden transition-all duration-300 text-gray-600 ${isOpen ? "max-h-96 p-4" : "max-h-0 px-4"} ${!isLast && isOpen && "border-b"} md:text-base`}
                         >
-                            {data.answer}
+                            {item.answer}
                         </div>
                     </div>
                 );
-            }))}
+            })}
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-green hover:bg-custom-green/85', btnData }) => {
+export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gold hover:bg-customHover', btnData }) => {
     const basicBtnStyle = `flex items-center gap-2 btnStyle ${btnStyleClass}`;
     const content = (
         <>

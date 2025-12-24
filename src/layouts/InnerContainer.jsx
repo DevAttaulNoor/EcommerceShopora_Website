@@ -2,6 +2,7 @@ import { TopBar } from "@/components/compound/container-related/TopBar";
 import { Header } from "@/components/compound/container-related/Header";
 import { Footer } from "@/components/compound/container-related/Footer";
 import { BottomBar } from "@/components/compound/container-related/BottomBar";
+import { Newsletter } from "@/components/compound/container-related/Newsletter";
 
 export const InnerContainer = ({ children }) => {
     return (
@@ -15,9 +16,13 @@ export const InnerContainer = ({ children }) => {
                 {children}
             </div>
 
-            <div className="flex flex-col">
-                <Footer />
-                <BottomBar />
+            <div className="flex flex-col mt-6 xs:mt-8 sm:mt-10 md:mt-12 lg:mt-14 xl:mt-16 innerContainerGap">
+                <Newsletter />
+
+                <div className="flex flex-col">
+                    <Footer />
+                    <BottomBar />
+                </div>
             </div>
         </div>
     );

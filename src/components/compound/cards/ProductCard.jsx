@@ -26,7 +26,7 @@ export const ProductCard = ({ productData }) => {
 
             <div className="flex flex-col gap-2">
                 <div className="flex items-center justify-between">
-                    <h5 className="text-center text-lg font-medium text-red-500">Rs. {productData.price}</h5>
+                    <h5 className="text-center text-lg font-medium">Rs. {productData.price}</h5>
 
                     <div className="flex items-center gap-1.5">
                         <div className="flex items-center gap-0.5">
@@ -36,7 +36,7 @@ export const ProductCard = ({ productData }) => {
                                 return (
                                     <span
                                         key={index}
-                                        className={`w-4 h-4 ${productData.rating >= starValue ? "fill-yellow-400 text-yellow-400" : "fill-transparent text-gray-300"}`}
+                                        className={`w-4 h-4 ${productData.rating >= starValue ? "fill-custom-gold text-custom-gold" : "fill-transparent text-gray-300"}`}
                                     >
                                         {Icons.STAR}
                                     </span>
@@ -51,12 +51,12 @@ export const ProductCard = ({ productData }) => {
                 <div className="flex items-center gap-2">
                     <Link
                         href={Routes.PRODUCT(productData.slug).path}
-                        className="w-full text-center py-2 rounded-md text-white bg-red-500"
+                        className="w-full text-center py-2 rounded-md text-white bg-custom-gold"
                     >
                         View
                     </Link>
 
-                    <button className="w-full py-2 rounded-md cursor-pointer text-white bg-red-500">
+                    <button className="w-full py-2 rounded-md cursor-pointer text-white bg-custom-gold">
                         Buy
                     </button>
                 </div>

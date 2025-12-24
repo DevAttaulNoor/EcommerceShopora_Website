@@ -7,7 +7,7 @@ export const HeadingWithLink = ({ heading, linkData }) => {
 
             <Link
                 href={linkData.href}
-                className="text-lg font-medium cursor-pointer hover:underline hover:text-red-500"
+                className="text-lg font-medium cursor-pointer hover:underline hover:text-customHover"
             >
                 {linkData.text}
             </Link>

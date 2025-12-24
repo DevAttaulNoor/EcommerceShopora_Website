@@ -1,6 +1,7 @@
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { BrandCategoryLayout } from "@/layouts/BrandCategoryLayout";
+import products from "@data/products.json";
 import categories from "@data/categories.json";
 
 export const metadata = {
@@ -23,6 +24,7 @@ const page = () => {
                         title: Routes.CATEGORIES.title
                     }
                 ]}
+                productData={products}
                 attributeType="category"
                 attributeData={categories}
             />

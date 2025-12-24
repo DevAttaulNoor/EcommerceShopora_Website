@@ -43,7 +43,7 @@ export default function Home() {
                             href={Routes.CATEGORY(item.slug).path}
                             className="w-full h-full flex flex-col items-center justify-between gap-2.5 cursor-pointer"
                         >
-                            <div className="p-8 rounded-full bg-slate-300">
+                            <div className="p-8 rounded-full bg-customMuted">
                                 <Image
                                     width={150}
                                     height={150}

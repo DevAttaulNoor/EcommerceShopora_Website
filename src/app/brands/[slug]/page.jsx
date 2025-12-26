@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
     return brand.meta;
 }
 
-export default async function BrandPage({ params }) {
+export default async function BrandProductsPage({ params }) {
     const { slug } = await params;
     const brand = brands.find((cat) => cat.slug === slug);
 

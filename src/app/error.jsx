@@ -1,17 +1,23 @@
 "use client";
 
+import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
+import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
+
 export default function Error({ error, reset }) {
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center text-center p-6">
-            <h2 className="text-2xl font-semibold text-red-600">Something went wrong!</h2>
-            <p className="mt-2 text-gray-500 max-w-lg">{error.message}</p>
+        <div className="min-h-screen w-full h-full flex flex-col items-center justify-center text-center gap-6">
+            <HeadingWithDescription
+                title={'Something went wrong!'}
+                description={error.message}
+            />
 
-            <button
-                onClick={() => reset()}
-                className="mt-6 px-5 py-2 rounded-md bg-custom-blue text-white hover:bg-custom-blue/80 transition"
-            >
-                Try Again
-            </button>
+            <BasicBtn
+                btnData={{
+                    onClick: () => reset(),
+                    text: 'Try Again'
+                }}
+                btnStyleClass="px-6 py-3 rounded-md text-custom-gold bg-custom-charcoal"
+            />
         </div>
     );
 }

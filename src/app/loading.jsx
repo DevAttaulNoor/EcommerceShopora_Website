@@ -1,7 +1,9 @@
 export default function Loading() {
     return (
-        <div className="h-screen flex items-center justify-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-4 border-custom-blue border-t-transparent"/>
+        <div className="min-h-screen w-full h-full flex flex-col items-center justify-center text-center gap-6">
+            <div className="animate-spin rounded-full h-20 w-20 border-4 border-t-transparent border-custom-charcaol" />
+
+            <h1 className="animate-ping">Loading...</h1>
         </div>
     );
 }

@@ -6,6 +6,6 @@ export const HeadingWithDescription = ({ title, descriptionStyle = '', descripti
             <p className={`${descriptionStyle} descriptionStyle`}>
                 {description}
             </p>
-        </div >
+        </div>
     );
 };

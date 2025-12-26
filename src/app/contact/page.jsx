@@ -1,17 +1,15 @@
-"use client";
-
-import { useState } from "react";
 import { Icons } from "@/constants/Icons";
 import { Routes } from "@/constants/Routes";
 import { Accordion } from "@/components/atomic/Accordion";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Breadcrumb } from "@/components/atomic/Breadcrumb";
+import { ContactUsForm } from "@/sections/contact-page-related/ContactUsForm";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 
-// export const metadata = {
-//     title: Routes.CONTACT.meta.title,
-//     description: Routes.CONTACT.meta.description,
-// };
+export const metadata = {
+    title: Routes.CONTACT.meta.title,
+    description: Routes.CONTACT.meta.description,
+};
 
 const methods = [
     {
@@ -32,8 +30,6 @@ const methods = [
 ];
 
 const page = () => {
-    const [loading, setLoading] = useState(false);
-
     return (
         <InnerContainer>
             <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
@@ -81,44 +77,7 @@ const page = () => {
             <section className="sectionStyle">
                 <h1 className="titleStyle">Send us a message</h1>
 
-                <form
-                    className="grid gap-4"
-                    onSubmit={(e) => {
-                        e.preventDefault();
-                        setLoading(true);
-                    }}
-                >
-                    <div className="grid sm:grid-cols-2 gap-4">
-                        <input required placeholder="Full Name" className="basicTextInputStyle" />
-                        <input required type="email" placeholder="Email" className="basicTextInputStyle" />
-                    </div>
-
-                    <div className="grid sm:grid-cols-2 gap-4">
-                        <input placeholder="Phone (optional)" className="basicTextInputStyle" />
-                        <input placeholder="Order ID (optional)" className="basicTextInputStyle" />
-                    </div>
-
-                    <select className="basicTextInputStyle">
-                        <option>Order Issue</option>
-                        <option>Payment Problem</option>
-                        <option>Product Inquiry</option>
-                        <option>Return / Refund</option>
-                        <option>Other</option>
-                    </select>
-
-                    <textarea
-                        rows="4"
-                        placeholder="Write your message..."
-                        className="basicTextInputStyle resize-none"
-                    />
-
-                    <button
-                        disabled={loading}
-                        className="btnStyle"
-                    >
-                        {loading ? "Sending..." : "Send Message"}
-                    </button>
-                </form>
+                <ContactUsForm />
             </section>
 
             <section className="sectionStyle">

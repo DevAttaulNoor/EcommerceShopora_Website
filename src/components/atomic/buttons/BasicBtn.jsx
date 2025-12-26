@@ -23,6 +23,7 @@ export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gol
         </Link>
     ) : (
         <button
+            disabled={btnData.disabled ? btnData.disabled : false}
             onClick={btnData.onClick}
             className={basicBtnStyle}
         >

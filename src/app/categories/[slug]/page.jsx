@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Breadcrumb } from "@/components/atomic/Breadcrumb";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
+import { ProductCard } from "@/components/compound/cards/ProductCard";
+import { FilterSection } from "@/sections/universal/filter-section/FilterSection";
+import products from "@/data/products.json";
 import categories from "@/data/categories.json";
 
 export async function generateMetadata({ params }) {
@@ -21,17 +23,14 @@ export async function generateMetadata({ params }) {
 
 export default async function CategoryProductsPage({ params }) {
     const { slug } = await params;
-    const category = categories.find((cat) => cat.slug === slug);
+    const category = categories?.find((cat) => cat.slug === slug);
 
     if (!category) notFound();
 
     return (
         <InnerContainer>
             <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={category.title}
-                    description={''}
-                />
+                <h1 className="titleStyle">{category?.title}</h1>
 
                 <Breadcrumb
                     breadcrumbData={[
@@ -51,9 +50,19 @@ export default async function CategoryProductsPage({ params }) {
                 />
             </section>
 
-            <div className="p-8">
-                <h1 className="text-3xl font-bold">{category.title}</h1>
-                <p className="mt-2 text-gray-600">{category.meta.description}</p>
+            <div className="flex gap-10 innerContainerPadding">
+                <FilterSection
+                    filterData={{ categories }}
+                />
+
+                <section className="w-full h-full grid grid-cols-4 gap-4">
+                    {products?.map(item => (
+                        <ProductCard
+                            key={item.id}
+                            productData={item}
+                        />
+                    ))}
+                </section>
             </div>
         </InnerContainer>
     );

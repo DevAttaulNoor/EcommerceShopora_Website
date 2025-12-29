@@ -8,16 +8,15 @@ export const ProductCard = ({ productData }) => {
         <div
             key={productData.id}
             href={Routes.PRODUCT(productData.slug).path}
-            className="w-full h-full flex flex-col justify-between p-3 gap-2.5 border-2 rounded-lg"
+            className="w-full h-full flex flex-col justify-between p-2 gap-2.5 border-2 rounded-lg"
         >
             <div className="flex flex-col gap-2">
-                <div className="w-full">
+                <div className="relative w-full h-48 rounded-md overflow-hidden">
                     <Image
-                        width={150}
-                        height={150}
+                        fill
                         src={productData.image}
                         alt={`Logo of ${productData.title}`}
-                        className="object-contain"
+                        className="object-cover"
                     />
                 </div>
 
@@ -51,12 +50,12 @@ export const ProductCard = ({ productData }) => {
                 <div className="flex items-center gap-2">
                     <Link
                         href={Routes.PRODUCT(productData.slug).path}
-                        className="w-full text-center py-2 rounded-md text-white bg-custom-gold"
+                        className="w-full text-center py-2 border rounded-md border-custom-gold text-custom-gold bg-transparent hover:border-customHover hover:text-white hover:bg-customHover"
                     >
                         View
                     </Link>
 
-                    <button className="w-full py-2 rounded-md cursor-pointer text-white bg-custom-gold">
+                    <button className="w-full py-2 border rounded-md cursor-pointer border-custom-gold text-white bg-custom-gold hover:border-customHover hover:bg-customHover">
                         Buy
                     </button>
                 </div>

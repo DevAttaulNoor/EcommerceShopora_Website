@@ -2,7 +2,10 @@ import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Breadcrumb } from "@/components/atomic/Breadcrumb";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
+import { FilterSection } from "@/sections/universal/filter-section/FilterSection";
+import brands from "@data/brands.json";
 import products from "@data/products.json";
+import categories from "@data/categories.json";
 
 export const metadata = {
     title: Routes.PRODUCTS.meta.title,
@@ -29,14 +32,23 @@ const page = () => {
                 />
             </section>
 
-            <section className="grid grid-cols-5 gap-4 innerContainerPadding">
-                {products?.slice(0, 12).map(item => (
-                    <ProductCard
-                        key={item.id}
-                        productData={item}
-                    />
-                ))}
-            </section>
+            <div className="flex gap-10 innerContainerPadding">
+                <FilterSection
+                    filterData={{
+                        brands,
+                        categories
+                    }}
+                />
+
+                <section className="w-full h-full grid grid-cols-4 gap-4">
+                    {products?.map(item => (
+                        <ProductCard
+                            key={item.id}
+                            productData={item}
+                        />
+                    ))}
+                </section>
+            </div>
         </InnerContainer>
     )
 }

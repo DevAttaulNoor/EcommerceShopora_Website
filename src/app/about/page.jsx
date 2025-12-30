@@ -7,6 +7,7 @@ import { DetailWithImageLayout } from "@/layouts/DetailWithImageLayout";
 import { ImageSection } from "@/sections/universal/detail-section/ImageSection";
 import { DetailSection } from "@/sections/universal/detail-section/DetailSection";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
+import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 
 export const metadata = {
     title: Routes.ABOUT.meta.title,
@@ -118,7 +119,7 @@ const page = () => {
                 }
             />
 
-            <section className="grid grid-cols-2 p-4 gap-4 rounded-xl text-custom-gold bg-custom-charcoal sm:grid-cols-3 lg:grid-cols-4">
+            {/* <section className="grid grid-cols-2 p-4 gap-4 rounded-xl text-custom-gold bg-custom-charcoal sm:grid-cols-3 lg:grid-cols-4">
                 <div className="flex flex-col items-center">
                     <span className="text-lg font-semibold">
                         <Counter end={500} />+
@@ -154,7 +155,13 @@ const page = () => {
                         Support
                     </span>
                 </div>
-            </section>
+            </section> */}
+
+            <PlatformStatsSection
+                statsData={{
+                    productData: 50
+                }}
+            />
 
             <DetailWithImageLayout
                 leftsideData={

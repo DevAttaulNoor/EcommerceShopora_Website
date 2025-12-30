@@ -8,6 +8,7 @@ import { Breadcrumb } from "@/components/atomic/Breadcrumb";
 import { Searchbar } from "@/components/compound/searchBars/Searchbar";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 import { Counter } from "@/components/atomic/Counter";
+import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 
 export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attributeType, attributeData = [] }) => {
     const [input, setInput] = useState("");
@@ -54,52 +55,15 @@ export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attrib
                 <Breadcrumb breadcrumbData={breadcrumbData} />
             </section>
 
-            <section className="grid grid-cols-2 p-4 gap-4 rounded-xl text-custom-gold bg-custom-charcoal sm:grid-cols-3 lg:grid-cols-5">
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={filteredData.length} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        {attributeType}s
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={productData?.length || 0} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Products
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={500} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Trusted Sellers
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={10000} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Orders Delivered
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        24/7
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Support
-                    </span>
-                </div>
-            </section>
+            <PlatformStatsSection
+                statsData={{
+                    attributeData: {
+                        data: filteredData,
+                        type: attributeType
+                    },
+                    productData: productData
+                }}
+            />
 
             <section className="sectionStyle">
                 <HeadingWithDescription

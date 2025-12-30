@@ -3,7 +3,7 @@ import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Breadcrumb } from "@/components/atomic/Breadcrumb";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
-import { FilterSection } from "@/sections/universal/filter-section/FilterSection";
+import { FilterSection } from "@/sections/universal/FilterSection";
 import products from "@/data/products.json";
 import categories from "@/data/categories.json";
 

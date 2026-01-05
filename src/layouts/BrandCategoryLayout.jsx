@@ -6,9 +6,8 @@ import { useState } from "react";
 import { Routes } from "@/constants/Routes";
 import { Breadcrumb } from "@/components/atomic/Breadcrumb";
 import { Searchbar } from "@/components/compound/searchBars/Searchbar";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
-import { Counter } from "@/components/atomic/Counter";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
+import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 
 export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attributeType, attributeData = [] }) => {
     const [input, setInput] = useState("");
@@ -31,7 +30,6 @@ export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attrib
             return matchesSearch && matchesLetter;
         })
         .sort((a, b) => a.title.localeCompare(b.title));
-
 
     const attributeLink = (slug) => {
         if (attributeType === "brand") {

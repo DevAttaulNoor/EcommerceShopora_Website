@@ -1,13 +1,12 @@
 import { Routes } from "@/constants/Routes";
-import { Counter } from "@/components/atomic/Counter";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Breadcrumb } from "@/components/atomic/Breadcrumb";
 import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { DetailWithImageLayout } from "@/layouts/DetailWithImageLayout";
 import { ImageSection } from "@/sections/universal/detail-section/ImageSection";
+import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 import { DetailSection } from "@/sections/universal/detail-section/DetailSection";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
-import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 
 export const metadata = {
     title: Routes.ABOUT.meta.title,
@@ -118,44 +117,6 @@ const page = () => {
                     />
                 }
             />
-
-            {/* <section className="grid grid-cols-2 p-4 gap-4 rounded-xl text-custom-gold bg-custom-charcoal sm:grid-cols-3 lg:grid-cols-4">
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={500} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Products
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={500} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Trusted Sellers
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        <Counter end={10000} />+
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Orders Delivered
-                    </span>
-                </div>
-
-                <div className="flex flex-col items-center">
-                    <span className="text-lg font-semibold">
-                        24/7
-                    </span>
-                    <span className="text-xs opacity-80">
-                        Support
-                    </span>
-                </div>
-            </section> */}
 
             <PlatformStatsSection
                 statsData={{

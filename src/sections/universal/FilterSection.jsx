@@ -65,6 +65,6 @@ export const FilterSection = ({ filterData }) => {
                     className="w-full"
                 />
             </FilterLayout>
-        </section >
+        </section>
     );
 };

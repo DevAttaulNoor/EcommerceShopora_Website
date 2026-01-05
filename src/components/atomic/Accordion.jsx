@@ -7,11 +7,7 @@ export const Accordion = ({ accordionData = [] }) => {
     const [openItems, setOpenItems] = useState([]);
 
     const toggleAccordion = (id) => {
-        setOpenItems((prev) =>
-            prev.includes(id)
-                ? prev.filter((itemId) => itemId !== id)
-                : [...prev, id]
-        );
+        setOpenItems((prev) => prev.includes(id) ? prev.filter((itemId) => itemId !== id) : [...prev, id]);
     };
 
     return (

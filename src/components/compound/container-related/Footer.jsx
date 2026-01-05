@@ -14,39 +14,29 @@ const companyLinks = [
         id: 2,
         href: Routes.CONTACT.path,
         title: Routes.CONTACT.title
-    },
-    {
-        id: 3,
-        href: Routes.ABOUT.path,
-        title: Routes.ABOUT.title
-    },
-    {
-        id: 4,
-        href: Routes.CONTACT.path,
-        title: Routes.CONTACT.title
-    },
+    }
 ];
 
 const helpcenterLinks = [
     {
         id: 1,
+        href: Routes.FAQ.path,
+        title: Routes.FAQ.title
+    },
+    {
+        id: 2,
         href: Routes.PRIVACY_POLICY.path,
         title: Routes.PRIVACY_POLICY.title
     },
     {
-        id: 2,
+        id: 3,
         href: Routes.TERMS_POLICY.path,
         title: Routes.TERMS_POLICY.title
     },
     {
-        id: 3,
+        id: 4,
         href: Routes.RETURNS_POLICY.path,
         title: Routes.RETURNS_POLICY.title
-    },
-    {
-        id: 4,
-        href: Routes.FAQ.path,
-        title: Routes.FAQ.title
     },
 ];
 

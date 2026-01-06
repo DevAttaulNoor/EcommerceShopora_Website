@@ -54,7 +54,13 @@ export const Header = () => {
                     <div className="flex items-center justify-end gap-4">
                         <span className="text-3xl cursor-pointer text-custom-gold hover:text-customHover">{Icons.FAVORITE_HEART}</span>
                         <span className="text-3xl cursor-pointer text-custom-gold hover:text-customHover">{Icons.CART}</span>
-                        <span className="text-3xl cursor-pointer text-custom-gold hover:text-customHover">{Icons.USER}</span>
+
+                        <Link
+                            href={Routes.ACCOUNT.path}
+                            className="text-3xl cursor-pointer text-custom-gold hover:text-customHover"
+                        >
+                            {Icons.USER}
+                        </Link>
                     </div>
                 </div>
             </nav>

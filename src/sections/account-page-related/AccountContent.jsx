@@ -1,0 +1,67 @@
+"use client";
+
+import Image from "next/image";
+import { useState } from "react";
+import { Details } from "@/components/compound/account-related/Details";
+import { ToReview } from "@/components/compound/account-related/ToReview";
+import { Addresses } from "@/components/compound/account-related/Addresses";
+import { Dashboard } from "@/components/compound/account-related/Dashboard";
+import { OrderHistory } from "@/components/compound/account-related/OrderHistory";
+
+export const AccountContent = () => {
+    const sidebarOptions = ["Dashboard", "Account Details", "Order History", "Address", "To Review"];
+    const [active, setActive] = useState(sidebarOptions[0]);
+
+    return (
+        <section className="flex gap-10">
+            <aside className="max-w-96 w-full h-fit flex flex-col p-2.5 gap-4 rounded-xl shadow-sm">
+                <div className="flex flex-col items-center justify-center gap-1.5">
+                    <div className="w-16 h-16 relative rounded-full bg-customMuted">
+                        <Image
+                            fill
+                            src={"/question-mark.png"}
+                            alt={"Profile picture of question mark"}
+                            className="w-full h-full rounded-full object-cover"
+                        />
+                    </div>
+
+                    <h5 className="font-semibold">Jenny Wilson</h5>
+                </div>
+
+                <nav className="flex flex-col gap-2">
+                    {sidebarOptions.map((item) => (
+                        <button
+                            key={item}
+                            onClick={() => setActive(item)}
+                            className={`w-full text-left text-sm font-medium px-3 py-2 rounded-lg cursor-pointer ${item === active ? "bg-custom-gold" : "hover:bg-customMuted"}`}
+                        >
+                            {item}
+                        </button>
+                    ))}
+
+                    <button className="w-full text-left text-sm font-medium px-3 py-2 rounded-lg cursor-pointer text-red-500 hover:bg-customMuted">
+                        Logout
+                    </button>
+                </nav>
+            </aside>
+
+            <div className="w-full">
+                {active === "Dashboard" && (
+                    <Dashboard />
+                )}
+                {active === "Account Details" && (
+                    <Details />
+                )}
+                {active === "Order History" && (
+                    <OrderHistory />
+                )}
+                {active === "Address" && (
+                    <Addresses />
+                )}
+                {active === "To Review" && (
+                    <ToReview />
+                )}
+            </div>
+        </section>
+    );
+};

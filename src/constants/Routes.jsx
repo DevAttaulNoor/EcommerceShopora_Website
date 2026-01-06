@@ -59,7 +59,7 @@ export const Routes = {
     },
 
     LOGIN: {
-        path: '/account/login',
+        path: '/login',
         title: "Login",
         meta: {
             title: "Login | Shopora",
@@ -67,11 +67,11 @@ export const Routes = {
         }
     },
 
-    SIGNUP: {
-        path: '/account/signup',
-        title: "Signup",
+    REGISTER: {
+        path: '/register',
+        title: "Register",
         meta: {
-            title: "Create Account | Shopora",
+            title: "Register a Account | Shopora",
             description: "Create a Shopora account to enjoy personalized recommendations, faster checkout, and order tracking."
         }
     },

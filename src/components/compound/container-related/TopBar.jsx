@@ -32,7 +32,7 @@ export const TopBar = () => {
                         {Routes.LOGIN.title}
                     </Link>
                     <Link
-                        href={Routes.SIGNUP.path}
+                        href={Routes.REGISTER.path}
                         className="text-custom-gold hover:text-customHover"
                     >
                         Register

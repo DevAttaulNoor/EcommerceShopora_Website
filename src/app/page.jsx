@@ -18,6 +18,7 @@ export default function Home() {
                     imageUrl: '/banners/banner1.png'
                 }}
             />
+            
 
             <section className="sectionStyle">
                 <HeadingWithLink

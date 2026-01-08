@@ -1,7 +1,6 @@
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
+import { IntroSection } from "@/sections/universal/IntroSection";
 
 export const metadata = {
     title: Routes.RETURNS_POLICY.meta.title,
@@ -143,25 +142,22 @@ const returnsPolicyData = [
 const page = () => {
     return (
         <InnerContainer>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={Routes.RETURNS_POLICY.title}
-                    description="This Return & Refund Policy outlines the conditions, process, and timelines for returning items purchased from our platform."
-                />
-
-                <Breadcrumb
-                    breadcrumbData={[
-                        {
-                            path: Routes.HOME.path,
-                            title: Routes.HOME.title
-                        },
-                        {
-                            path: Routes.RETURNS_POLICY.path,
-                            title: Routes.RETURNS_POLICY.title,
-                        },
-                    ]}
-                />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: Routes.RETURNS_POLICY.title,
+                    description: "This Return & Refund Policy outlines the conditions, process, and timelines for returning items purchased from our platform."
+                }}
+                breadcrumbData={[
+                    {
+                        path: Routes.HOME.path,
+                        title: Routes.HOME.title
+                    },
+                    {
+                        path: Routes.RETURNS_POLICY.path,
+                        title: Routes.RETURNS_POLICY.title
+                    }
+                ]}
+            />
 
             {returnsPolicyData.map(({ id, title, description, list }) => (
                 <section

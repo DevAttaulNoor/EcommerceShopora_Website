@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
-import { ProductCard } from "@/components/compound/cards/ProductCard";
+import { IntroSection } from "@/sections/universal/IntroSection";
 import { FilterSection } from "@/sections/universal/FilterSection";
+import { ProductCard } from "@/components/compound/cards/ProductCard";
 import brands from "@/data/brands.json";
 import products from "@/data/products.json";
 
@@ -29,26 +29,25 @@ export default async function BrandProductsPage({ params }) {
 
     return (
         <InnerContainer>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <h1 className="titleStyle">{brand?.title}</h1>
-
-                <Breadcrumb
-                    breadcrumbData={[
-                        {
-                            path: Routes.HOME.path,
-                            title: Routes.HOME.title
-                        },
-                        {
-                            path: Routes.BRANDS.path,
-                            title: Routes.BRANDS.title
-                        },
-                        {
-                            path: Routes.BRAND(slug).path,
-                            title: brand.title
-                        },
-                    ]}
-                />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: brand?.title
+                }}
+                breadcrumbData={[
+                    {
+                        path: Routes.HOME.path,
+                        title: Routes.HOME.title
+                    },
+                    {
+                        path: Routes.BRANDS.path,
+                        title: Routes.BRANDS.title
+                    },
+                    {
+                        path: Routes.BRAND(slug).path,
+                        title: brand.title
+                    },
+                ]}
+            />
 
             <div className="flex gap-10 innerContainerPadding">
                 <FilterSection

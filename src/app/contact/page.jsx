@@ -2,9 +2,8 @@ import { Icons } from "@/constants/Icons";
 import { Routes } from "@/constants/Routes";
 import { Accordion } from "@/components/atomic/Accordion";
 import { InnerContainer } from "@/layouts/InnerContainer";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
+import { IntroSection } from "@/sections/universal/IntroSection";
 import { ContactUsForm } from "@/sections/contact-page-related/ContactUsForm";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 
 export const metadata = {
     title: Routes.CONTACT.meta.title,
@@ -32,25 +31,22 @@ const methods = [
 const page = () => {
     return (
         <InnerContainer>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={Routes.CONTACT.title}
-                    description={"Need help with an order, product, or payment? Our support team is here to help you."}
-                />
-
-                <Breadcrumb
-                    breadcrumbData={[
-                        {
-                            path: Routes.HOME.path,
-                            title: Routes.HOME.title
-                        },
-                        {
-                            path: Routes.CONTACT.path,
-                            title: Routes.CONTACT.title
-                        }
-                    ]}
-                />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: Routes.CONTACT.title,
+                    description: "Need help with an order, product, or payment? Our support team is here to help you."
+                }}
+                breadcrumbData={[
+                    {
+                        path: Routes.HOME.path,
+                        title: Routes.HOME.title
+                    },
+                    {
+                        path: Routes.CONTACT.path,
+                        title: Routes.CONTACT.title
+                    }
+                ]}
+            />
 
             <section className="sectionStyle">
                 <h1 className="titleStyle">Give a look into this</h1>

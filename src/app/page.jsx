@@ -19,7 +19,6 @@ export default function Home() {
                 }}
             />
             
-
             <section className="sectionStyle">
                 <HeadingWithLink
                     heading={'Popular Categories'}

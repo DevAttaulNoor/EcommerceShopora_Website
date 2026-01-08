@@ -1,7 +1,6 @@
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
+import { IntroSection } from "@/sections/universal/IntroSection";
 
 export const metadata = {
     title: Routes.TERMS_POLICY.meta.title,
@@ -135,25 +134,22 @@ const termsPolicyData = [
 const page = () => {
     return (
         <InnerContainer>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={Routes.TERMS_POLICY.title}
-                    description={"These Terms & Conditions govern your use of our platform, outlining your rights, responsibilities, and legal obligations."}
-                />
-
-                <Breadcrumb
-                    breadcrumbData={[
-                        {
-                            path: Routes.HOME.path,
-                            title: Routes.HOME.title
-                        },
-                        {
-                            path: Routes.TERMS_POLICY.path,
-                            title: Routes.TERMS_POLICY.title
-                        }
-                    ]}
-                />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: Routes.TERMS_POLICY.title,
+                    description: "These Terms & Conditions govern your use of our platform, outlining your rights, responsibilities, and legal obligations."
+                }}
+                breadcrumbData={[
+                    {
+                        path: Routes.HOME.path,
+                        title: Routes.HOME.title
+                    },
+                    {
+                        path: Routes.TERMS_POLICY.path,
+                        title: Routes.TERMS_POLICY.title
+                    }
+                ]}
+            />
 
             {termsPolicyData.map(({ id, title, list, description }) => (
                 <section

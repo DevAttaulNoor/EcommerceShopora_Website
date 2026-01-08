@@ -1,7 +1,7 @@
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
 import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
+import { IntroSection } from "@/sections/universal/IntroSection";
 import { DetailWithImageLayout } from "@/layouts/DetailWithImageLayout";
 import { ImageSection } from "@/sections/universal/detail-section/ImageSection";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
@@ -23,25 +23,22 @@ const chooseUsData = [
 const page = () => {
     return (
         <InnerContainer>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={Routes.ABOUT.title}
-                    description={"Driven by innovation and powered by passion, we bring together quality products and smart solutions to create a better, more convenient shopping experience for everyone."}
-                />
-
-                <Breadcrumb
-                    breadcrumbData={[
-                        {
-                            path: Routes.HOME.path,
-                            title: Routes.HOME.title
-                        },
-                        {
-                            path: Routes.ABOUT.path,
-                            title: Routes.ABOUT.title
-                        }
-                    ]}
-                />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: Routes.ABOUT.title,
+                    description: "Driven by innovation and powered by passion, we bring together quality products and smart solutions to create a better, more convenient shopping experience for everyone."
+                }}
+                breadcrumbData={[
+                    {
+                        path: Routes.HOME.path,
+                        title: Routes.HOME.title
+                    },
+                    {
+                        path: Routes.ABOUT.path,
+                        title: Routes.ABOUT.title
+                    }
+                ]}
+            />
 
             <DetailWithImageLayout
                 leftsideData={

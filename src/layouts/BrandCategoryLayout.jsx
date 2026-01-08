@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Routes } from "@/constants/Routes";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
+import { IntroSection } from "@/sections/universal/IntroSection";
 import { Searchbar } from "@/components/compound/searchBars/Searchbar";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
@@ -43,15 +43,14 @@ export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attrib
 
     return (
         <>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={title}
-                    description={`Browse our wide range of ${attributeType}s and discover top products
-                    from trusted sellers across Pakistan.`}
-                />
-
-                <Breadcrumb breadcrumbData={breadcrumbData} />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: title,
+                    description: `Browse our wide range of ${attributeType}s and discover top products
+                    from trusted sellers across Pakistan.`
+                }}
+                breadcrumbData={breadcrumbData}
+            />
 
             <PlatformStatsSection
                 statsData={{

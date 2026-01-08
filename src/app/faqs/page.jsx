@@ -1,9 +1,7 @@
 import { Routes } from "@/constants/Routes";
-import { InnerContainer } from "@/layouts/InnerContainer";
-import { Breadcrumb } from "@/components/atomic/Breadcrumb";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 import { Accordion } from "@/components/atomic/Accordion";
-import Link from "next/link";
+import { InnerContainer } from "@/layouts/InnerContainer";
+import { IntroSection } from "@/sections/universal/IntroSection";
 
 export const metadata = {
     title: Routes.FAQ.meta.title,
@@ -57,7 +55,7 @@ const faqData = [
         id: 8,
         question: "Can I cancel or modify my order?",
         answer:
-            "Orders can be canceled or modified before they are shipped. Please contact our support team as soon as possible to make changes."
+            "Orders can be canceled or modified before they are shipped. Please FAQ our support team as soon as possible to make changes."
     },
     {
         id: 9,
@@ -69,7 +67,7 @@ const faqData = [
         id: 10,
         question: "What if I receive a damaged or incorrect product?",
         answer:
-            "If you receive a damaged or incorrect item, please contact our support team within 48 hours of delivery with photos of the product. We’ll arrange a replacement or refund."
+            "If you receive a damaged or incorrect item, please FAQ our support team within 48 hours of delivery with photos of the product. We’ll arrange a replacement or refund."
     },
     {
         id: 11,
@@ -79,34 +77,31 @@ const faqData = [
     },
     {
         id: 12,
-        question: "How can I contact customer support?",
+        question: "How can I FAQ customer support?",
         answer:
-            "You can reach our customer support team via email, live chat, or the Contact Us page. Our team is available to assist you during business hours."
+            "You can reach our customer support team via email, live chat, or the FAQ Us page. Our team is available to assist you during business hours."
     }
 ];
 
 const page = () => {
     return (
         <InnerContainer>
-            <section className="flex flex-col items-center justify-center py-6 gap-3.5 bg-customMuted">
-                <HeadingWithDescription
-                    title={Routes.FAQ.title}
-                    description={"Privacy Policy explains how we collect, use, and protect your personal information when you use our platform"}
-                />
-
-                <Breadcrumb
-                    breadcrumbData={[
-                        {
-                            path: Routes.HOME.path,
-                            title: Routes.HOME.title
-                        },
-                        {
-                            path: Routes.FAQ.path,
-                            title: Routes.FAQ.title
-                        }
-                    ]}
-                />
-            </section>
+            <IntroSection
+                headingData={{
+                    title: Routes.FAQ.title,
+                    description: "Find answers to frequently asked questions about our platform, services, orders, payments, and policies to help you get quick clarity."
+                }}
+                breadcrumbData={[
+                    {
+                        path: Routes.HOME.path,
+                        title: Routes.HOME.title
+                    },
+                    {
+                        path: Routes.FAQ.path,
+                        title: Routes.FAQ.title
+                    }
+                ]}
+            />
 
             <Accordion
                 accordionData={faqData}

@@ -42,8 +42,8 @@ const helpcenterLinks = [
 
 export const Footer = () => {
     return (
-        <footer className="w-full py-4 text-customMuted bg-custom-charcoal">
-            <div className="max-w-innerContainer w-full flex justify-between mx-auto">
+        <footer className="w-full py-4 border-t border-custom-charcoal bg-custom-charcoal/15">
+            <nav className="max-w-innerContainer w-full flex justify-between mx-auto">
                 <div className="flex flex-col gap-2">
                     <Image
                         width={52}
@@ -112,7 +112,7 @@ export const Footer = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </nav>
         </footer>
     );
 };

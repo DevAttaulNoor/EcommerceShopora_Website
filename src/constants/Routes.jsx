@@ -48,6 +48,33 @@ export const Routes = {
         path: `/products/${slug}`,
     }),
 
+    CART: {
+        path: "/cart",
+        title: "Cart",
+        meta: {
+            title: "Shopping Cart | Shopora",
+            description: "Review items in your cart before checkout."
+        }
+    },
+
+    CHECKOUT: {
+        path: "/checkout",
+        title: "Checkout",
+        meta: {
+            title: "Checkout | Shopora",
+            description: "Secure checkout with multiple payment options."
+        }
+    },
+
+    WISHLIST: {
+        path: "/wishlist",
+        title: "Wishlist",
+        meta: {
+            title: "My Wishlist | Shopora",
+            description: "Save your favorite products to your wishlist and easily find them later for a faster, smarter shopping experience at Shopora."
+        }
+    },
+
     // ---------- User Account Pages ----------
     ACCOUNT: {
         path: '/account',

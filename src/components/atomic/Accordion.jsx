@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Icons } from "@/constants/Icons";
 
-export const Accordion = ({ accordionData = [] }) => {
+export const Accordion = ({ accordionData }) => {
     const [openItems, setOpenItems] = useState([]);
 
     const toggleAccordion = (id) => {
@@ -12,9 +12,9 @@ export const Accordion = ({ accordionData = [] }) => {
 
     return (
         <div className="border rounded-lg overflow-hidden">
-            {accordionData.map((item, index) => {
+            {accordionData?.map((item, index) => {
                 const isOpen = openItems.includes(item.id);
-                const isLast = index === accordionData.length - 1;
+                const isLast = index === accordionData?.length - 1;
 
                 return (
                     <div key={item.id}>

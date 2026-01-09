@@ -47,8 +47,19 @@ export const Header = () => {
 
                     <span className="w-0.5 h-6 bg-custom-charcoal opacity-60" />
 
-                    <span className="text-xl cursor-pointer text-custom-gold hover:text-customHover">{Icons.FAVORITE_HEART}</span>
-                    <span className="text-xl cursor-pointer text-custom-gold hover:text-customHover">{Icons.CART}</span>
+                    <Link
+                        href={Routes.WISHLIST.path}
+                        className="text-xl cursor-pointer text-custom-gold hover:text-customHover"
+                    >
+                        {Icons.FAVORITE_HEART}
+                    </Link>
+
+                    <Link
+                        href={Routes.CART.path}
+                        className="text-xl cursor-pointer text-custom-gold hover:text-customHover"
+                    >
+                        {Icons.CART}
+                    </Link>
 
                     <Link
                         href={Routes.ACCOUNT.path}

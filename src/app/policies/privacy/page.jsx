@@ -1,125 +1,12 @@
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
+import privacy from "@data/policies/privacy.json";
 
 export const metadata = {
     title: Routes.PRIVACY_POLICY.meta.title,
     description: Routes.PRIVACY_POLICY.meta.description,
 };
-
-const privacyPolicyData = [
-    {
-        id: 1,
-        title: "Information We Collect",
-        description:
-            "We collect different types of information to provide, operate, and improve our services. The information collected depends on how you interact with our platform.",
-        list: [
-            "Personal information such as name, email address, phone number, and profile details",
-            "Billing and shipping addresses required to process and deliver orders",
-            "Order history, purchase behavior, and transaction-related information",
-            "Account credentials including login and authentication details",
-            "Device information such as IP address, browser type, and operating system",
-            "Usage data including pages visited, actions taken, and time spent on the platform",
-            "Cookies and similar tracking technologies",
-        ],
-    },
-    {
-        id: 2,
-        title: "How We Use Your Information",
-        description:
-            "Your information is used to ensure smooth operation of our platform, enhance user experience, and fulfill legal and business requirements.",
-        list: [
-            "To process payments, confirm orders, and arrange deliveries",
-            "To create, manage, and secure user accounts",
-            "To communicate order updates, service notifications, and important announcements",
-            "To provide customer support and respond to inquiries",
-            "To analyze usage patterns and improve platform performance",
-            "To detect, prevent, and investigate fraudulent or unauthorized activities",
-        ],
-    },
-    {
-        id: 3,
-        title: "Cookies & Tracking Technologies",
-        description:
-            "We use cookies, web beacons, pixels, and similar technologies to recognize users, personalize content, and analyze traffic. These technologies help us understand user preferences and improve our services. You may choose to disable cookies through your browser settings; however, some features of the platform may not function properly as a result.",
-    },
-    {
-        id: 4,
-        title: "Third-Party Services",
-        description:
-            "To operate efficiently, we work with trusted third-party service providers. These partners assist us with essential functions such as payment processing, shipping, analytics, cloud hosting, and customer communications. All third parties are contractually obligated to handle your data securely and only for the intended purpose.",
-    },
-    {
-        id: 5,
-        title: "Data Sharing & Disclosure",
-        description:
-            "We respect your privacy and handle data responsibly. Your information is shared only when necessary and in accordance with this policy.",
-        list: [
-            "We do not sell, trade, or rent your personal information to third parties",
-            "Information is shared with service providers strictly to fulfill business operations",
-            "Data may be disclosed to comply with legal obligations, court orders, or government requests",
-            "In the event of a merger, acquisition, or asset sale, user data may be transferred as part of the business assets",
-        ],
-    },
-    {
-        id: 6,
-        title: "Data Security",
-        description:
-            "We take reasonable and appropriate measures to protect your personal information from unauthorized access, misuse, loss, or alteration. Our security practices include SSL encryption, secure servers, restricted access controls, and regular monitoring. While we strive to protect your data, no system can guarantee absolute security.",
-    },
-    {
-        id: 7,
-        title: "Data Retention",
-        description:
-            "We retain your personal information only for as long as it is necessary to fulfill the purposes outlined in this Privacy Policy. Data may be retained to comply with legal requirements, resolve disputes, enforce agreements, or maintain business records. When data is no longer needed, it is securely deleted or anonymized.",
-    },
-    {
-        id: 8,
-        title: "Your Rights & Choices",
-        description:
-            "You have control over your personal information and how it is used. Depending on applicable laws, you may exercise the following rights:",
-        list: [
-            "Access and review the personal data we hold about you",
-            "Request corrections to inaccurate or incomplete information",
-            "Request deletion of your account and associated data",
-            "Withdraw consent for marketing communications at any time",
-        ],
-    },
-    {
-        id: 9,
-        title: "Children’s Privacy",
-        description:
-            "Our services are not intended for individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware that such information has been collected, we will take immediate steps to delete it from our records.",
-    },
-    {
-        id: 10,
-        title: "International Data Transfers",
-        description:
-            "Your information may be stored or processed in countries outside your country of residence. These locations may have different data protection laws. We ensure that appropriate safeguards are in place to protect your information during international transfers.",
-    },
-    {
-        id: 11,
-        title: "Policy Updates",
-        description:
-            "We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. Updates will be posted on this page, and continued use of the platform after changes indicates acceptance of the revised policy.",
-    },
-    {
-        id: 12,
-        title: "Contact Us",
-        description: (
-            <>
-                If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at{" "}
-                <a
-                    href="mailto:support@yourstore.com"
-                    className="text-custom-gold underline"
-                >
-                    support@yourstore.com
-                </a>
-                . Our support team will be happy to assist you.
-            </>
-        ),
-    },
-];
 
 const page = () => {
     return (
@@ -141,24 +28,24 @@ const page = () => {
                 ]}
             />
 
-            {privacyPolicyData.map(({ id, title, list, description }) => (
+            {privacy?.map(item => (
                 <section
-                    key={id}
+                    key={item.id}
                     className="flex flex-col gap-2 md:gap-3 xl:gap-4"
                 >
                     <h2 className="titleStyle">
-                        {id}. {title}
+                        {item.id}. {item.title}
                     </h2>
 
-                    {description && (
+                    {item.description && (
                         <p className="descriptionStyle">
-                            {description}
+                            {item.description}
                         </p>
                     )}
 
-                    {list && (
+                    {item.list && (
                         <ul className="list-disc ml-5 flex flex-col gap-1 descriptionStyle md:gap-2 xl:gap-3">
-                            {list.map((item, index) => (
+                            {item.list.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}
                         </ul>

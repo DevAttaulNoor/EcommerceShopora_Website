@@ -4,6 +4,7 @@ import { Accordion } from "@/components/atomic/Accordion";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { ContactUsForm } from "@/sections/contact-page-related/ContactUsForm";
+import faqs from "@data/faqs.json";
 
 export const metadata = {
     title: Routes.CONTACT.meta.title,
@@ -80,28 +81,7 @@ const page = () => {
                 <h1 className="titleStyle">Quick help</h1>
 
                 <Accordion
-                    accordionData={[
-                        {
-                            id: 1,
-                            question: "Where is my order?",
-                            anwser: "Anwser"
-                        },
-                        {
-                            id: 2,
-                            question: "How long does delivery take?",
-                            anwser: "Anwser"
-                        },
-                        {
-                            id: 3,
-                            question: "How do I return a product?",
-                            anwser: "Anwser"
-                        },
-                        {
-                            id: 4,
-                            question: "What payment methods are accepted?",
-                            anwser: "Anwser"
-                        }
-                    ]}
+                    accordionData={faqs?.slice(0, 5)}
                 />
             </section>
         </InnerContainer>

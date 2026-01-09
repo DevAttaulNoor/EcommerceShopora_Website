@@ -1,12 +1,10 @@
 import { Routes } from "@/constants/Routes";
-import { Accordion } from "@/components/atomic/Accordion";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
-import faqs from "@data/faqs.json";
 
 export const metadata = {
-    title: Routes.FAQ.meta.title,
-    description: Routes.FAQ.meta.description,
+    title: Routes.CART.meta.title,
+    description: Routes.CART.meta.description,
 };
 
 const page = () => {
@@ -14,8 +12,8 @@ const page = () => {
         <InnerContainer>
             <IntroSection
                 headingData={{
-                    title: Routes.FAQ.title,
-                    description: "Find answers to frequently asked questions about our platform, services, orders, payments, and policies to help you get quick clarity."
+                    title: Routes.CART.title,
+                    description: Routes.CART.meta.description
                 }}
                 breadcrumbData={[
                     {
@@ -23,15 +21,15 @@ const page = () => {
                         title: Routes.HOME.title
                     },
                     {
-                        path: Routes.FAQ.path,
-                        title: Routes.FAQ.title
+                        path: Routes.CART.path,
+                        title: Routes.CART.title
                     }
                 ]}
             />
 
-            <Accordion
-                accordionData={faqs}
-            />
+            <section>
+                Cart
+            </section>
         </InnerContainer>
     )
 }

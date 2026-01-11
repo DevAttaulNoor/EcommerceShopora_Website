@@ -7,7 +7,7 @@
         "brand": "Apple",
         "price": 1299,
         "rating": 4.8,
-        "description": "Experience the next generation smartphone with advanced camera and titanium design.",
+        "description": "The iPhone 15 Pro Max delivers Apple’s most advanced smartphone experience with a durable aerospace-grade titanium body that is both lighter and stronger than previous models. Powered by the A17 Pro chip, it offers exceptional performance for gaming, multitasking, and professional workflows. The upgraded Pro camera system features a 5x optical telephoto lens, improved low-light photography, and cinematic-quality video recording. With all-day battery life, a customizable Action Button, and fast USB-C connectivity, this device is designed for users who demand power, elegance, and reliability in one premium package.",
         "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "iPhone 15 Pro Max | Electronics | Shopora",
@@ -18,30 +18,35 @@
                 "id": "u1_1",
                 "name": "Jordan S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Titanium finish is incredible."
             },
             {
                 "id": "u1_2",
                 "name": "Sarah C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The 5x zoom is a game changer."
             },
             {
                 "id": "u1_3",
                 "name": "Marcus V.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Finally, USB-C! Great speeds."
             },
             {
                 "id": "u1_4",
                 "name": "Elena V.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The Action Button is so useful."
             },
             {
                 "id": "u1_5",
                 "name": "David K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Battery life is outstanding."
             }
         ]
@@ -54,7 +59,7 @@
         "brand": "Samsung",
         "price": 1199,
         "rating": 4.7,
-        "description": "Capture stunning photos with the 200MP camera and integrated S-Pen.",
+        "description": "The Galaxy S23 Ultra is Samsung’s flagship smartphone built for productivity and creativity. It features a stunning 200MP camera capable of capturing incredible detail, advanced zoom, and professional-grade night photography. The integrated S-Pen allows for precise note-taking, sketching, and multitasking, making it ideal for professionals and power users. With its immersive AMOLED display, long-lasting battery, and top-tier performance, the S23 Ultra delivers a premium Android experience without compromise.",
         "image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Galaxy S23 Ultra | Electronics | Shopora",
@@ -65,30 +70,35 @@
                 "id": "u2_1",
                 "name": "Mike R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Productivity beast with the S-Pen."
             },
             {
                 "id": "u2_2",
                 "name": "Jenna L.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "The camera zoom is mind-blowing."
             },
             {
                 "id": "u2_3",
                 "name": "Victor G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best screen on any smartphone."
             },
             {
                 "id": "u2_4",
                 "name": "Arjun P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Multitasking is flawlessly smooth."
             },
             {
                 "id": "u2_5",
                 "name": "Sophie M.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Beautiful design and great battery."
             }
         ]
@@ -101,7 +111,7 @@
         "brand": "Apple",
         "price": 2499,
         "rating": 4.9,
-        "description": "The most powerful MacBook yet with the M2 Pro chip and Liquid Retina XDR.",
+        "description": "The MacBook Pro 16-inch is engineered for professionals who require extreme performance and efficiency. Equipped with Apple’s M2 Pro chip, it handles demanding tasks such as video editing, 3D rendering, and software development with ease. The Liquid Retina XDR display provides exceptional brightness, contrast, and color accuracy, making it perfect for creative work. With a long-lasting battery, advanced thermal system, studio-quality speakers, and a wide range of ports, this MacBook is a complete workstation you can take anywhere.",
         "image": "https://images.unsplash.com/photo-1517336712461-461ad7c48261?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "MacBook Pro 16 | Computers | Shopora",
@@ -112,30 +122,35 @@
                 "id": "u3_1",
                 "name": "Kevin D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Compiles code in half the time."
             },
             {
                 "id": "u3_2",
                 "name": "Laura A.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The XDR screen is perfect for art."
             },
             {
                 "id": "u3_3",
                 "name": "Sam T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The speakers are world-class."
             },
             {
                 "id": "u3_4",
                 "name": "Chris P.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "MagSafe is a life saver."
             },
             {
                 "id": "u3_5",
                 "name": "Maya R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Completely silent under heavy load."
             }
         ]
@@ -148,7 +163,7 @@
         "brand": "Sony",
         "price": 349,
         "rating": 4.8,
-        "description": "Industry-leading noise cancellation with superior sound quality.",
+        "description": "The Sony WH-1000XM5 headphones set the standard for premium noise-cancelling audio. Featuring industry-leading active noise cancellation, they intelligently adapt to your surroundings for uninterrupted listening. The refined sound profile delivers deep bass, clear mids, and crisp highs, while the lightweight design ensures all-day comfort. With excellent call quality, long battery life, and seamless wireless connectivity, these headphones are perfect for travel, work, and everyday listening.",
         "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Sony WH-1000XM5 | Audio | Shopora",
@@ -159,30 +174,35 @@
                 "id": "u4_1",
                 "name": "Andy P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Noise cancelling is unmatched."
             },
             {
                 "id": "u4_2",
                 "name": "Lisa K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Comfortable for all-day wearing."
             },
             {
                 "id": "u4_3",
                 "name": "Ben T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Mic quality for calls is clear."
             },
             {
                 "id": "u4_4",
                 "name": "Sara J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Soundstage is deep and rich."
             },
             {
                 "id": "u4_5",
                 "name": "Tom H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best headphones I've ever owned."
             }
         ]
@@ -195,7 +215,7 @@
         "brand": "Nike",
         "price": 150,
         "rating": 4.6,
-        "description": "Iconic Air Max style with a large heel air unit for maximum comfort.",
+        "description": "The Nike Air Max 270 combines iconic street style with modern comfort. Designed with Nike’s largest heel Air unit, it provides exceptional cushioning and impact absorption for all-day wear. The breathable upper keeps your feet cool, while the sleek silhouette makes it suitable for both casual outfits and active lifestyles. Whether you’re walking, traveling, or styling a sporty look, the Air Max 270 delivers comfort, durability, and bold design.",
         "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Nike Air Max 270 | Footwear | Shopora",
@@ -206,30 +226,35 @@
                 "id": "u5_1",
                 "name": "Jake M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Like walking on clouds."
             },
             {
                 "id": "u5_2",
                 "name": "Molly G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Stylish and super comfy."
             },
             {
                 "id": "u5_3",
                 "name": "Rick B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best lifestyle sneakers."
             },
             {
                 "id": "u5_4",
                 "name": "Erica S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Runs a bit narrow, but great."
             },
             {
                 "id": "u5_5",
                 "name": "Dan Q.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the color options."
             }
         ]
@@ -242,7 +267,7 @@
         "brand": "Nintendo",
         "price": 349,
         "rating": 4.7,
-        "description": "Play at home or on the go with a vibrant 7-inch OLED screen.",
+        "description": "The Nintendo Switch OLED offers a versatile gaming experience that adapts to your lifestyle. Its vibrant 7-inch OLED screen delivers richer colors and deeper contrast for handheld and tabletop play. With enhanced audio, improved kickstand stability, and increased internal storage, it’s perfect for gaming at home or on the go. Whether playing solo or with friends, the Switch OLED provides flexibility, fun, and immersive entertainment.",
         "image": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Nintendo Switch OLED | Gaming | Shopora",
@@ -253,30 +278,35 @@
                 "id": "u6_1",
                 "name": "Gamer Joe",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "OLED screen makes Zelda pop."
             },
             {
                 "id": "u6_2",
                 "name": "Amy R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Kickstand is much more stable."
             },
             {
                 "id": "u6_3",
                 "name": "Phil K.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Great handheld experience."
             },
             {
                 "id": "u6_4",
                 "name": "Zoe W.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Perfect for travel."
             },
             {
                 "id": "u6_5",
                 "name": "Leo X.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Internal storage is better now."
             }
         ]
@@ -289,7 +319,7 @@
         "brand": "Dyson",
         "price": 749,
         "rating": 4.8,
-        "description": "The most powerful, intelligent cordless vacuum with laser illumination.",
+        "description": "The Dyson V15 Detect is an intelligent cordless vacuum engineered for deep, precise cleaning. Its powerful suction automatically adapts based on detected dust levels, while laser illumination reveals microscopic particles invisible to the naked eye. Designed for homes with pets and allergies, it effectively cleans carpets, hard floors, and tight spaces. With advanced filtration and versatile attachments, the V15 Detect transforms everyday cleaning into a highly efficient experience.",
         "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Dyson V15 Detect | Appliances | Shopora",
@@ -300,30 +330,35 @@
                 "id": "u7_1",
                 "name": "Claire B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The laser shows all the hidden dust."
             },
             {
                 "id": "u7_2",
                 "name": "Mark L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Suction is incredible on carpets."
             },
             {
                 "id": "u7_3",
                 "name": "Steve R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Battery is decent for mid-size homes."
             },
             {
                 "id": "u7_4",
                 "name": "Holly T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best tool for pet owners."
             },
             {
                 "id": "u7_5",
                 "name": "Nancy P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Expensive but worth every cent."
             }
         ]
@@ -336,7 +371,7 @@
         "brand": "Canon",
         "price": 2299,
         "rating": 4.9,
-        "description": "Full-frame mirrorless camera for enthusiasts and professionals.",
+        "description": "The Canon EOS R6 is a full-frame mirrorless camera designed for enthusiasts and professionals alike. It delivers exceptional image quality with outstanding low-light performance, fast autofocus, and in-body image stabilization. Ideal for photography and video, the R6 excels in action, wildlife, portrait, and cinematic shooting. Its intuitive controls and durable build make it a reliable companion for both studio and outdoor use.",
         "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Canon EOS R6 | Photography | Shopora",
@@ -347,30 +382,35 @@
                 "id": "u8_1",
                 "name": "Jason D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Autofocus is lightning fast."
             },
             {
                 "id": "u8_2",
                 "name": "Maria H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best skin tones in the game."
             },
             {
                 "id": "u8_3",
                 "name": "Kevin Z.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Menus are very intuitive."
             },
             {
                 "id": "u8_4",
                 "name": "Sam L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great low light performance."
             },
             {
                 "id": "u8_5",
                 "name": "Tina V.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "IBIS makes handheld video easy."
             }
         ]
@@ -383,7 +423,7 @@
         "brand": "Adidas",
         "price": 190,
         "rating": 4.7,
-        "description": "Ultimate energy return with Boost technology and a Primeknit upper.",
+        "description": "The Adidas Ultraboost 22 is built for runners and everyday athletes seeking maximum comfort and energy return. Featuring responsive Boost cushioning, it delivers a smooth and powerful stride with every step. The Primeknit upper provides a snug, sock-like fit while ensuring breathability and flexibility. Whether used for long runs, gym sessions, or casual wear, the Ultraboost 22 offers premium comfort and performance.",
         "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Adidas Ultraboost 22 | Footwear | Shopora",
@@ -394,30 +434,35 @@
                 "id": "u9_1",
                 "name": "Ryan K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Like walking on marshmallows."
             },
             {
                 "id": "u9_2",
                 "name": "Jessica L.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Great support for long runs."
             },
             {
                 "id": "u9_3",
                 "name": "Molly H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Sock-like fit is super cozy."
             },
             {
                 "id": "u9_4",
                 "name": "Dan P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Durable and looks sharp."
             },
             {
                 "id": "u9_5",
                 "name": "Kim C.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Good grip even in rain."
             }
         ]
@@ -430,7 +475,7 @@
         "brand": "Amazon",
         "price": 139,
         "rating": 4.8,
-        "description": "Purpose-built for reading, with a flush-front design and 300 ppi display.",
+        "description": "The Kindle Paperwhite is a purpose-built e-reader designed for distraction-free reading. Its high-resolution 300-ppi display delivers crisp, paper-like text, while the adjustable warm light ensures comfortable reading day or night. With a waterproof design and weeks-long battery life, it’s perfect for reading at home, by the pool, or while traveling. Access millions of books instantly and enjoy a lightweight, eye-friendly reading experience.",
         "image": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&w=600&q=80",
         "meta": {
             "title": "Kindle Paperwhite | Electronics | Shopora",
@@ -441,30 +486,35 @@
                 "id": "u10_1",
                 "name": "Alice M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Warm light is easy on the eyes."
             },
             {
                 "id": "u10_2",
                 "name": "Bob B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Battery lasts for weeks."
             },
             {
                 "id": "u10_3",
                 "name": "Charlie R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Waterproof is great for baths."
             },
             {
                 "id": "u10_4",
                 "name": "Dana F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Huge library at my fingertips."
             },
             {
                 "id": "u10_5",
                 "name": "Eva L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best purchase for book lovers."
             }
         ]
@@ -488,30 +538,35 @@
                 "id": "u11_1",
                 "name": "Ben C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Accurate heart rate tracking."
             },
             {
                 "id": "u11_2",
                 "name": "Sarah P.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Sleek and very lightweight."
             },
             {
                 "id": "u11_3",
                 "name": "Igor V.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Google Maps integration is top."
             },
             {
                 "id": "u11_4",
                 "name": "Tanya L.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Great sleep tracking info."
             },
             {
                 "id": "u11_5",
                 "name": "Chris M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Motivation to move more!"
             }
         ]
@@ -535,30 +590,35 @@
                 "id": "u12_1",
                 "name": "Tom B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Blacks are deep for an LED."
             },
             {
                 "id": "u12_2",
                 "name": "Amy V.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Google TV interface is smooth."
             },
             {
                 "id": "u12_3",
                 "name": "Gabe N.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Good for PS5 gaming."
             },
             {
                 "id": "u12_4",
                 "name": "Linda S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Setup was very simple."
             },
             {
                 "id": "u12_5",
                 "name": "Noah W.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Speakers are okay, use a bar."
             }
         ]
@@ -582,30 +642,35 @@
                 "id": "u13_1",
                 "name": "Jake D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Classic fit that lasts."
             },
             {
                 "id": "u13_2",
                 "name": "Sara T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "A bit stiff at first."
             },
             {
                 "id": "u13_3",
                 "name": "Will P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "True to size and iconic."
             },
             {
                 "id": "u13_4",
                 "name": "Nate B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best jeans I own."
             },
             {
                 "id": "u13_5",
                 "name": "Erica G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the straight leg look."
             }
         ]
@@ -629,30 +694,35 @@
                 "id": "u14_1",
                 "name": "Maria C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "A powerhouse in the kitchen."
             },
             {
                 "id": "u14_2",
                 "name": "Bev B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Sturdy and beautiful design."
             },
             {
                 "id": "u14_3",
                 "name": "Tony R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Quiet and very efficient."
             },
             {
                 "id": "u14_4",
                 "name": "Lydia S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Heavy, but built to last."
             },
             {
                 "id": "u14_5",
                 "name": "Mark J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Mixing dough is so easy."
             }
         ]
@@ -676,30 +746,35 @@
                 "id": "u15_1",
                 "name": "Isa R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Never goes out of style."
             },
             {
                 "id": "u15_2",
                 "name": "Tom C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Lenses are very clear."
             },
             {
                 "id": "u15_3",
                 "name": "Gerry K.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Frame feels high quality."
             },
             {
                 "id": "u15_4",
                 "name": "Hannah L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Perfect for driving."
             },
             {
                 "id": "u15_5",
                 "name": "Mike O.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Suits most face shapes."
             }
         ]
@@ -723,30 +798,35 @@
                 "id": "u16_1",
                 "name": "Kevin K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best mouse for developers."
             },
             {
                 "id": "u16_2",
                 "name": "Nate R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Scrolling wheel is addictive."
             },
             {
                 "id": "u16_3",
                 "name": "Tina B.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "A bit large for small hands."
             },
             {
                 "id": "u16_4",
                 "name": "James L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Switch between devices is fast."
             },
             {
                 "id": "u16_5",
                 "name": "Gary F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great ergonomics for wrist."
             }
         ]
@@ -770,30 +850,35 @@
                 "id": "u17_1",
                 "name": "Laura F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Silence is golden with these."
             },
             {
                 "id": "u17_2",
                 "name": "Mike M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Comfortable stay-hear tips."
             },
             {
                 "id": "u17_3",
                 "name": "Sandi Q.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Case is slightly bulky."
             },
             {
                 "id": "u17_4",
                 "name": "Paul J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Excellent sound profiles."
             },
             {
                 "id": "u17_5",
                 "name": "Rita G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Transparency mode is top tier."
             }
         ]
@@ -817,30 +902,35 @@
                 "id": "u18_1",
                 "name": "Alicia W.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The bezel is very smooth."
             },
             {
                 "id": "u18_2",
                 "name": "Derek G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Sleep tracking is accurate."
             },
             {
                 "id": "u18_3",
                 "name": "Sam K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Integrates well with Galaxy."
             },
             {
                 "id": "u18_4",
                 "name": "Fiona M.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Battery life could be better."
             },
             {
                 "id": "u18_5",
                 "name": "Terry B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best Android smartwatch."
             }
         ]
@@ -864,30 +954,35 @@
                 "id": "u19_1",
                 "name": "Lily S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Stays cold all day long."
             },
             {
                 "id": "u19_2",
                 "name": "Joe P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Durable and looks great."
             },
             {
                 "id": "u19_3",
                 "name": "Emma R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "A bit heavy when full."
             },
             {
                 "id": "u19_4",
                 "name": "Ben T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "No condensation ever."
             },
             {
                 "id": "u19_5",
                 "name": "Will G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best water bottle I've used."
             }
         ]
@@ -911,30 +1006,35 @@
                 "id": "u20_1",
                 "name": "Skater Dan",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Stabilization is mind-blowing."
             },
             {
                 "id": "u20_2",
                 "name": "Diver Di",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great color underwater."
             },
             {
                 "id": "u20_3",
                 "name": "Biker Ben",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Voice control works well."
             },
             {
                 "id": "u20_4",
                 "name": "Jen J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Solid build quality."
             },
             {
                 "id": "u20_5",
                 "name": "Leo P.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Needs extra batteries for day."
             }
         ]
@@ -958,30 +1058,35 @@
                 "id": "u21_1",
                 "name": "Hiker Hal",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Unbelievably warm for the weight."
             },
             {
                 "id": "u21_2",
                 "name": "Eco Ed",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the recycled materials."
             },
             {
                 "id": "u21_3",
                 "name": "Jen S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Packs down so small."
             },
             {
                 "id": "u21_4",
                 "name": "Mark D.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Fits true to size."
             },
             {
                 "id": "u21_5",
                 "name": "Liam T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best jacket I've ever owned."
             }
         ]
@@ -1005,30 +1110,35 @@
                 "id": "u22_1",
                 "name": "Camper Carl",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Keeps ice for days on end."
             },
             {
                 "id": "u22_2",
                 "name": "Fisher Flo",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Totally worth the price tag."
             },
             {
                 "id": "u22_3",
                 "name": "Doug M.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Heavy but indestructible."
             },
             {
                 "id": "u22_4",
                 "name": "Gina P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Seal is airtight and solid."
             },
             {
                 "id": "u22_5",
                 "name": "Sam B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best cooler for road trips."
             }
         ]
@@ -1052,30 +1162,35 @@
                 "id": "u23_1",
                 "name": "Rock R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Punchy bass and cool look."
             },
             {
                 "id": "u23_2",
                 "name": "Molly V.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great battery life for size."
             },
             {
                 "id": "u23_3",
                 "name": "Dave T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Charging is very quick."
             },
             {
                 "id": "u23_4",
                 "name": "Amy S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Perfect for small rooms."
             },
             {
                 "id": "u23_5",
                 "name": "Chris K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Build quality is top tier."
             }
         ]
@@ -1099,30 +1214,35 @@
                 "id": "u24_1",
                 "name": "Photo P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The film simulations are magic."
             },
             {
                 "id": "u24_2",
                 "name": "Urban U.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Perfect street photography tool."
             },
             {
                 "id": "u24_3",
                 "name": "Greg L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Lens is sharp wide open."
             },
             {
                 "id": "u24_4",
                 "name": "Sara B.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Hard to find but worth it."
             },
             {
                 "id": "u24_5",
                 "name": "Tim M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Tactile dials feel amazing."
             }
         ]
@@ -1146,30 +1266,35 @@
                 "id": "u25_1",
                 "name": "Skate S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Durable for skating."
             },
             {
                 "id": "u25_2",
                 "name": "Casual C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Goes with everything."
             },
             {
                 "id": "u25_3",
                 "name": "Mike V.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Takes a week to break in."
             },
             {
                 "id": "u25_4",
                 "name": "Kelly G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Timeless silhouette."
             },
             {
                 "id": "u25_5",
                 "name": "Pete R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Comfortable for all day walk."
             }
         ]
@@ -1193,30 +1318,35 @@
                 "id": "u26_1",
                 "name": "Linda G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Saves me so much time."
             },
             {
                 "id": "u26_2",
                 "name": "Chef Mike",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best for rice and stews."
             },
             {
                 "id": "u26_3",
                 "name": "Becca S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Easy to clean pot."
             },
             {
                 "id": "u26_4",
                 "name": "Josh D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Essential for meal prep."
             },
             {
                 "id": "u26_5",
                 "name": "Nancy P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great quality and reliable."
             }
         ]
@@ -1240,30 +1370,35 @@
                 "id": "u27_1",
                 "name": "Jen H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Fits in my cup holder!"
             },
             {
                 "id": "u27_2",
                 "name": "Lori S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the colors."
             },
             {
                 "id": "u27_3",
                 "name": "Sam T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Heavy but keeps ice cold."
             },
             {
                 "id": "u27_4",
                 "name": "Chris B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Straw is easy to use."
             },
             {
                 "id": "u27_5",
                 "name": "Grace L.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "A bit expensive but great."
             }
         ]
@@ -1287,30 +1422,35 @@
                 "id": "u28_1",
                 "name": "Athlete A.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Saves my muscles after gym."
             },
             {
                 "id": "u28_2",
                 "name": "Gym Rat G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Compact and powerful."
             },
             {
                 "id": "u28_3",
                 "name": "Mike J.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Quiet enough to use."
             },
             {
                 "id": "u28_4",
                 "name": "Laura T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Perfect for travel bags."
             },
             {
                 "id": "u28_5",
                 "name": "Rick D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Total relief for soreness."
             }
         ]
@@ -1334,30 +1474,35 @@
                 "id": "u29_1",
                 "name": "Gamer G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Clicky keys feel amazing."
             },
             {
                 "id": "u29_2",
                 "name": "Nate B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "RGB lighting is gorgeous."
             },
             {
                 "id": "u29_3",
                 "name": "Tina R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Very loud, but satisfying."
             },
             {
                 "id": "u29_4",
                 "name": "Phil T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Wrist rest is comfy."
             },
             {
                 "id": "u29_5",
                 "name": "Eva J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great quality and weight."
             }
         ]
@@ -1381,30 +1526,35 @@
                 "id": "u30_1",
                 "name": "Dental D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Teeth feel dentist clean."
             },
             {
                 "id": "u30_2",
                 "name": "Sara K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "The display is helpful."
             },
             {
                 "id": "u30_3",
                 "name": "Ben F.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Expensive, but effective."
             },
             {
                 "id": "u30_4",
                 "name": "Tanya G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great app features."
             },
             {
                 "id": "u30_5",
                 "name": "Leo Q.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Travel case is excellent."
             }
         ]
@@ -1428,30 +1578,35 @@
                 "id": "u31_1",
                 "name": "Student S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Fits all my books and laptop."
             },
             {
                 "id": "u31_2",
                 "name": "Hiker H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great support for back."
             },
             {
                 "id": "u31_3",
                 "name": "Nate G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Pockets are well placed."
             },
             {
                 "id": "u31_4",
                 "name": "Emma D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Sturdy zippers and fabric."
             },
             {
                 "id": "u31_5",
                 "name": "Mark F.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "A bit heavy when empty."
             }
         ]
@@ -1475,30 +1630,35 @@
                 "id": "u32_1",
                 "name": "Coffee Lover",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Better than Starbucks."
             },
             {
                 "id": "u32_2",
                 "name": "Emma K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Takes time to learn but worth it."
             },
             {
                 "id": "u32_3",
                 "name": "Greg M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Solid build and easy to clean."
             },
             {
                 "id": "u32_4",
                 "name": "Sam R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Grinder can be slightly messy."
             },
             {
                 "id": "u32_5",
                 "name": "Lisa T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love waking up to this."
             }
         ]
@@ -1522,30 +1682,35 @@
                 "id": "u33_1",
                 "name": "Travel T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Stylish and holds a lot."
             },
             {
                 "id": "u33_2",
                 "name": "Grace P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Padded straps are great."
             },
             {
                 "id": "u33_3",
                 "name": "Ben G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Magnetic straps are easy."
             },
             {
                 "id": "u33_4",
                 "name": "Chris K.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Fabric is very durable."
             },
             {
                 "id": "u33_5",
                 "name": "Maya S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the interior lining."
             }
         ]
@@ -1569,30 +1734,35 @@
                 "id": "u34_1",
                 "name": "Biohacker B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best sleep data available."
             },
             {
                 "id": "u34_2",
                 "name": "Kelly M.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Discreet and very smart."
             },
             {
                 "id": "u34_3",
                 "name": "Dan R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Subscription is annoying."
             },
             {
                 "id": "u34_4",
                 "name": "Sarah F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Accurate and small."
             },
             {
                 "id": "u34_5",
                 "name": "Pete L.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Battery lasts 5 days."
             }
         ]
@@ -1616,30 +1786,35 @@
                 "id": "u35_1",
                 "name": "Yogi Y.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Feels like a second skin."
             },
             {
                 "id": "u35_2",
                 "name": "Tara G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best leggings on the market."
             },
             {
                 "id": "u35_3",
                 "name": "Nina R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Expensive but lasts years."
             },
             {
                 "id": "u35_4",
                 "name": "Emma L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "No pilling after many washes."
             },
             {
                 "id": "u35_5",
                 "name": "Sam K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Extremely comfortable."
             }
         ]
@@ -1663,30 +1838,35 @@
                 "id": "u36_1",
                 "name": "Cyclist C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Classes keep me motivated."
             },
             {
                 "id": "u36_2",
                 "name": "Mike J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Rotating screen is great."
             },
             {
                 "id": "u36_3",
                 "name": "Tina V.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Build quality is elite."
             },
             {
                 "id": "u36_4",
                 "name": "Sarah P.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Monthly fee is high."
             },
             {
                 "id": "u36_5",
                 "name": "Ben B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best investment in health."
             }
         ]
@@ -1710,30 +1890,35 @@
                 "id": "u37_1",
                 "name": "Joe P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Arch support is fantastic."
             },
             {
                 "id": "u37_2",
                 "name": "Emma G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Lasts for many seasons."
             },
             {
                 "id": "u37_3",
                 "name": "Mark D.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Hard to break in at first."
             },
             {
                 "id": "u37_4",
                 "name": "Lori S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Perfect summer footwear."
             },
             {
                 "id": "u37_5",
                 "name": "Rick V.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Quality is very consistent."
             }
         ]
@@ -1757,30 +1942,35 @@
                 "id": "u38_1",
                 "name": "Pilot Phil",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Obstacle sensing is a lifesaver."
             },
             {
                 "id": "u38_2",
                 "name": "Fly Girl",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Video quality is amazing."
             },
             {
                 "id": "u38_3",
                 "name": "Dave B.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Stable even in mild wind."
             },
             {
                 "id": "u38_4",
                 "name": "Chris T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Very easy to fly for beginners."
             },
             {
                 "id": "u38_5",
                 "name": "Nate R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Small and very capable."
             }
         ]
@@ -1804,30 +1994,35 @@
                 "id": "u39_1",
                 "name": "Eco Runner",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the environmental focus."
             },
             {
                 "id": "u39_2",
                 "name": "Sam J.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Lightweight and breathable."
             },
             {
                 "id": "u39_3",
                 "name": "Lori G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Machine washable is a plus."
             },
             {
                 "id": "u39_4",
                 "name": "Ben T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Comfy for daily walks."
             },
             {
                 "id": "u39_5",
                 "name": "Amy S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Soft and springy feel."
             }
         ]
@@ -1851,30 +2046,35 @@
                 "id": "u40_1",
                 "name": "Home Owner H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Saved me money already."
             },
             {
                 "id": "u40_2",
                 "name": "Tech T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "App is very easy to use."
             },
             {
                 "id": "u40_3",
                 "name": "Chris B.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Installation was simple."
             },
             {
                 "id": "u40_4",
                 "name": "Emma R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Looks great on the wall."
             },
             {
                 "id": "u40_5",
                 "name": "Mike S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Highly recommended."
             }
         ]
@@ -1898,30 +2098,35 @@
                 "id": "u41_1",
                 "name": "Chef C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Heats very evenly."
             },
             {
                 "id": "u41_2",
                 "name": "Maria G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Will last a lifetime."
             },
             {
                 "id": "u41_3",
                 "name": "Sam B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Stunning to look at."
             },
             {
                 "id": "u41_4",
                 "name": "Linda R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Very heavy, but worth it."
             },
             {
                 "id": "u41_5",
                 "name": "Rick S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Easy to clean enamel."
             }
         ]
@@ -1945,30 +2150,35 @@
                 "id": "u42_1",
                 "name": "Collector C.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Massive and detailed."
             },
             {
                 "id": "u42_2",
                 "name": "Nerd N.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Took a week to build."
             },
             {
                 "id": "u42_3",
                 "name": "Ben T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Amazing display piece."
             },
             {
                 "id": "u42_4",
                 "name": "Chris J.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Pricey but iconic."
             },
             {
                 "id": "u42_5",
                 "name": "Lego L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best Lego set ever."
             }
         ]
@@ -1992,30 +2202,35 @@
                 "id": "u43_1",
                 "name": "Lazy L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Empties itself! Love it."
             },
             {
                 "id": "u43_2",
                 "name": "Busy B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Maps the house perfectly."
             },
             {
                 "id": "u43_3",
                 "name": "Dave T.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "A bit noisy on turbo."
             },
             {
                 "id": "u43_4",
                 "name": "Jen S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Corner cleaning is great."
             },
             {
                 "id": "u43_5",
                 "name": "Phil G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Worth the investment."
             }
         ]
@@ -2039,30 +2254,35 @@
                 "id": "u44_1",
                 "name": "Insta I.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Classic feel with new tech."
             },
             {
                 "id": "u44_2",
                 "name": "Sara B.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Film can be expensive."
             },
             {
                 "id": "u44_3",
                 "name": "Greg F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Love the lens filters."
             },
             {
                 "id": "u44_4",
                 "name": "Nate G.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "App works flawlessly."
             },
             {
                 "id": "u44_5",
                 "name": "Emma L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Fun for parties."
             }
         ]
@@ -2086,30 +2306,35 @@
                 "id": "u45_1",
                 "name": "Pro P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "240Hz is butter smooth."
             },
             {
                 "id": "u45_2",
                 "name": "Nate B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Colors are vivid and accurate."
             },
             {
                 "id": "u45_3",
                 "name": "Phil J.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Stand is a bit bulky."
             },
             {
                 "id": "u45_4",
                 "name": "Sam T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best monitor for FPS."
             },
             {
                 "id": "u45_5",
                 "name": "Lori R.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "No ghosting whatsoever."
             }
         ]
@@ -2133,30 +2358,35 @@
                 "id": "u46_1",
                 "name": "Smoothie S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Blends anything smooth."
             },
             {
                 "id": "u46_2",
                 "name": "Chef Mike",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Powerful and durable."
             },
             {
                 "id": "u46_3",
                 "name": "Emma D.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Self-clean mode is a win."
             },
             {
                 "id": "u46_4",
                 "name": "Ben K.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Very loud on high speed."
             },
             {
                 "id": "u46_5",
                 "name": "Sara F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Last blender you'll buy."
             }
         ]
@@ -2180,30 +2410,35 @@
                 "id": "u47_1",
                 "name": "Baller B.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Best grip in the game."
             },
             {
                 "id": "u47_2",
                 "name": "Coach Phil",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Soft feel, very durable."
             },
             {
                 "id": "u47_3",
                 "name": "Sam R.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Indoor only, don't use out."
             },
             {
                 "id": "u47_4",
                 "name": "Tina G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Standard for any gym."
             },
             {
                 "id": "u47_5",
                 "name": "Leo P.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Consistent bounce and feel."
             }
         ]
@@ -2227,30 +2462,35 @@
                 "id": "u48_1",
                 "name": "Forgetful F.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Found my keys in minutes."
             },
             {
                 "id": "u48_2",
                 "name": "Traveler T.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Great for luggage tracking."
             },
             {
                 "id": "u48_3",
                 "name": "Ben S.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Battery is replaceable."
             },
             {
                 "id": "u48_4",
                 "name": "Amy D.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Loud ringtone is helpful."
             },
             {
                 "id": "u48_5",
                 "name": "Lori K.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Saves me so much stress."
             }
         ]
@@ -2274,30 +2514,35 @@
                 "id": "u49_1",
                 "name": "Slim S.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "No more bulky pocket."
             },
             {
                 "id": "u49_2",
                 "name": "Dave G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Leather quality is top tier."
             },
             {
                 "id": "u49_3",
                 "name": "Rick B.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Fits all my cards easily."
             },
             {
                 "id": "u49_4",
                 "name": "Sam J.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Beautiful and functional."
             },
             {
                 "id": "u49_5",
                 "name": "Nate D.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Card pull-tab is genius."
             }
         ]
@@ -2321,30 +2566,35 @@
                 "id": "u50_1",
                 "name": "Healthy H.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Crispy fries without the oil."
             },
             {
                 "id": "u50_2",
                 "name": "Busy Mom",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "So quick for weeknight meals."
             },
             {
                 "id": "u50_3",
                 "name": "John D.",
                 "rating": 4,
+                "purchaseDate": "2024-12-15",
                 "message": "Large capacity is great."
             },
             {
                 "id": "u50_4",
                 "name": "Sam L.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Easy to clean parts."
             },
             {
                 "id": "u50_5",
                 "name": "Rita G.",
                 "rating": 5,
+                "purchaseDate": "2024-12-15",
                 "message": "Chicken comes out juicy."
             }
         ]

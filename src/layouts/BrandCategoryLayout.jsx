@@ -139,13 +139,15 @@ export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attrib
                                     href={attributeLink(item.slug)}
                                     className="group flex flex-col items-center justify-between p-3 gap-3 rounded-xl transition bg-customMuted hover:shadow-lg hover:-translate-y-1"
                                 >
-                                    <Image
-                                        width={120}
-                                        height={120}
-                                        src={item.image}
-                                        alt={`Logo of ${item.title}`}
-                                        className="object-contain"
-                                    />
+                                    <div className="relative w-32 h-32">
+                                        <Image
+                                            fill
+                                            priority
+                                            src={item.image}
+                                            alt={`Logo of ${item.title}`}
+                                            className="absolute w-full h-full object-contain"
+                                        />
+                                    </div>
 
                                     <h5 className="text-center text-lg font-medium transition group-hover:text-custom-gold">
                                         {item.title}

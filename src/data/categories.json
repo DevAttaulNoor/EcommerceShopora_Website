@@ -1,0 +1,502 @@
+[
+    {
+        "id": 1,
+        "title": "Electronics",
+        "slug": "electronics",
+        "image": "https://api.iconify.design/mdi/monitor-cellphone.svg",
+        "meta": {
+            "title": "Electronics | Categories | Shopora",
+            "description": "Shop the latest electronics including mobiles, laptops, headphones, and smart devices at Shopora."
+        }
+    },
+    {
+        "id": 2,
+        "title": "Fashion",
+        "slug": "fashion",
+        "image": "https://api.iconify.design/mdi/hanger.svg",
+        "meta": {
+            "title": "Fashion | Categories | Shopora",
+            "description": "Discover trending fashion for men and women including clothing, shoes, and accessories."
+        }
+    },
+    {
+        "id": 3,
+        "title": "Home Appliances",
+        "slug": "home-appliances",
+        "image": "https://api.iconify.design/mdi/washing-machine.svg",
+        "meta": {
+            "title": "Home Appliances | Categories | Shopora",
+            "description": "Upgrade your home with reliable appliances including refrigerators, washing machines, and kitchen essentials."
+        }
+    },
+    {
+        "id": 4,
+        "title": "Beauty & Personal Care",
+        "slug": "beauty-personal-care",
+        "image": "https://api.iconify.design/mdi/lipstick.svg",
+        "meta": {
+            "title": "Beauty & Personal Care | Categories | Shopora",
+            "description": "Explore skincare, makeup, grooming, and personal care products from top brands."
+        }
+    },
+    {
+        "id": 5,
+        "title": "Sports & Fitness",
+        "slug": "sports-fitness",
+        "image": "https://api.iconify.design/mdi/dumbbell.svg",
+        "meta": {
+            "title": "Sports & Fitness | Categories | Shopora",
+            "description": "Stay active with sports equipment, gym accessories, and fitness gear."
+        }
+    },
+    {
+        "id": 6,
+        "title": "Books & Stationery",
+        "slug": "books-stationery",
+        "image": "https://api.iconify.design/mdi/book-open-variant.svg",
+        "meta": {
+            "title": "Books & Stationery | Categories | Shopora",
+            "description": "Browse books, notebooks, office supplies, and educational material for all ages."
+        }
+    },
+    {
+        "id": 7,
+        "title": "Groceries",
+        "slug": "groceries",
+        "image": "https://api.iconify.design/mdi/cart-variant.svg",
+        "meta": {
+            "title": "Groceries | Categories | Shopora",
+            "description": "Buy daily essentials, fresh food, and household groceries at affordable prices."
+        }
+    },
+    {
+        "id": 8,
+        "title": "Toys & Kids",
+        "slug": "toys-kids",
+        "image": "https://api.iconify.design/mdi/teddy-bear.svg",
+        "meta": {
+            "title": "Toys & Kids | Categories | Shopora",
+            "description": "Find toys, games, kids clothing, and learning products for children of all ages."
+        }
+    },
+    {
+        "id": 9,
+        "title": "Health & Wellness",
+        "slug": "health-wellness",
+        "image": "https://api.iconify.design/mdi/heart-pulse.svg",
+        "meta": {
+            "title": "Health & Wellness | Categories | Shopora",
+            "description": "Get health supplements, medical devices, and wellness products for a better lifestyle."
+        }
+    },
+    {
+        "id": 10,
+        "title": "Automotive",
+        "slug": "automotive",
+        "image": "https://api.iconify.design/mdi/car.svg",
+        "meta": {
+            "title": "Automotive | Categories | Shopora",
+            "description": "Shop car accessories, parts, tools, and motorcycle essentials."
+        }
+    },
+    {
+        "id": 11,
+        "title": "Jewelry & Watches",
+        "slug": "jewelry-watches",
+        "image": "https://api.iconify.design/mdi/diamond-stone.svg",
+        "meta": {
+            "title": "Jewelry & Watches | Categories | Shopora",
+            "description": "Explore stylish jewelry and watches for every occasion."
+        }
+    },
+    {
+        "id": 12,
+        "title": "Footwear",
+        "slug": "footwear",
+        "image": "https://api.iconify.design/mdi/shoe-sneaker.svg",
+        "meta": {
+            "title": "Footwear | Categories | Shopora",
+            "description": "Find sneakers, sandals, formal shoes, and boots for men, women, and kids."
+        }
+    },
+    {
+        "id": 13,
+        "title": "Mobile Accessories",
+        "slug": "mobile-accessories",
+        "image": "https://api.iconify.design/mdi/cellphone-charging.svg",
+        "meta": {
+            "title": "Mobile Accessories | Categories | Shopora",
+            "description": "Get phone cases, chargers, screen protectors, and other mobile accessories."
+        }
+    },
+    {
+        "id": 14,
+        "title": "Kitchen & Dining",
+        "slug": "kitchen-dining",
+        "image": "https://api.iconify.design/mdi/silverware-fork-knife.svg",
+        "meta": {
+            "title": "Kitchen & Dining | Categories | Shopora",
+            "description": "Discover cookware, dining sets, kitchen tools, and appliances."
+        }
+    },
+    {
+        "id": 15,
+        "title": "Pet Supplies",
+        "slug": "pet-supplies",
+        "image": "https://api.iconify.design/mdi/paw.svg",
+        "meta": {
+            "title": "Pet Supplies | Categories | Shopora",
+            "description": "Shop food, toys, grooming products, and accessories for your pets."
+        }
+    },
+    {
+        "id": 16,
+        "title": "Gaming",
+        "slug": "gaming",
+        "image": "https://api.iconify.design/mdi/controller.svg",
+        "meta": {
+            "title": "Gaming | Categories | Shopora",
+            "description": "Find gaming consoles, accessories, and video games for all platforms."
+        }
+    },
+    {
+        "id": 17,
+        "title": "Music & Instruments",
+        "slug": "music-instruments",
+        "image": "https://api.iconify.design/mdi/guitar-acoustic.svg",
+        "meta": {
+            "title": "Music & Instruments | Categories | Shopora",
+            "description": "Shop musical instruments, audio equipment, and accessories."
+        }
+    },
+    {
+        "id": 18,
+        "title": "Office Supplies",
+        "slug": "office-supplies",
+        "image": "https://api.iconify.design/mdi/paperclip.svg",
+        "meta": {
+            "title": "Office Supplies | Categories | Shopora",
+            "description": "Get stationery, printers, office furniture, and essential office tools."
+        }
+    },
+    {
+        "id": 19,
+        "title": "Travel & Luggage",
+        "slug": "travel-luggage",
+        "image": "https://api.iconify.design/mdi/bag-suitcase.svg",
+        "meta": {
+            "title": "Travel & Luggage | Categories | Shopora",
+            "description": "Discover luggage, travel bags, backpacks, and travel accessories."
+        }
+    },
+    {
+        "id": 20,
+        "title": "Gardening",
+        "slug": "gardening",
+        "image": "https://api.iconify.design/mdi/flower.svg",
+        "meta": {
+            "title": "Gardening | Categories | Shopora",
+            "description": "Find plants, garden tools, seeds, and outdoor equipment."
+        }
+    },
+    {
+        "id": 21,
+        "title": "Baby Products",
+        "slug": "baby-products",
+        "image": "https://api.iconify.design/mdi/baby-carriage.svg",
+        "meta": {
+            "title": "Baby Products | Categories | Shopora",
+            "description": "Shop baby clothing, diapers, feeding essentials, and toys."
+        }
+    },
+    {
+        "id": 22,
+        "title": "Smart Home",
+        "slug": "smart-home",
+        "image": "https://api.iconify.design/mdi/home-automation.svg",
+        "meta": {
+            "title": "Smart Home | Categories | Shopora",
+            "description": "Upgrade your home with smart lighting, security cameras, and automation devices."
+        }
+    },
+    {
+        "id": 23,
+        "title": "Photography",
+        "slug": "photography",
+        "image": "https://api.iconify.design/mdi/camera.svg",
+        "meta": {
+            "title": "Photography | Categories | Shopora",
+            "description": "Discover cameras, lenses, tripods, and photography accessories."
+        }
+    },
+    {
+        "id": 24,
+        "title": "Outdoor & Adventure",
+        "slug": "outdoor-adventure",
+        "image": "https://api.iconify.design/mdi/tent.svg",
+        "meta": {
+            "title": "Outdoor & Adventure | Categories | Shopora",
+            "description": "Shop camping gear, hiking equipment, and outdoor essentials."
+        }
+    },
+    {
+        "id": 25,
+        "title": "Watches",
+        "slug": "watches",
+        "image": "https://api.iconify.design/mdi/watch.svg",
+        "meta": {
+            "title": "Watches | Categories | Shopora",
+            "description": "Explore stylish watches for men, women, and kids."
+        }
+    },
+    {
+        "id": 26,
+        "title": "Lingerie & Sleepwear",
+        "slug": "lingerie-sleepwear",
+        "image": "https://api.iconify.design/mdi/sleep.svg",
+        "meta": {
+            "title": "Lingerie & Sleepwear | Categories | Shopora",
+            "description": "Shop comfortable and stylish lingerie, nightwear, and sleep sets."
+        }
+    },
+    {
+        "id": 27,
+        "title": "Art & Crafts",
+        "slug": "art-crafts",
+        "image": "https://api.iconify.design/mdi/palette.svg",
+        "meta": {
+            "title": "Art & Crafts | Categories | Shopora",
+            "description": "Find art supplies, craft kits, and creative tools."
+        }
+    },
+    {
+        "id": 28,
+        "title": "Party Supplies",
+        "slug": "party-supplies",
+        "image": "https://api.iconify.design/mdi/balloon.svg",
+        "meta": {
+            "title": "Party Supplies | Categories | Shopora",
+            "description": "Shop decorations, balloons, and party essentials for every occasion."
+        }
+    },
+    {
+        "id": 29,
+        "title": "Foot Care & Health",
+        "slug": "foot-care-health",
+        "image": "https://api.iconify.design/mdi/foot-print.svg",
+        "meta": {
+            "title": "Foot Care & Health | Categories | Shopora",
+            "description": "Explore footwear solutions, insoles, and foot care products."
+        }
+    },
+    {
+        "id": 30,
+        "title": "Laptops & Computers",
+        "slug": "laptops-computers",
+        "image": "https://api.iconify.design/mdi/laptop.svg",
+        "meta": {
+            "title": "Laptops & Computers | Categories | Shopora",
+            "description": "Shop laptops, desktops, monitors, and computer accessories."
+        }
+    },
+    {
+        "id": 31,
+        "title": "Cameras & Accessories",
+        "slug": "cameras-accessories",
+        "image": "https://api.iconify.design/mdi/camera-iris.svg",
+        "meta": {
+            "title": "Cameras & Accessories | Categories | Shopora",
+            "description": "Discover cameras, lenses, tripods, and photography gadgets."
+        }
+    },
+    {
+        "id": 32,
+        "title": "Eyewear",
+        "slug": "eyewear",
+        "image": "https://api.iconify.design/mdi/glasses.svg",
+        "meta": {
+            "title": "Eyewear | Categories | Shopora",
+            "description": "Shop sunglasses, optical glasses, and accessories for eye care."
+        }
+    },
+    {
+        "id": 33,
+        "title": "Seasonal & Holiday",
+        "slug": "seasonal-holiday",
+        "image": "https://api.iconify.design/mdi/gift.svg",
+        "meta": {
+            "title": "Seasonal & Holiday | Categories | Shopora",
+            "description": "Find seasonal products, holiday decor, and festive essentials."
+        }
+    },
+    {
+        "id": 34,
+        "title": "Footwear Accessories",
+        "slug": "footwear-accessories",
+        "image": "https://api.iconify.design/mdi/shoe-heel.svg",
+        "meta": {
+            "title": "Footwear Accessories | Categories | Shopora",
+            "description": "Shop socks, insoles, laces, and shoe care products."
+        }
+    },
+    {
+        "id": 35,
+        "title": "DIY & Tools",
+        "slug": "diy-tools",
+        "image": "https://api.iconify.design/mdi/hammer-wrench.svg",
+        "meta": {
+            "title": "DIY & Tools | Categories | Shopora",
+            "description": "Find hand tools, power tools, and DIY equipment for home projects."
+        }
+    },
+    {
+        "id": 36,
+        "title": "Smartwatches & Wearables",
+        "slug": "smartwatches-wearables",
+        "image": "https://api.iconify.design/mdi/watch-variant.svg",
+        "meta": {
+            "title": "Smartwatches & Wearables | Categories | Shopora",
+            "description": "Shop smartwatches, fitness trackers, and wearable devices."
+        }
+    },
+    {
+        "id": 37,
+        "title": "Audio & Headphones",
+        "slug": "audio-headphones",
+        "image": "https://api.iconify.design/mdi/headphones.svg",
+        "meta": {
+            "title": "Audio & Headphones | Categories | Shopora",
+            "description": "Discover headphones, speakers, and audio accessories."
+        }
+    },
+    {
+        "id": 38,
+        "title": "Kitchen Storage & Organization",
+        "slug": "kitchen-storage-organization",
+        "image": "https://api.iconify.design/mdi/jar.svg",
+        "meta": {
+            "title": "Kitchen Storage & Organization | Categories | Shopora",
+            "description": "Shop storage solutions, containers, and organization tools for your kitchen."
+        }
+    },
+    {
+        "id": 39,
+        "title": "Stationery & Office Decor",
+        "slug": "stationery-office-decor",
+        "image": "https://api.iconify.design/mdi/pencil-ruler.svg",
+        "meta": {
+            "title": "Stationery & Office Decor | Categories | Shopora",
+            "description": "Discover stationery, desk organizers, and office decorative items."
+        }
+    },
+    {
+        "id": 40,
+        "title": "Travel Accessories",
+        "slug": "travel-accessories",
+        "image": "https://api.iconify.design/mdi/compass-outline.svg",
+        "meta": {
+            "title": "Travel Accessories | Categories | Shopora",
+            "description": "Shop travel pillows, luggage tags, organizers, and travel essentials."
+        }
+    },
+    {
+        "id": 41,
+        "title": "Home Decor",
+        "slug": "home-decor",
+        "image": "https://api.iconify.design/mdi/lamp.svg",
+        "meta": {
+            "title": "Home Decor | Categories | Shopora",
+            "description": "Find stylish home decor, wall art, lighting, and furniture accessories."
+        }
+    },
+    {
+        "id": 42,
+        "title": "Footwear Fashion",
+        "slug": "footwear-fashion",
+        "image": "https://api.iconify.design/mdi/shoe-formal.svg",
+        "meta": {
+            "title": "Footwear Fashion | Categories | Shopora",
+            "description": "Explore the latest trends in fashion footwear for all."
+        }
+    },
+    {
+        "id": 43,
+        "title": "Kitchen Appliances",
+        "slug": "kitchen-appliances",
+        "image": "https://api.iconify.design/mdi/toaster.svg",
+        "meta": {
+            "title": "Kitchen Appliances | Categories | Shopora",
+            "description": "Shop microwaves, mixers, blenders, coffee machines, and more."
+        }
+    },
+    {
+        "id": 44,
+        "title": "Computers & Accessories",
+        "slug": "computers-accessories",
+        "image": "https://api.iconify.design/mdi/mouse.svg",
+        "meta": {
+            "title": "Computers & Accessories | Categories | Shopora",
+            "description": "Get keyboards, mice, external drives, and computer accessories."
+        }
+    },
+    {
+        "id": 45,
+        "title": "Collectibles & Memorabilia",
+        "slug": "collectibles-memorabilia",
+        "image": "https://api.iconify.design/mdi/trophy.svg",
+        "meta": {
+            "title": "Collectibles & Memorabilia | Categories | Shopora",
+            "description": "Discover collectible items, souvenirs, and memorabilia for enthusiasts."
+        }
+    },
+    {
+        "id": 46,
+        "title": "Eco-Friendly Products",
+        "slug": "eco-friendly-products",
+        "image": "https://api.iconify.design/mdi/leaf.svg",
+        "meta": {
+            "title": "Eco-Friendly Products | Categories | Shopora",
+            "description": "Shop sustainable, eco-friendly, and environmentally conscious products."
+        }
+    },
+    {
+        "id": 47,
+        "title": "Men's Grooming",
+        "slug": "mens-grooming",
+        "image": "https://api.iconify.design/mdi/razor-double-edge.svg",
+        "meta": {
+            "title": "Men's Grooming | Categories | Shopora",
+            "description": "Explore shaving kits, hair care, skincare, and grooming essentials for men."
+        }
+    },
+    {
+        "id": 48,
+        "title": "Women's Accessories",
+        "slug": "womens-accessories",
+        "image": "https://api.iconify.design/mdi/handbag.svg",
+        "meta": {
+            "title": "Women's Accessories | Categories | Shopora",
+            "description": "Shop bags, scarves, belts, hats, and other fashion accessories."
+        }
+    },
+    {
+        "id": 49,
+        "title": "Smart Devices",
+        "slug": "smart-devices",
+        "image": "https://api.iconify.design/mdi/devices.svg",
+        "meta": {
+            "title": "Smart Devices | Categories | Shopora",
+            "description": "Discover smart gadgets, wearable tech, and innovative devices."
+        }
+    },
+    {
+        "id": 50,
+        "title": "Furniture",
+        "slug": "furniture",
+        "image": "https://api.iconify.design/mdi/sofa.svg",
+        "meta": {
+            "title": "Furniture | Categories | Shopora",
+            "description": "Shop sofas, beds, tables, chairs, and home furniture essentials."
+        }
+    }
+]

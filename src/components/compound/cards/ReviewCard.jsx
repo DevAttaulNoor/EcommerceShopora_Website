@@ -1,18 +1,20 @@
-import Image from "next/image";
 import { Icons } from "@/constants/Icons";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
 
 export const ReviewCard = ({ reviewData, productData }) => {
     return (
         <div className="flex flex-col p-4 gap-2.5 rounded-xl shadow-sm">
             <div className="flex items-center gap-3.5">
-                <div className="relative w-12 h-12 rounded-lg overflow-hidden">
-                    <Image
-                        fill
-                        src={'/question-mark.png'}
-                        alt={`Image of ${productData?.title}`}
-                        className="object-cover"
-                    />
-                </div>
+                <ImageContainer
+                    imageContainerStyle="w-12 h-12 rounded-lg overflow-hidden"
+                    imageStyle="object-cover"
+                    imageData={{
+                        fill: true,
+                        priority: true,
+                        src: '/question-mark.png',
+                        alt: `Image of ${productData?.title}`
+                    }}
+                />
 
                 <div className="flex flex-col gap-0.5">
                     <h4 className="font-medium">

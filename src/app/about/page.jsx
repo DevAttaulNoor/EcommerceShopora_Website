@@ -1,12 +1,11 @@
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
-import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { IntroSection } from "@/sections/universal/IntroSection";
+import { ShopNowSection } from "@/sections/universal/ShopNowSection";
 import { DetailWithImageLayout } from "@/layouts/DetailWithImageLayout";
 import { ImageSection } from "@/sections/universal/detail-section/ImageSection";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 import { DetailSection } from "@/sections/universal/detail-section/DetailSection";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 
 export const metadata = {
     title: Routes.ABOUT.meta.title,
@@ -70,20 +69,15 @@ const page = () => {
                 }
             />
 
-            <section className="flex flex-col items-center justify-center text-center p-10 gap-5 rounded-xl text-white bg-custom-gold">
-                <HeadingWithDescription
-                    title="Ready to Start Shopping?"
-                    description="Discover amazing deals from trusted sellers today."
-                />
-
-                <BasicBtn
-                    btnStyleClass="px-6 py-3 rounded-lg text-custom-gold bg-white"
-                    btnData={{
-                        path: Routes.PRODUCTS.path,
-                        text: 'Explore Products'
-                    }}
-                />
-            </section>
+            <ShopNowSection
+                title="Ready to Start Shopping?"
+                description="Discover amazing deals from trusted sellers today."
+                btnStyleClass="px-6 py-3 rounded-lg text-custom-gold bg-white"
+                btnData={{
+                    path: Routes.PRODUCTS.path,
+                    text: 'Explore Products'
+                }}
+            />
 
             <DetailWithImageLayout
                 leftsideData={

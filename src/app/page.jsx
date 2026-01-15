@@ -1,14 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Banner } from "@/components/compound/banners/Banner";
-import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { SwiperCarousel } from "@/components/atomic/SwiperCarousel";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
+import { ShopNowSection } from "@/sections/universal/ShopNowSection";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
 import { HeadingWithLink } from "@/components/compound/headings/HeadingWithLink";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
-import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 import products from "@data/products.json"
 import categories from "@data/categories.json"
 
@@ -44,17 +43,18 @@ export default function Home() {
                         <Link
                             key={item.id}
                             href={Routes.CATEGORY(item.slug).path}
-                            className="w-full h-full flex flex-col items-center justify-between gap-2.5 cursor-pointer"
+                            className="flex flex-col items-center justify-between gap-2.5"
                         >
-                            <div className="p-8 rounded-full bg-customMuted">
-                                <Image
-                                    width={150}
-                                    height={150}
-                                    src={item.image}
-                                    alt={`Logo of ${item.title}`}
-                                    className="object-contain"
-                                />
-                            </div>
+                            <ImageContainer
+                                imageContainerStyle="w-40 h-40 rounded-full bg-customMuted"
+                                imageStyle="p-6 object-contain"
+                                imageData={{
+                                    fill: true,
+                                    priority: true,
+                                    src: item.image,
+                                    alt: `Logo of ${item.title}`
+                                }}
+                            />
 
                             <h5 className="text-center text-lg font-medium">{item.title}</h5>
                         </Link>
@@ -95,20 +95,15 @@ export default function Home() {
                 </SwiperCarousel>
             </section>
 
-            <section className="flex flex-col items-center justify-center text-center p-10 gap-5 rounded-xl text-white bg-custom-gold">
-                <HeadingWithDescription
-                    title="Ready to Start Shopping?"
-                    description="Discover amazing deals from trusted sellers today."
-                />
-
-                <BasicBtn
-                    btnStyleClass="px-6 py-3 rounded-lg text-custom-gold bg-white"
-                    btnData={{
-                        path: Routes.PRODUCTS.path,
-                        text: 'Explore Products'
-                    }}
-                />
-            </section>
+            <ShopNowSection
+                title="Ready to Start Shopping?"
+                description="Discover amazing deals from trusted sellers today."
+                btnStyleClass="px-6 py-3 rounded-lg text-custom-gold bg-white"
+                btnData={{
+                    path: Routes.PRODUCTS.path,
+                    text: 'Explore Products'
+                }}
+            />
 
             <section className="sectionStyle">
                 <HeadingWithLink

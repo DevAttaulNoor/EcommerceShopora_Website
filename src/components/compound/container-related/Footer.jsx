@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
-import Image from "next/image";
 import { Routes } from "@/constants/Routes";
+import { usePathname } from "next/navigation";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
 import brands from "@data/brands.json"
 import categories from "@data/categories.json"
 
@@ -41,16 +44,21 @@ const helpcenterLinks = [
 ];
 
 export const Footer = () => {
+    const pathname = usePathname();
+
     return (
         <footer className="w-full py-4 border-t border-custom-charcoal bg-custom-charcoal/15">
             <nav className="max-w-innerContainer w-full flex justify-between mx-auto">
                 <div className="flex flex-col gap-2">
-                    <Image
-                        width={52}
-                        height={52}
-                        src="/logo.png"
-                        alt="Logo of Shopora"
-                        className="object-cover"
+                    <ImageContainer
+                        imageContainerStyle="h-12"
+                        imageStyle="object-cover"
+                        imageData={{
+                            fill: true,
+                            priority: true,
+                            src: '/logo.png',
+                            alt: "Logo of Shopora"
+                        }}
                     />
 
                     <p>Address</p>
@@ -64,7 +72,7 @@ export const Footer = () => {
                         <Link
                             key={cat.id}
                             href={Routes.CATEGORY(cat.slug).path}
-                            className="hover:text-custom-gold"
+                            className={`${pathname === Routes.CATEGORY(cat.slug).path && "font-medium text-custom-gold"} hover:text-custom-gold`}
                         >
                             {cat.title}
                         </Link>
@@ -78,7 +86,7 @@ export const Footer = () => {
                         <Link
                             key={cat.id}
                             href={Routes.BRAND(cat.slug).path}
-                            className="hover:text-custom-gold"
+                            className={`${pathname === Routes.BRAND(cat.slug).path && "font-medium text-custom-gold"} hover:text-custom-gold`}
                         >
                             {cat.title}
                         </Link>
@@ -92,7 +100,7 @@ export const Footer = () => {
                         <Link
                             key={item.id}
                             href={item.href}
-                            className="hover:text-custom-gold"
+                            className={`${pathname === item.href && "font-medium text-custom-gold"} hover:text-custom-gold`}
                         >
                             {item.title}
                         </Link>
@@ -106,7 +114,7 @@ export const Footer = () => {
                         <Link
                             key={item.id}
                             href={item.href}
-                            className="hover:text-custom-gold"
+                            className={`${pathname === item.href && "font-medium text-custom-gold"} hover:text-custom-gold`}
                         >
                             {item.title}
                         </Link>

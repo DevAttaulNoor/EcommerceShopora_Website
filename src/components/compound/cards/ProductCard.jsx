@@ -1,24 +1,26 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Icons } from "@/constants/Icons";
 import { Routes } from "@/constants/Routes";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
 
 export const ProductCard = ({ productData }) => {
     return (
         <div
             key={productData.id}
             href={Routes.PRODUCT(productData.slug).path}
-            className="w-full h-full flex flex-col justify-between p-2 gap-2.5 border-2 rounded-lg"
+            className="w-full h-full flex flex-col justify-between p-2 gap-2.5 border rounded-lg"
         >
             <div className="flex flex-col gap-2">
-                <div className="relative w-full h-48 rounded-md overflow-hidden">
-                    <Image
-                        fill
-                        src={productData.image}
-                        alt={`Logo of ${productData.title}`}
-                        className="object-cover"
-                    />
-                </div>
+                <ImageContainer
+                    imageContainerStyle="h-48 rounded-md overflow-hidden"
+                    imageStyle="object-cover"
+                    imageData={{
+                        fill: true,
+                        priority: true,
+                        src: productData.image,
+                        alt: `Image of ${productData.title}`
+                    }}
+                />
 
                 <h5 className="text-center text-lg font-medium">{productData.title}</h5>
             </div>

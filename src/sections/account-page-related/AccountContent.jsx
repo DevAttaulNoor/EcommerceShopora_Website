@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { Details } from "@/components/compound/account-related/Details";
 import { ToReview } from "@/components/compound/account-related/ToReview";
 import { Addresses } from "@/components/compound/account-related/Addresses";
@@ -16,14 +16,16 @@ export const AccountContent = () => {
         <section className="flex gap-10">
             <aside className="max-w-96 w-full h-fit flex flex-col p-2.5 gap-4 rounded-xl shadow-sm">
                 <div className="flex flex-col items-center justify-center gap-1.5">
-                    <div className="w-16 h-16 relative rounded-full bg-customMuted">
-                        <Image
-                            fill
-                            src={"/question-mark.png"}
-                            alt={"Profile picture of question mark"}
-                            className="w-full h-full rounded-full object-cover"
-                        />
-                    </div>
+                    <ImageContainer
+                        imageContainerStyle="w-16 h-16 rounded-full bg-customMuted overflow-hidden"
+                        imageStyle="object-cover"
+                        imageData={{
+                            fill: true,
+                            priority: true,
+                            src: "/question-mark.png",
+                            alt: "Profile picture of question mark"
+                        }}
+                    />
 
                     <h5 className="font-semibold">Jenny Wilson</h5>
                 </div>

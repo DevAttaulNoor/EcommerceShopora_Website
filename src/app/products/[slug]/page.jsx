@@ -1,10 +1,10 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { ReviewCard } from "@/components/compound/cards/ReviewCard";
 import { SwiperCarousel } from "@/components/atomic/SwiperCarousel";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
 import { HeadingWithLink } from "@/components/compound/headings/HeadingWithLink";
 import { ProductInfoSection } from "@/sections/product-slug-page-related/ProductInfoSection";
@@ -53,14 +53,16 @@ export default async function ProductPage({ params }) {
             />
 
             <section className="grid grid-cols-1 gap-10 lg:grid-cols-2">
-                <div className="relative h-96 rounded-lg overflow-hidden">
-                    <Image
-                        fill
-                        src={product?.image}
-                        alt={`Image of ${product?.title}`}
-                        className="object-cover"
-                    />
-                </div>
+                <ImageContainer
+                    imageContainerStyle="h-96 rounded-lg overflow-hidden"
+                    imageStyle="object-cover"
+                    imageData={{
+                        fill: true,
+                        priority: true,
+                        src: product?.image,
+                        alt: `Image of ${product?.title}`
+                    }}
+                />
 
                 <ProductInfoSection
                     productInfoData={product}

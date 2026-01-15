@@ -9,29 +9,25 @@ export const Breadcrumb = ({ breadcrumbData }) => {
 
     return (
         <nav className="flex items-center">
-            {breadcrumbData.map((item, index) => {
-                const isActive = pathname === item.path || pathname.startsWith(item.path + "/");
+            {breadcrumbData.map((item, index) => (
+                <div
+                    key={index}
+                    className="flex items-center justify-center"
+                >
+                    {index !== 0 && (
+                        <span className="text-xl">
+                            {Icons.SLASH}
+                        </span>
+                    )}
 
-                return (
-                    <div
-                        key={index}
-                        className="flex items-center justify-center"
+                    <Link
+                        href={item.path}
+                        className={`${pathname === item.path && "text-custom-gold"} font-medium hover:text-customHover`}
                     >
-                        {index !== 0 && (
-                            <span className="text-xl">
-                                {Icons.SLASH}
-                            </span>
-                        )}
-
-                        <Link
-                            href={item.path}
-                            className={`font-medium transition-colors hover:underline ${isActive ? "text-custom-gold" : "text-black"} hover:text-customHover`}
-                        >
-                            {item.title}
-                        </Link>
-                    </div>
-                );
-            })}
+                        {item.title}
+                    </Link>
+                </div>
+            ))}
         </nav>
     );
 };

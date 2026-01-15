@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 import { Routes } from "@/constants/Routes";
 import { IntroSection } from "@/sections/universal/IntroSection";
+import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { Searchbar } from "@/components/compound/searchBars/Searchbar";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
@@ -139,15 +139,16 @@ export const BrandCategoryLayout = ({ title, breadcrumbData, productData, attrib
                                     href={attributeLink(item.slug)}
                                     className="group flex flex-col items-center justify-between p-3 gap-3 rounded-xl transition bg-customMuted hover:shadow-lg hover:-translate-y-1"
                                 >
-                                    <div className="relative w-32 h-32">
-                                        <Image
-                                            fill
-                                            priority
-                                            src={item.image}
-                                            alt={`Logo of ${item.title}`}
-                                            className="absolute w-full h-full object-contain"
-                                        />
-                                    </div>
+                                    <ImageContainer
+                                        imageContainerStyle="w-32 h-32"
+                                        imageStyle="object-contain"
+                                        imageData={{
+                                            fill: true,
+                                            priority: true,
+                                            src: item.image,
+                                            alt: `${attributeType === 'brand' ? "Icon" : "Image"} of ${item.title}`
+                                        }}
+                                    />
 
                                     <h5 className="text-center text-lg font-medium transition group-hover:text-custom-gold">
                                         {item.title}

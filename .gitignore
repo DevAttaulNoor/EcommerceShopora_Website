@@ -15,6 +15,9 @@ yarn-error.log*
 # production
 /build
 
+# next.js
+.next/
+
 # Env files
 .env*
 

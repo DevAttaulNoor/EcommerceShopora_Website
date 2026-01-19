@@ -5,11 +5,17 @@
       "@/*": ["src/*"],
       "@app/*": ["src/app/*"],
       "@data/*": ["src/data/*"],
+      "@libs/*": ["src/libs/*"],
+      "@utils/*": ["src/utils/*"],
       "@hooks/*": ["src/hooks/*"],
+      "@models/*": ["src/models/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@services/*": ["src/services/*"],
       "@sections/*": ["src/sections/*"],
       "@constants/*": ["src/constants/*"],
-      "@components/*": ["src/components/*"]
+      "@components/*": ["src/components/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@middlewares/*": ["src/middlewares/*"]
     }
   }
 }

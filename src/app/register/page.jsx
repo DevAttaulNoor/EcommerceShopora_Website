@@ -1,15 +1,76 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import { Routes } from "@/constants/Routes";
 
-export const metadata = {
-    title: Routes.REGISTER.meta.title,
-    description: Routes.REGISTER.meta.description,
-};
+// export const metadata = {
+//     title: Routes.REGISTER.meta.title,
+//     description: Routes.REGISTER.meta.description,
+// };
 
 const page = () => {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        password: "",
+        confirmPassword: "",
+        termsAccepted: false,
+    });
+    const [error, setError] = useState("");
+    const [loading, setLoading] = useState(false);
+
+    const handleChange = (e) => {
+        const { name, value, type, checked } = e.target;
+        setFormData((prev) => ({
+            ...prev,
+            [name]: type === "checkbox" ? checked : value,
+        }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setError("");
+
+        if (!formData.termsAccepted) {
+            setError("You must accept terms and privacy policy.");
+            return;
+        }
+
+        if (formData.password !== formData.confirmPassword) {
+            setError("Passwords do not match.");
+            return;
+        }
+
+        try {
+            setLoading(true);
+
+            const res = await fetch("/api/auth/register", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
+
+            const data = await res.json();
+
+            if (!res.ok) {
+                throw new Error(data.message || "Something went wrong");
+            }
+
+            console.log("User registered:", data.user);
+            window.location.href = Routes.HOME.path;
+        } catch (err) {
+            setError(err.message);
+        } finally {
+            setLoading(false);
+        }
+    };
+
     return (
         <section className="w-full h-full flex overflow-y-auto">
-            <div className="w-full flex flex-col gap-2 justify-center p-20 text-white bg-gradient-to-br from-custom-gold to-custom-charcoal md:gap-3 xl:gap-4">
+            <div className="flex flex-col gap-2 justify-center p-20 text-white bg-gradient-to-br from-custom-gold to-custom-charcoal md:gap-3 xl:gap-4">
                 <h1 className="titleStyle">
                     Create Your Account
                 </h1>
@@ -23,107 +84,92 @@ const page = () => {
                 </div>
             </div>
 
-            <div className="w-full flex justify-center p-10">
-                <div className="max-w-md p-8 rounded-md shadow-md">
-                    {/* Heading */}
-                    <h2 className="text-2xl font-semibold mb-2">
-                        Create an Account
-                    </h2>
-                    <p className="text-sm text-gray-500 mb-6">
-                        It only takes a minute
-                    </p>
+            {/* <div className="w-full flex justify-center p-10">
+            </div> */}
+            <div className="flex flex-col m-10 p-8 rounded-md shadow-md">
+                <h2 className="text-2xl font-semibold mb-2">Create an Account</h2>
+                <p className="text-sm text-gray-500 mb-6">It only takes a minute</p>
 
-                    {/* Social Signup */}
-                    <div className="space-y-3 mb-6">
-                        <button className="w-full border rounded-lg py-3 flex justify-center gap-3 hover:bg-gray-50">
-                            🔵 Sign up with Google
-                        </button>
-                        <button className="w-full border rounded-lg py-3 flex justify-center gap-3 hover:bg-gray-50">
-                            🍎 Sign up with Apple
-                        </button>
-                    </div>
+                {error && <p className="text-red-500 mb-4">{error}</p>}
 
-                    {/* Divider */}
-                    <div className="flex items-center gap-3 my-6">
-                        <span className="flex-1 h-px bg-gray-200" />
-                        <span className="text-xs text-gray-400">OR</span>
-                        <span className="flex-1 h-px bg-gray-200" />
-                    </div>
+                <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Full Name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        className="w-full border rounded-lg px-4 py-3"
+                        required
+                    />
 
-                    {/* Full Name */}
-                    <div className="mb-4">
-                        <label className="text-sm font-medium">Full Name</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        className="w-full border rounded-lg px-4 py-3"
+                        required
+                    />
+
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Password"
+                        value={formData.password}
+                        onChange={handleChange}
+                        className="w-full border rounded-lg px-4 py-3"
+                        required
+                    />
+
+                    <input
+                        type="password"
+                        name="confirmPassword"
+                        placeholder="Confirm Password"
+                        value={formData.confirmPassword}
+                        onChange={handleChange}
+                        className="w-full border rounded-lg px-4 py-3"
+                        required
+                    />
+
+                    <div className="flex items-center gap-2">
                         <input
-                            type="text"
-                            placeholder="John Doe"
-                            className="mt-1 w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500"
+                            type="checkbox"
+                            name="termsAccepted"
+                            checked={formData.termsAccepted}
+                            onChange={handleChange}
                         />
-                    </div>
-
-                    {/* Email */}
-                    <div className="mb-4">
-                        <label className="text-sm font-medium">Email Address</label>
-                        <input
-                            type="email"
-                            placeholder="you@example.com"
-                            className="mt-1 w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500"
-                        />
-                    </div>
-
-                    {/* Password */}
-                    <div className="mb-4">
-                        <label className="text-sm font-medium">Password</label>
-                        <input
-                            type="password"
-                            placeholder="Create a strong password"
-                            className="mt-1 w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500"
-                        />
-                        <p className="text-xs text-gray-400 mt-1">
-                            At least 8 characters, 1 uppercase, 1 number
-                        </p>
-                    </div>
-
-                    {/* Confirm Password */}
-                    <div className="mb-4">
-                        <label className="text-sm font-medium">Confirm Password</label>
-                        <input
-                            type="password"
-                            placeholder="Repeat password"
-                            className="mt-1 w-full border rounded-lg px-4 py-3 focus:ring-2 focus:ring-blue-500"
-                        />
-                    </div>
-
-                    {/* Terms */}
-                    <div className="flex items-start gap-2 text-sm mb-6">
-                        <input type="checkbox" className="mt-1" />
-                        <p className="text-gray-500">
-                            I agree to the
-                            <Link href={Routes.TERMS_POLICY.path} className="text-blue-600 mx-1">
-                                Terms of Service
-                            </Link>
-                            and
-                            <Link href={Routes.PRIVACY_POLICY.path} className="text-blue-600 ml-1">
+                        <p className="text-sm">
+                            I agree to the{" "}
+                            <Link href={Routes.TERMS_POLICY.path} className="text-blue-600">
+                                Terms
+                            </Link>{" "}
+                            and{" "}
+                            <Link href={Routes.PRIVACY_POLICY.path} className="text-blue-600">
                                 Privacy Policy
                             </Link>
                         </p>
                     </div>
 
-                    {/* Submit */}
-                    <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700">
-                        Create Account
+                    <button
+                        type="submit"
+                        disabled={loading}
+                        className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700"
+                    >
+                        {loading ? "Creating Account..." : "Create Account"}
                     </button>
+                </form>
 
-                    {/* Login Redirect */}
-                    <p className="text-center text-sm text-gray-500 mt-6">
-                        Already have an account?
-                        <Link href={Routes.LOGIN.path} className="text-blue-600 ml-1">
-                            Sign in
-                        </Link>
-                    </p>
-                </div>
+                <p className="text-center text-sm text-gray-500 mt-6">
+                    Already have an account?{" "}
+                    <Link href={Routes.LOGIN.path} className="text-blue-600">
+                        Sign in
+                    </Link>
+                </p>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default page
+export default page;

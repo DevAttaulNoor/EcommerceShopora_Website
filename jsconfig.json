@@ -11,6 +11,7 @@
       "@models/*": ["src/models/*"],
       "@layouts/*": ["src/layouts/*"],
       "@services/*": ["src/services/*"],
+      "@contexts/*": ["src/contexts/*"],
       "@sections/*": ["src/sections/*"],
       "@constants/*": ["src/constants/*"],
       "@components/*": ["src/components/*"],

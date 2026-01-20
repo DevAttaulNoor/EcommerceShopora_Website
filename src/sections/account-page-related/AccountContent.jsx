@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useAuth } from "@/contexts/AuthContext";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { Details } from "@/components/compound/account-related/Details";
 import { ToReview } from "@/components/compound/account-related/ToReview";
@@ -9,8 +10,11 @@ import { Dashboard } from "@/components/compound/account-related/Dashboard";
 import { OrderHistory } from "@/components/compound/account-related/OrderHistory";
 
 export const AccountContent = () => {
+    const { user } = useAuth();
     const sidebarOptions = ["Dashboard", "Account Details", "Order History", "Address", "To Review"];
     const [active, setActive] = useState(sidebarOptions[0]);
+
+    console.log(user)
 
     return (
         <section className="flex gap-10">

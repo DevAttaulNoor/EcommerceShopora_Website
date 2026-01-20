@@ -1,16 +1,25 @@
 import connectDB from "@/libs/database.js";
-import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
-import { loginUser } from "@/controllers/auth.controller.js";
+import { loginUser } from "@/controllers/auth.controller";
 
 export async function POST(req) {
     try {
         await connectDB();
-
         const body = await req.json();
+
+        // Call your controller
         const { token, user } = await loginUser(body);
 
-        cookies().set("token", token, {
+        // ✅ Create a response object
+        const response = NextResponse.json(
+            { message: "Login successfully", user },
+            { status: 200 }
+        );
+
+        // ✅ Set cookie on the response
+        response.cookies.set({
+            name: "token",
+            value: token,
             httpOnly: true,
             secure: process.env.NODE_ENV === "production",
             sameSite: "strict",
@@ -18,10 +27,7 @@ export async function POST(req) {
             path: "/",
         });
 
-        return NextResponse.json(
-            { message: "Login successful", user },
-            { status: 200 }
-        );
+        return response;
     } catch (error) {
         return NextResponse.json(
             { message: error.message },

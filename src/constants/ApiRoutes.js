@@ -1,18 +1,13 @@
 export const ApiRoutes = {
     AUTH: {
-        ME: "/api/auth/me",
         LOGIN: "/api/auth/login",
+        LOGOUT: "/api/auth/logout",
         REGISTER: "/api/auth/register",
-        // LOGOUT: "/api/auth/logout",
     },
 
-    // USER: {
-    //     PROFILE: "/api/user/profile",
-    //     UPDATE: "/api/user/update",
-    // },
-
-    // PRODUCT: {
-    //     LIST: "/api/products",
-    //     DETAIL: (slug) => `/api/products/${slug}`,
-    // },
+    USER: {
+        ME: "/api/user/me",
+        // PROFILE: "/api/user/profile",
+        // UPDATE: "/api/user/update",
+    },
 };

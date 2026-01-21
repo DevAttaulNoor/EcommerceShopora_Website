@@ -8,13 +8,20 @@ import { ToReview } from "@/components/compound/account-related/ToReview";
 import { Addresses } from "@/components/compound/account-related/Addresses";
 import { Dashboard } from "@/components/compound/account-related/Dashboard";
 import { OrderHistory } from "@/components/compound/account-related/OrderHistory";
+import { ApiRoutes } from "@/constants/ApiRoutes";
 
 export const AccountContent = () => {
-    const { user } = useAuth();
+    const { user, setUser } = useAuth();
     const sidebarOptions = ["Dashboard", "Account Details", "Order History", "Address", "To Review"];
     const [active, setActive] = useState(sidebarOptions[0]);
 
-    console.log(user)
+    const handleLogout = async () => {
+        await fetch(ApiRoutes.AUTH.LOGOUT, {
+            method: "POST",
+        });
+
+        setUser(null);
+    };
 
     return (
         <section className="flex gap-10">
@@ -31,7 +38,7 @@ export const AccountContent = () => {
                         }}
                     />
 
-                    <h5 className="font-semibold">Jenny Wilson</h5>
+                    <h5 className="font-semibold">{user?.name}</h5>
                 </div>
 
                 <nav className="flex flex-col gap-2">
@@ -45,7 +52,10 @@ export const AccountContent = () => {
                         </button>
                     ))}
 
-                    <button className="w-full text-left text-sm font-medium px-3 py-2 rounded-lg cursor-pointer text-red-500 hover:bg-customMuted">
+                    <button
+                        onClick={handleLogout}
+                        className="w-full text-left text-sm font-medium px-3 py-2 rounded-lg cursor-pointer text-red-500 hover:bg-customMuted"
+                    >
                         Logout
                     </button>
                 </nav>
@@ -56,13 +66,18 @@ export const AccountContent = () => {
                     <Dashboard />
                 )}
                 {active === "Account Details" && (
-                    <Details />
+                    <Details
+                        userData={user}
+                        setUserData={setUser}
+                    />
                 )}
                 {active === "Order History" && (
                     <OrderHistory />
                 )}
                 {active === "Address" && (
-                    <Addresses />
+                    <Addresses
+                        userData={user}
+                    />
                 )}
                 {active === "To Review" && (
                     <ToReview />

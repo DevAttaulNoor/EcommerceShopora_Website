@@ -2,7 +2,7 @@ import { BasicBtn } from "./buttons/BasicBtn";
 import { InputField } from "./fields/InputField";
 import { TextareaField } from "./fields/TextareaField";
 
-export const Form = ({ formContainerStyle = '', handleSubmit, inputFieldData, textareaFieldData, btnData, children }) => {
+export const Form = ({ formContainerStyle = '', handleSubmit, inputFieldData, textareaFieldData, btnData, errorData, children }) => {
     return (
         <form
             onSubmit={handleSubmit}
@@ -12,6 +12,12 @@ export const Form = ({ formContainerStyle = '', handleSubmit, inputFieldData, te
                 children
             ) : (
                 <>
+                    {errorData && (
+                        <p className="text-red-500">
+                            {errorData}
+                        </p>
+                    )}
+
                     {inputFieldData?.map((item, index) => (
                         <InputField
                             key={index}

@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const getMe = async () => {
             try {
-                const res = await fetch(ApiRoutes.AUTH.ME);
+                const res = await fetch(ApiRoutes.USER.ME);
                 if (!res.ok) throw new Error("Not logged in");
                 const data = await res.json();
                 setUser(data.user);

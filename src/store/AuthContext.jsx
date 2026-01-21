@@ -1,7 +1,7 @@
 "use client";
 
+import { ApiRoutes } from "@/libs/api-routes";
 import { createContext, useContext, useEffect, useState } from "react";
-import { ApiRoutes } from "@/constants/ApiRoutes";
 
 const AuthContext = createContext(null);
 

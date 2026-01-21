@@ -7,7 +7,7 @@ export const ApiRoutes = {
 
     USER: {
         ME: "/api/user/me",
+        UPDATE: "/api/user/update",
         // PROFILE: "/api/user/profile",
-        // UPDATE: "/api/user/update",
     },
 };

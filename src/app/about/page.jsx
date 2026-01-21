@@ -1,4 +1,4 @@
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { ShopNowSection } from "@/sections/universal/ShopNowSection";

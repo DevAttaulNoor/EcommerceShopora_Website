@@ -1,4 +1,4 @@
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { BrandCategoryLayout } from "@/layouts/BrandCategoryLayout";
 import brands from "@data/brands.json";

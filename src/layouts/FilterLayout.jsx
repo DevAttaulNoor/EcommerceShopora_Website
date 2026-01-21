@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Icons } from "@/constants/Icons";
+import { Icons } from "@/libs/icons";
 
 export const FilterLayout = ({ children, title }) => {
     const [close, setClosed] = useState(false);

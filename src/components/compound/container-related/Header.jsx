@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link"
-import { Icons } from "@/constants/Icons"
-import { Routes } from "@/constants/Routes"
+import { Icons } from "@/libs/icons";
+import { Routes } from "@/config/routes";
 import { usePathname } from "next/navigation";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Icons } from "@/constants/Icons";
+import { Icons } from "@/libs/icons";
 import { usePathname } from "next/navigation";
 
 export const Breadcrumb = ({ breadcrumbData }) => {

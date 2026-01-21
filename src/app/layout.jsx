@@ -1,6 +1,6 @@
 import "./globals.css";
-import { Routes } from "@/constants/Routes";
-import { AuthProvider } from "../contexts/AuthContext";
+import { Routes } from "@/config/routes";
+import { AuthProvider } from "@/store/AuthContext";
 
 export const metadata = {
     title: Routes.HOME.meta.title,

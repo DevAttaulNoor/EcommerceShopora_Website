@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Icons } from "@/constants/Icons";
+import { Icons } from "@/libs/icons";
 import { FilterLayout } from "@/layouts/FilterLayout";
 
 export const FilterSection = ({ filterData }) => {

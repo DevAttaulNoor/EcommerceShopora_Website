@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { Searchbar } from "@/components/compound/searchBars/Searchbar";

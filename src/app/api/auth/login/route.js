@@ -10,13 +10,13 @@ export async function POST(req) {
         // Call your controller
         const { token, user } = await loginUser(body);
 
-        // ✅ Create a response object
+        // Create a response object
         const response = NextResponse.json(
             { message: "Login successfully", user },
             { status: 200 }
         );
 
-        // ✅ Set cookie on the response
+        // Set cookie on the response
         response.cookies.set({
             name: "token",
             value: token,

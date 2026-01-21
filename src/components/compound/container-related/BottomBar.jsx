@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 
 export const BottomBar = () => {
     return (

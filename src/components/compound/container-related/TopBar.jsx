@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Icons } from "@/constants/Icons";
-import { Routes } from "@/constants/Routes";
+import { Icons } from "@/libs/icons";
+import { Routes } from "@/config/routes";
 
 export const TopBar = () => {
     return (

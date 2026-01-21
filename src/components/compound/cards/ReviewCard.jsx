@@ -1,4 +1,4 @@
-import { Icons } from "@/constants/Icons";
+import { Icons } from "@/libs/icons";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 
 export const ReviewCard = ({ reviewData, productData }) => {

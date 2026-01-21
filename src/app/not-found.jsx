@@ -1,4 +1,4 @@
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { Banner } from "@/components/compound/banners/Banner";
 import { SwiperCarousel } from "@/components/atomic/SwiperCarousel";

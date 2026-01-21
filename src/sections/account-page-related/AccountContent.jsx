@@ -1,14 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { useAuth } from "@/contexts/AuthContext";
+import { Routes } from "@/config/routes";
+import { useAuth } from "@/store/AuthContext";
+import { userLogout } from "@/services/auth.service";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { Details } from "@/components/compound/account-related/Details";
 import { ToReview } from "@/components/compound/account-related/ToReview";
 import { Addresses } from "@/components/compound/account-related/Addresses";
 import { Dashboard } from "@/components/compound/account-related/Dashboard";
 import { OrderHistory } from "@/components/compound/account-related/OrderHistory";
-import { ApiRoutes } from "@/constants/ApiRoutes";
 
 export const AccountContent = () => {
     const { user, setUser } = useAuth();
@@ -16,10 +17,8 @@ export const AccountContent = () => {
     const [active, setActive] = useState(sidebarOptions[0]);
 
     const handleLogout = async () => {
-        await fetch(ApiRoutes.AUTH.LOGOUT, {
-            method: "POST",
-        });
-
+        userLogout();
+        window.location.href = Routes.LOGIN.path;
         setUser(null);
     };
 

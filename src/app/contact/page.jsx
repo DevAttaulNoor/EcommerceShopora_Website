@@ -1,5 +1,5 @@
-import { Icons } from "@/constants/Icons";
-import { Routes } from "@/constants/Routes";
+import { Icons } from "@/libs/icons";
+import { Routes } from "@/config/routes";
 import { Accordion } from "@/components/atomic/Accordion";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";

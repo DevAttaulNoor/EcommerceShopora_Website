@@ -1,5 +1,5 @@
+import { Routes } from "@/config/routes";
 import { notFound } from "next/navigation";
-import { Routes } from "@/constants/Routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { ReviewCard } from "@/components/compound/cards/ReviewCard";

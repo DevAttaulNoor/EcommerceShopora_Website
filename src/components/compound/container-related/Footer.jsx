@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { usePathname } from "next/navigation";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 import brands from "@data/brands.json"

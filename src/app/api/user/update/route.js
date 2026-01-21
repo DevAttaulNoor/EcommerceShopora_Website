@@ -1,10 +1,10 @@
 import jwt from "jsonwebtoken";
-import User from "@/models/User.js";
 import connectDB from "@/libs/database.js";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
+import { updateMe } from "@/controllers/user.controller";
 
-export async function GET() {
+export async function PUT(req) {
     try {
         await connectDB();
 
@@ -19,20 +19,17 @@ export async function GET() {
         }
 
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        const user = await User.findById(decoded.id).select("-password");
+        const body = await req.json();
+        const user = await updateMe(decoded.id, body);
 
-        if (!user) {
-            return NextResponse.json(
-                { message: "User not found" },
-                { status: 404 }
-            );
-        }
-
-        return NextResponse.json({ user });
+        return NextResponse.json(
+            { message: "Profile updated successfully", user },
+            { status: 200 }
+        );
     } catch (error) {
         return NextResponse.json(
-            { message: "Invalid or expired token" },
-            { status: 401 }
+            { message: error.message },
+            { status: 400 }
         );
     }
 }

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Form } from "@/components/atomic/Form";
-import { ApiRoutes } from "@/constants/ApiRoutes";
+import { userUpdation } from "@/services/user.service";
 
 export const Details = ({ userData, setUserData }) => {
     const [formData, setFormData] = useState({
@@ -14,32 +14,12 @@ export const Details = ({ userData, setUserData }) => {
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const handleUserEditing = async () => {
+    const handleUpdation = async () => {
         setError("");
+        setLoading(true);
 
         try {
-            setLoading(true);
-
-            const payload = {
-                name: formData.name,
-                email: formData.email,
-                number: formData.number,
-                address: formData.address,
-            };
-
-            const res = await fetch(ApiRoutes.USER.ME, {
-                method: "PUT",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(payload),
-            });
-
-            const data = await res.json();
-
-            if (!res.ok) {
-                throw new Error(data.message || "Updatation failed");
-            }
-
-            setUserData(data.user);
+            await userUpdation(formData.name, formData.email, formData.number, formData.address, setUserData);
         } catch (err) {
             setError(err.message);
         } finally {
@@ -54,7 +34,7 @@ export const Details = ({ userData, setUserData }) => {
             <Form
                 handleSubmit={(e) => {
                     e.preventDefault();
-                    handleUserEditing();
+                    handleUpdation();
                 }}
                 formContainerStyle="flex flex-col gap-4"
                 errorData={error}
@@ -99,7 +79,7 @@ export const Details = ({ userData, setUserData }) => {
                 ]}
                 btnData={{
                     disabled: loading,
-                    onClick: handleUserEditing,
+                    onClick: handleUpdation,
                     text: loading ? "Updating..." : "Update",
                     btnStyleClass: "btnStyle mx-auto cursor-pointer"
                 }}

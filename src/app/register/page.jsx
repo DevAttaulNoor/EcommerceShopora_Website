@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { RegisterUserForm } from "@/sections/register-page-related/RegisterUserForm";
 import { HeadingWithDescription } from "@/components/compound/headings/HeadingWithDescription";
 
@@ -11,7 +11,7 @@ export const metadata = {
 const page = () => {
     return (
         <section className="w-full h-full flex overflow-y-auto">
-            <div className="flex flex-col gap-2 justify-center p-20 text-white bg-gradient-to-br from-custom-gold to-custom-charcoal md:gap-3 xl:gap-4">
+            <div className="flex flex-col gap-2 justify-center p-20 text-white bg-linear-to-br from-custom-gold to-custom-charcoal md:gap-3 xl:gap-4">
                 <h1 className="titleStyle">
                     Create Your Account
                 </h1>

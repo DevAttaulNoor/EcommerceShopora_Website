@@ -1,4 +1,4 @@
-import { Icons } from "@/constants/Icons";
+import { Icons } from "@/libs/icons";
 import { InputField } from "@/components/atomic/fields/InputField";
 
 export const Searchbar = ({ containerStyle = 'px-3 py-2.5 rounded-md', inputStyleClass = '', iconStyle = '', searchbarData }) => {

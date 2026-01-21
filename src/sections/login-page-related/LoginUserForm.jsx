@@ -1,10 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { Form } from "@/components/atomic/Form";
-import { ApiRoutes } from "@/constants/ApiRoutes";
+import { userLogin } from "@/services/auth.service";
 import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { InputField } from "@/components/atomic/fields/InputField";
 
@@ -16,29 +15,12 @@ export const LoginUserForm = () => {
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const handleUserLogin = async () => {
+    const handleLogin = async () => {
         setError("");
+        setLoading(true);
 
         try {
-            setLoading(true);
-
-            const payload = {
-                email: formData.email,
-                password: formData.password
-            };
-
-            const res = await fetch(ApiRoutes.AUTH.LOGIN, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(payload),
-            });
-
-            const data = await res.json();
-
-            if (!res.ok) {
-                throw new Error(data.message || "Login failed");
-            }
-
+            await userLogin(formData.email, formData.password);
             window.location.href = Routes.HOME.path;
         } catch (err) {
             setError(err.message);
@@ -51,7 +33,7 @@ export const LoginUserForm = () => {
         <Form
             handleSubmit={(e) => {
                 e.preventDefault();
-                handleUserLogin();
+                handleLogin();
             }}
             formContainerStyle="flex flex-col gap-4"
         >
@@ -87,7 +69,7 @@ export const LoginUserForm = () => {
                 btnStyleClass="btnStyle mx-auto cursor-pointer"
                 btnData={{
                     disabled: loading,
-                    onClick: handleUserLogin,
+                    onClick: handleLogin,
                     text: loading ? "Logging In..." : "Log in"
                 }}
             />

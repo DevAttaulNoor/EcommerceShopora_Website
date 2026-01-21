@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Routes } from "@/constants/Routes";
+import { Routes } from "@/config/routes";
 import { Form } from "@/components/atomic/Form";
-import { ApiRoutes } from "@/constants/ApiRoutes";
+import { userRegister } from "@/services/auth.service";
 import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { InputField } from "@/components/atomic/fields/InputField";
 
 export const RegisterUserForm = () => {
     const [formData, setFormData] = useState({
-        Fname: "",
+        name: "",
         email: "",
         password: "",
         confirmPassword: "",
@@ -19,8 +19,9 @@ export const RegisterUserForm = () => {
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
 
-    const handleUserRegister = async () => {
+    const handleRegistering = async () => {
         setError("");
+        setLoading(true);
 
         if (!formData.termsAccepted) {
             setError("You must accept terms and privacy policy.");
@@ -33,28 +34,7 @@ export const RegisterUserForm = () => {
         }
 
         try {
-            setLoading(true);
-
-            const payload = {
-                name: formData.Fname,
-                email: formData.email,
-                password: formData.password,
-                number: "",
-                address: "",
-            };
-
-            const res = await fetch(ApiRoutes.AUTH.REGISTER, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(payload),
-            });
-
-            const data = await res.json();
-
-            if (!res.ok) {
-                throw new Error(data.message || "Registration failed");
-            }
-
+            await userRegister(formData.name, formData.email, "", "", formData.password);
             window.location.href = Routes.HOME.path;
         } catch (err) {
             setError(err.message);
@@ -67,7 +47,7 @@ export const RegisterUserForm = () => {
         <Form
             handleSubmit={(e) => {
                 e.preventDefault();
-                handleUserRegister();
+                handleRegistering();
             }}
             formContainerStyle="flex flex-col gap-4"
         >
@@ -82,8 +62,8 @@ export const RegisterUserForm = () => {
                 inputData={{
                     required: true,
                     placeholder: 'Full Name',
-                    value: formData.Fname,
-                    onChange: e => setFormData(prev => ({ ...prev, Fname: e.target.value }))
+                    value: formData.name,
+                    onChange: e => setFormData(prev => ({ ...prev, name: e.target.value }))
                 }}
             />
 
@@ -144,7 +124,7 @@ export const RegisterUserForm = () => {
                 btnStyleClass="btnStyle mx-auto cursor-pointer"
                 btnData={{
                     disabled: loading,
-                    onClick: handleUserRegister,
+                    onClick: handleRegistering,
                     text: loading ? "Registering..." : "Register"
                 }}
             />

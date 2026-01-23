@@ -1,25 +1,37 @@
 export const Dashboard = () => {
+    const stats = [
+        {
+            title: "Total Orders",
+            count: 0,
+        },
+        {
+            title: "Pending Orders",
+            count: 0,
+        },
+        {
+            title: "Wishlist Items",
+            count: 0,
+        }
+    ];
+
     return (
-        <section className="space-y-6">
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[
-                    { label: "Total Orders", value: 12 },
-                    { label: "Pending Orders", value: 2 },
-                    { label: "Wishlist Items", value: 5 },
-                    { label: "Reward Points", value: 120 },
-                ].map((item, i) => (
-                    <div key={i} className="bg-white p-5 rounded-xl shadow-sm">
-                        <p className="text-sm text-gray-500">{item.label}</p>
-                        <h3 className="text-2xl font-semibold mt-1">{item.value}</h3>
+        <section className="flex flex-col gap-6">
+            <div className="grid grid-cols-3 gap-4">
+                {stats?.map((item, index) => (
+                    <div
+                        key={index}
+                        className="p-5 space-y-1 rounded-xl shadow-sm"
+                    >
+                        <p className="text-sm opacity-50">{item.title}</p>
+                        <h3 className="text-xl font-semibold">{item.count}</h3>
                     </div>
                 ))}
             </div>
 
-            {/* Recent Orders */}
-            <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="font-semibold mb-4">Recent Orders</h3>
-                <p className="text-sm text-gray-500">
+            <div className="flex flex-col p-5 gap-1 rounded-xl shadow-sm">
+                <h3 className="text-lg font-semibold">Recent Orders</h3>
+
+                <p className="text-sm opacity-50">
                     View and manage your latest purchases.
                 </p>
             </div>

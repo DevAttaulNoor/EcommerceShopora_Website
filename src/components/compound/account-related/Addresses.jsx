@@ -2,7 +2,7 @@ import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 
 export const Addresses = ({ userData }) => {
     return (
-        <section className="space-y-4">
+        <section className="flex flex-col gap-4">
             <div className="flex justify-between items-center">
                 <h3 className="text-lg font-semibold">Saved Addresses</h3>
 

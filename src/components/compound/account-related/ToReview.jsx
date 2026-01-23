@@ -1,64 +1,82 @@
+"use client";
+
+import { useState } from "react";
+import { ReviewCard } from "../cards/ReviewCard";
+import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
+
+const reviewsData = [
+    {
+        id: "u1_1",
+        name: "Jordan S.",
+        rating: 5,
+        purchaseDate: "2024-12-15",
+        message: "Titanium finish is incredible."
+    },
+    {
+        id: "u1_2",
+        name: "Sarah C.",
+        rating: 5,
+        purchaseDate: "2024-12-15",
+        message: "The 5x zoom is a game changer."
+    },
+    {
+        id: "u1_3",
+        name: "Marcus V.",
+        rating: 4,
+        purchaseDate: "2024-12-15",
+        message: "Finally, USB-C! Great speeds."
+    },
+    {
+        id: "u1_4",
+        name: "Elena V.",
+        rating: 5,
+        purchaseDate: "2024-12-15",
+        message: "The Action Button is so useful."
+    },
+    {
+        id: "u1_5",
+        name: "David K.",
+        rating: 5,
+        purchaseDate: "2024-12-15",
+        message: "Battery life is outstanding."
+    }
+];
+
 export const ToReview = () => {
+    const tabs = ['to review', 'review history']
+    const [active, setActive] = useState(tabs[1]);
+
     return (
-        <div className="w-full space-y-6">
-            <div className="flex items-center gap-2.5">
-                <button className="text-sm bg-custom-gold text-white px-3 py-2 rounded-xl">
-                    To Review
-                </button>
-                <button className="text-sm bg-custom-gold text-white px-3 py-2 rounded-xl">
-                    Review History
-                </button>
+        <section className="flex flex-col gap-6">
+            <div className="flex justify-between items-center">
+                <h3 className="text-lg font-semibold">Reviews</h3>
+
+                <div className="flex items-center gap-2.5">
+                    <BasicBtn
+                        btnStyleClass={`${active === tabs[0] ? 'text-white bg-custom-gold' : 'text-custom-gold bg-white'} text-sm px-4 py-2 rounded-lg border cursor-pointer border-custom-gold btnHoverTransitionStyle`}
+                        btnData={{
+                            onClick: () => setActive(tabs[0]),
+                            text: "To Review"
+                        }}
+                    />
+
+                    <BasicBtn
+                        btnStyleClass={`${active === tabs[1] ? 'text-white bg-custom-gold' : 'text-custom-gold bg-white'} text-sm px-4 py-2 rounded-lg border cursor-pointer border-custom-gold btnHoverTransitionStyle`}
+                        btnData={{
+                            onClick: () => setActive(tabs[1]),
+                            text: "Review History"
+                        }}
+                    />
+                </div>
             </div>
 
-            {/* Review Cards */}
-            {[1, 2, 3].map((_, i) => (
-                <div key={i} className="bg-white rounded-xl p-6 shadow-sm">
-                    <div className="flex justify-between gap-4">
-                        {/* Product Info */}
-                        <div className="flex gap-4">
-                            <div className="w-16 h-16 bg-gray-200 rounded-lg" />
-
-                            <div>
-                                <h4 className="font-medium">
-                                    Apple Watch Series 8 GPS 45mm Silver
-                                </h4>
-                                <p className="text-sm text-gray-500">
-                                    Aluminum Case Sport Band
-                                </p>
-                                <p className="text-xs text-gray-400 mt-1">
-                                    Purchased on 12 Jul 2023
-                                </p>
-
-                                {/* Rating */}
-                                <div className="flex gap-1 text-yellow-400 text-sm mt-2">
-                                    ★ ★ ★ ★ ★
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Action */}
-                        <button className="h-fit text-sm bg-custom-gold text-white px-4 py-2 rounded-lg">
-                            Edit Review
-                        </button>
-                    </div>
-
-                    {/* Review Text */}
-                    <p className="text-sm text-gray-600 mt-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore.
-                    </p>
-
-                    {/* Review Images */}
-                    <div className="flex gap-3 mt-4">
-                        {[1, 2, 3].map((_, i) => (
-                            <div
-                                key={i}
-                                className="w-14 h-14 bg-gray-200 rounded-lg"
-                            />
-                        ))}
-                    </div>
-                </div>
+            {reviewsData?.map(item => (
+                <ReviewCard
+                    key={item.id}
+                    reviewData={item}
+                    productData={'Apple 16 pro max'}
+                />
             ))}
-        </div>
+        </section>
     );
 };

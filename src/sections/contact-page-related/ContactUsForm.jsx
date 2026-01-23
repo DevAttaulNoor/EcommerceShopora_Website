@@ -84,7 +84,7 @@ export const ContactUsForm = () => {
             />
 
             <BasicBtn
-                btnStyleClass="btnStyle"
+                btnStyleClass="w-fit px-6 py-3 mx-auto rounded-lg cursor-pointer text-white bg-custom-gold btnHoverTransitionStyle"
                 btnData={{
                     disabled: loading,
                     onClick: () => console.log('Btn Clicked'),

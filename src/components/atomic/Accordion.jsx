@@ -27,7 +27,7 @@ export const Accordion = ({ accordionData }) => {
                             </span>
 
                             <span className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
-                                {Icons.DOWN}
+                                {Icons.DOWN_ARROW}
                             </span>
                         </button>
 

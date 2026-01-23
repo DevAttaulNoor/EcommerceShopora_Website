@@ -72,7 +72,7 @@ const page = () => {
             <ShopNowSection
                 title="Ready to Start Shopping?"
                 description="Discover amazing deals from trusted sellers today."
-                btnStyleClass="px-6 py-3 rounded-lg text-custom-gold bg-white"
+                btnStyleClass="px-6 py-3 rounded-lg text-custom-gold bg-white btnHoverTransitionStyle"
                 btnData={{
                     path: Routes.PRODUCTS.path,
                     text: 'Explore Products'

@@ -44,7 +44,7 @@ export const Newsletter = () => {
                         onClick: () => console.log('Btn clicked'),
                         text: 'Submit'
                     }}
-                    btnStyleClass="btnStyle px-3 py-2 rounded-md bg-custom-charcoal"
+                    btnStyleClass="px-3 py-2 rounded-md bg-custom-charcoal"
                 />
             </form>
         </div>

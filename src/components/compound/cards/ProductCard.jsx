@@ -1,6 +1,8 @@
-import Link from "next/link";
+"use client";
+
 import { Icons } from "@/libs/icons";
 import { Routes } from "@/config/routes";
+import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
 
 export const ProductCard = ({ productData }) => {
@@ -18,16 +20,16 @@ export const ProductCard = ({ productData }) => {
                         fill: true,
                         priority: true,
                         src: productData.image,
-                        alt: `Image of ${productData.title}`
+                        alt: `Image of ${productData.title}`,
                     }}
                 />
 
-                <h5 className="text-center text-lg font-medium">{productData.title}</h5>
+                <h6 className="text-center text-lg font-medium">{productData.title}</h6>
             </div>
 
             <div className="flex flex-col gap-2">
                 <div className="flex items-center justify-between">
-                    <h5 className="text-center text-lg font-medium">Rs. {productData.price}</h5>
+                    <h6 className="text-center text-lg font-medium">Rs. {productData.price}</h6>
 
                     <div className="flex items-center gap-1.5">
                         <div className="flex items-center gap-0.5">
@@ -50,16 +52,21 @@ export const ProductCard = ({ productData }) => {
                 </div>
 
                 <div className="flex items-center gap-2">
-                    <Link
-                        href={Routes.PRODUCT(productData.slug).path}
-                        className="w-full text-center py-2 border rounded-md border-custom-gold text-custom-gold bg-transparent hover:border-customHover hover:text-white hover:bg-customHover"
-                    >
-                        View
-                    </Link>
+                    <BasicBtn
+                        btnStyleClass="w-full text-center px-2 py-2 border rounded-md border-custom-gold text-custom-gold bg-transparent hover:border-customHover hover:text-white hover:bg-customHover"
+                        btnData={{
+                            path: Routes.PRODUCT(productData.slug).path,
+                            text: "View"
+                        }}
+                    />
 
-                    <button className="w-full py-2 border rounded-md cursor-pointer border-custom-gold text-white bg-custom-gold hover:border-customHover hover:bg-customHover">
-                        Buy
-                    </button>
+                    <BasicBtn
+                        btnStyleClass="w-full px-2 py-2 border rounded-md cursor-pointer border-custom-gold text-white bg-custom-gold hover:border-customHover hover:bg-customHover"
+                        btnData={{
+                            onClick: (() => console.log('Buy Btn Clicked')),
+                            text: "Buy"
+                        }}
+                    />
                 </div>
             </div>
         </div>

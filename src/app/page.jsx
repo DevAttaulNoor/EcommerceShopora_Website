@@ -52,7 +52,7 @@ export default function Home() {
                                     fill: true,
                                     priority: true,
                                     src: item.image,
-                                    alt: `Logo of ${item.title}`
+                                    alt: `Logo of ${item.title}`,
                                 }}
                             />
 

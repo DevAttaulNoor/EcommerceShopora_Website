@@ -110,18 +110,18 @@ export const RegisterUserForm = () => {
 
                 <p className="text-sm">
                     I agree to the {""}
-                    <Link href={Routes.TERMS_POLICY.path} className="text-blue-600 hover:underline">
+                    <Link href={Routes.TERMS_POLICY.path} className="text-custom-gold hover:underline">
                         Terms
                     </Link>
                     {""} and {""}
-                    <Link href={Routes.PRIVACY_POLICY.path} className="text-blue-600 hover:underline">
+                    <Link href={Routes.PRIVACY_POLICY.path} className="text-custom-gold hover:underline">
                         Privacy Policy
                     </Link>
                 </p>
             </div>
 
             <BasicBtn
-                btnStyleClass="btnStyle mx-auto cursor-pointer"
+                btnStyleClass="w-full px-2 py-2 border rounded-md cursor-pointer border-custom-gold text-white bg-custom-gold hover:border-customHover hover:bg-customHover"
                 btnData={{
                     disabled: loading,
                     onClick: handleRegistering,

@@ -38,7 +38,7 @@ const page = () => {
 
                     <Link
                         href={Routes.LOGIN.path}
-                        className="text-blue-600"
+                        className="text-custom-gold hover:underline"
                     >
                         Log in
                     </Link>

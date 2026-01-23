@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gold hover:bg-customHover', btnData }) => {
-    const basicBtnStyle = `flex items-center gap-2 btnStyle ${btnStyleClass}`;
+// export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gold hover:bg-customHover', btnData }) => {
+export const BasicBtn = ({ btnStyleClass = '', btnData }) => {
     const content = (
         <>
             {btnData.text && (
@@ -9,7 +9,7 @@ export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gol
             )}
 
             {btnData.icon && (
-                <span>{btnData.icon}</span>
+                <span className="ml-2">{btnData.icon}</span>
             )}
         </>
     );
@@ -17,7 +17,7 @@ export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gol
     return btnData.path ? (
         <Link
             href={btnData.path}
-            className={basicBtnStyle}
+            className={btnStyleClass}
         >
             {content}
         </Link>
@@ -25,7 +25,7 @@ export const BasicBtn = ({ btnStyleClass = 'rounded-3xl text-white bg-custom-gol
         <button
             disabled={btnData.disabled ? btnData.disabled : false}
             onClick={btnData.onClick}
-            className={basicBtnStyle}
+            className={btnStyleClass}
         >
             {content}
         </button>

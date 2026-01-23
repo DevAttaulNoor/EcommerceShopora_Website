@@ -19,7 +19,7 @@ export const FilterSection = ({ filterData }) => {
                             <p
                                 key={item.id}
                                 onClick={() => setSelected(prev => ({ ...prev, brand: item.id }))}
-                                className={`${selected.brand === item.id ? 'font-medium underline text-custom-gold' : ''} w-fit cursor-pointer`}
+                                className={`${selected.brand === item.id ? 'font-medium underline text-custom-gold' : ''} w-fit cursor-pointer hover:text-custom-gold`}
                             >
                                 {item.title}
                             </p>
@@ -35,7 +35,7 @@ export const FilterSection = ({ filterData }) => {
                             <p
                                 key={item.id}
                                 onClick={() => setSelected(prev => ({ ...prev, category: item.id }))}
-                                className={`${selected.category === item.id ? 'font-medium underline text-custom-gold' : ''} w-fit cursor-pointer`}
+                                className={`${selected.category === item.id ? 'font-medium underline text-custom-gold' : ''} w-fit cursor-pointer hover:text-custom-gold`}
                             >
                                 {item.title}
                             </p>

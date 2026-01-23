@@ -66,7 +66,7 @@ export const LoginUserForm = () => {
             />
 
             <BasicBtn
-                btnStyleClass="btnStyle mx-auto cursor-pointer"
+                btnStyleClass="w-full px-2 py-2 border rounded-md cursor-pointer border-custom-gold text-white bg-custom-gold hover:border-customHover hover:bg-customHover"
                 btnData={{
                     disabled: loading,
                     onClick: handleLogin,

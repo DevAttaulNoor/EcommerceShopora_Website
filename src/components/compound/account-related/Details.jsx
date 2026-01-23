@@ -28,7 +28,7 @@ export const Details = ({ userData, setUserData }) => {
     };
 
     return (
-        <section className="max-w-2/3 flex flex-col p-6 gap-4 shadow-sm rounded-xl">
+        <section className="flex flex-col p-6 gap-4 shadow-sm rounded-xl">
             <h3 className="text-lg font-semibold">Account Details</h3>
 
             <Form
@@ -36,7 +36,7 @@ export const Details = ({ userData, setUserData }) => {
                     e.preventDefault();
                     handleUpdation();
                 }}
-                formContainerStyle="flex flex-col gap-4"
+                formContainerStyle="max-w-1/3 flex flex-col gap-4"
                 errorData={error}
                 inputFieldData={[
                     {
@@ -81,8 +81,9 @@ export const Details = ({ userData, setUserData }) => {
                     disabled: loading,
                     onClick: handleUpdation,
                     text: loading ? "Updating..." : "Update",
-                    btnStyleClass: "btnStyle mx-auto cursor-pointer"
+                    btnStyleClass: "px-2.5 py-1.5 mx-auto rounded-md cursor-pointer text-white bg-custom-gold btnHoverTransitionStyle"
                 }}
-            />        </section>
+            />
+        </section>
     );
 };

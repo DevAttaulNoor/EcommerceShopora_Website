@@ -31,7 +31,7 @@ const page = () => {
                 ]}
             />
 
-            <div className="flex gap-10 innerContainerPadding">
+            <div className="flex gap-10">
                 <FilterSection
                     filterData={{
                         brands,

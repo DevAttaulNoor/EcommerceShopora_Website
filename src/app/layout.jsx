@@ -14,8 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className="relative outerContainerStyle">
-                <AuthProvider>{children}</AuthProvider>
+            <body className="outerContainerStyle">
+                <AuthProvider>
+                    {children}
+                </AuthProvider>
             </body>
         </html>
     );

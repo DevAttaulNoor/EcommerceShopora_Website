@@ -24,7 +24,7 @@ export const AccountContent = () => {
 
     return (
         <section className="flex gap-10">
-            <aside className="max-w-96 w-full h-fit flex flex-col p-2.5 gap-4 rounded-xl shadow-sm">
+            <aside className="max-w-96 w-full h-fit flex flex-col p-4 gap-4 rounded-xl shadow-sm">
                 <div className="flex flex-col items-center justify-center gap-1.5">
                     <ImageContainer
                         imageContainerStyle="w-16 h-16 rounded-full bg-customMuted overflow-hidden"
@@ -37,15 +37,15 @@ export const AccountContent = () => {
                         }}
                     />
 
-                    <h5 className="font-semibold">{user?.name}</h5>
+                    <h6 className="font-medium">{user?.name}</h6>
                 </div>
 
-                <nav className="flex flex-col gap-2">
+                <nav className="flex flex-col gap-1.5">
                     {sidebarOptions.map((item) => (
                         <button
                             key={item}
                             onClick={() => setActive(item)}
-                            className={`w-full text-left text-sm font-medium px-3 py-2 rounded-lg cursor-pointer ${item === active ? "bg-custom-gold" : "hover:bg-customMuted"}`}
+                            className={`w-full text-left text-sm font-medium px-3 py-2.5 rounded-lg cursor-pointer ${item === active ? "bg-custom-gold" : "hover:bg-customMuted"}`}
                         >
                             {item}
                         </button>
@@ -53,7 +53,7 @@ export const AccountContent = () => {
 
                     <button
                         onClick={handleLogout}
-                        className="w-full text-left text-sm font-medium px-3 py-2 rounded-lg cursor-pointer text-red-500 hover:bg-customMuted"
+                        className="w-full text-left text-sm font-medium px-3 py-2.5 rounded-lg cursor-pointer text-red-500 hover:bg-customMuted"
                     >
                         Logout
                     </button>

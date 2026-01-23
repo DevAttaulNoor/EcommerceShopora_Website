@@ -1,17 +1,23 @@
+import { BasicBtn } from "@/components/atomic/buttons/BasicBtn";
+
 export const Addresses = ({ userData }) => {
     return (
         <section className="space-y-4">
             <div className="flex justify-between items-center">
                 <h3 className="text-lg font-semibold">Saved Addresses</h3>
 
-                <button className="text-sm bg-blue-600 text-white px-4 py-2 rounded-lg">
-                    Add New
-                </button>
+                <BasicBtn
+                    btnStyleClass="text-sm px-4 py-2 rounded-lg cursor-pointer text-white bg-custom-gold btnHoverTransitionStyle"
+                    btnData={{
+                        onClick: () => console.log('clicked'),
+                        text: "Add new"
+                    }}
+                />
             </div>
 
-            <div className="p-5 rounded-xl shadow-sm">
-                <p className="font-medium">Home Address</p>
-                <p className="text-sm text-gray-500">
+            <div className="flex flex-col p-5 gap-1.5 rounded-xl shadow-sm">
+                <h6 className="font-medium">Main Address</h6>
+                <p className="text-sm opacity-75">
                     {userData?.address}
                 </p>
             </div>

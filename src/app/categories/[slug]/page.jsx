@@ -49,7 +49,7 @@ export default async function CategoryProductsPage({ params }) {
                 ]}
             />
 
-            <div className="flex gap-10 innerContainerPadding">
+            <div className="flex gap-10">
                 <FilterSection
                     filterData={{ categories }}
                 />

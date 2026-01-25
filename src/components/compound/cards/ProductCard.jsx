@@ -19,7 +19,7 @@ export const ProductCard = ({ productData }) => {
                     imageData={{
                         fill: true,
                         priority: true,
-                        src: productData.image,
+                        src: productData.images[0],
                         alt: `Image of ${productData.title}`,
                     }}
                 />

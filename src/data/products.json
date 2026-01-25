@@ -8,7 +8,13 @@
         "price": 1299,
         "rating": 4.8,
         "description": "The iPhone 15 Pro Max delivers Apple’s most advanced smartphone experience with a durable aerospace-grade titanium body that is both lighter and stronger than previous models. Powered by the A17 Pro chip, it offers exceptional performance for gaming, multitasking, and professional workflows. The upgraded Pro camera system features a 5x optical telephoto lens, improved low-light photography, and cinematic-quality video recording. With all-day battery life, a customizable Action Button, and fast USB-C connectivity, this device is designed for users who demand power, elegance, and reliability in one premium package.",
-        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1695048201117-6b0c3a5c7c61?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1695048264053-84ef2b61c1a3?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1695048321946-4e8f0d92f5e0?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1695048391202-bb2d4a3e22a7?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "iPhone 15 Pro Max | Electronics | Shopora",
             "description": "Experience the ultimate power of the iPhone 15 Pro Max with its new titanium design."
@@ -60,7 +66,12 @@
         "price": 1199,
         "rating": 4.7,
         "description": "The Galaxy S23 Ultra is Samsung’s flagship smartphone built for productivity and creativity. It features a stunning 200MP camera capable of capturing incredible detail, advanced zoom, and professional-grade night photography. The integrated S-Pen allows for precise note-taking, sketching, and multitasking, making it ideal for professionals and power users. With its immersive AMOLED display, long-lasting battery, and top-tier performance, the S23 Ultra delivers a premium Android experience without compromise.",
-        "image": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1678911890212-71e8df5a2b8f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1678911956784-3d61e92e64a1?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1678912019443-4e3bfb89f5b2?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Galaxy S23 Ultra | Electronics | Shopora",
             "description": "Unleash creativity with the 200MP camera and S-Pen of the Galaxy S23 Ultra."
@@ -112,7 +123,12 @@
         "price": 2499,
         "rating": 4.9,
         "description": "The MacBook Pro 16-inch is engineered for professionals who require extreme performance and efficiency. Equipped with Apple’s M2 Pro chip, it handles demanding tasks such as video editing, 3D rendering, and software development with ease. The Liquid Retina XDR display provides exceptional brightness, contrast, and color accuracy, making it perfect for creative work. With a long-lasting battery, advanced thermal system, studio-quality speakers, and a wide range of ports, this MacBook is a complete workstation you can take anywhere.",
-        "image": "https://images.unsplash.com/photo-1517336712461-461ad7c48261?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1517336712461-461ad7c48261?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1517336715143-6cbb9f1f8d0d?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1517336715448-98f0c8d7b2aa?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "MacBook Pro 16 | Computers | Shopora",
             "description": "Supercharge your workflow with the M2-powered MacBook Pro 16-inch."
@@ -164,7 +180,13 @@
         "price": 349,
         "rating": 4.8,
         "description": "The Sony WH-1000XM5 headphones set the standard for premium noise-cancelling audio. Featuring industry-leading active noise cancellation, they intelligently adapt to your surroundings for uninterrupted listening. The refined sound profile delivers deep bass, clear mids, and crisp highs, while the lightweight design ensures all-day comfort. With excellent call quality, long battery life, and seamless wireless connectivity, these headphones are perfect for travel, work, and everyday listening.",
-        "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1618366764525-0bb6f4fbe381?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1618366819074-16fd1c1b4f9a?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1618366872316-63f1c1f5f06b?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1618366938495-0a29b7d92f3d?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Sony WH-1000XM5 | Audio | Shopora",
             "description": "Listen without limits using the Sony XM5 noise-cancelling headphones."
@@ -216,7 +238,14 @@
         "price": 150,
         "rating": 4.6,
         "description": "The Nike Air Max 270 combines iconic street style with modern comfort. Designed with Nike’s largest heel Air unit, it provides exceptional cushioning and impact absorption for all-day wear. The breathable upper keeps your feet cool, while the sleek silhouette makes it suitable for both casual outfits and active lifestyles. Whether you’re walking, traveling, or styling a sporty look, the Air Max 270 delivers comfort, durability, and bold design.",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542291029-2e1b8d6e3f9d?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542291032-0c7f4d8c4e55?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542291035-bccfd4b2a71a?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542291039-9a8f6e5b3d11?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542291043-1a8bfc2c2b4a?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Nike Air Max 270 | Footwear | Shopora",
             "description": "Step into comfort and style with the Nike Air Max 270 sneakers."
@@ -268,7 +297,12 @@
         "price": 349,
         "rating": 4.7,
         "description": "The Nintendo Switch OLED offers a versatile gaming experience that adapts to your lifestyle. Its vibrant 7-inch OLED screen delivers richer colors and deeper contrast for handheld and tabletop play. With enhanced audio, improved kickstand stability, and increased internal storage, it’s perfect for gaming at home or on the go. Whether playing solo or with friends, the Switch OLED provides flexibility, fun, and immersive entertainment.",
-        "image": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1605901309593-5b1a8c5f1c71?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Nintendo Switch OLED | Gaming | Shopora",
             "description": "Upgrade your gaming with the Nintendo Switch OLED model."
@@ -320,7 +354,12 @@
         "price": 749,
         "rating": 4.8,
         "description": "The Dyson V15 Detect is an intelligent cordless vacuum engineered for deep, precise cleaning. Its powerful suction automatically adapts based on detected dust levels, while laser illumination reveals microscopic particles invisible to the naked eye. Designed for homes with pets and allergies, it effectively cleans carpets, hard floors, and tight spaces. With advanced filtration and versatile attachments, the V15 Detect transforms everyday cleaning into a highly efficient experience.",
-        "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1581579184689-36c6a6c1a0c4?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1581579409818-9c1a4d9e62f2?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Dyson V15 Detect | Appliances | Shopora",
             "description": "Transform your cleaning with the laser-powered Dyson V15 Detect."
@@ -372,7 +411,12 @@
         "price": 2299,
         "rating": 4.9,
         "description": "The Canon EOS R6 is a full-frame mirrorless camera designed for enthusiasts and professionals alike. It delivers exceptional image quality with outstanding low-light performance, fast autofocus, and in-body image stabilization. Ideal for photography and video, the R6 excels in action, wildlife, portrait, and cinematic shooting. Its intuitive controls and durable build make it a reliable companion for both studio and outdoor use.",
-        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1519183071298-a2962eade6c3?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1519183071374-7f0c8a1e6a8d?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1519183072143-5e3c6b6d7f1a?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Canon EOS R6 | Photography | Shopora",
             "description": "Capture the world in detail with the Canon EOS R6 full-frame camera."
@@ -424,7 +468,12 @@
         "price": 190,
         "rating": 4.7,
         "description": "The Adidas Ultraboost 22 is built for runners and everyday athletes seeking maximum comfort and energy return. Featuring responsive Boost cushioning, it delivers a smooth and powerful stride with every step. The Primeknit upper provides a snug, sock-like fit while ensuring breathability and flexibility. Whether used for long runs, gym sessions, or casual wear, the Ultraboost 22 offers premium comfort and performance.",
-        "image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600185365526-3f9d4c8c51a2?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600185365619-7b6d4c9c22a1?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Adidas Ultraboost 22 | Footwear | Shopora",
             "description": "Experience energy-returning comfort with Adidas Ultraboost 22."
@@ -476,7 +525,11 @@
         "price": 139,
         "rating": 4.8,
         "description": "The Kindle Paperwhite is a purpose-built e-reader designed for distraction-free reading. Its high-resolution 300-ppi display delivers crisp, paper-like text, while the adjustable warm light ensures comfortable reading day or night. With a waterproof design and weeks-long battery life, it’s perfect for reading at home, by the pool, or while traveling. Access millions of books instantly and enjoy a lightweight, eye-friendly reading experience.",
-        "image": "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Kindle Paperwhite | Electronics | Shopora",
             "description": "Read anywhere with the waterproof Kindle Paperwhite e-reader."
@@ -528,7 +581,11 @@
         "price": 159,
         "rating": 4.5,
         "description": "Advanced fitness tracker with built-in GPS and stress management tools.",
-        "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Fitbit Charge 6 | Fitness | Shopora",
             "description": "Track your health and workouts with the Fitbit Charge 6 tracker."
@@ -580,7 +637,11 @@
         "price": 899,
         "rating": 4.6,
         "description": "Stunning 4K HDR picture quality with smart features and voice control.",
-        "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1601944177325-f8867652837f?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Sony Bravia 55\" | Electronics | Shopora",
             "description": "Upgrade your home theater with the Sony Bravia 55-inch 4K TV."
@@ -632,7 +693,11 @@
         "price": 69,
         "rating": 4.7,
         "description": "The original straight-fit jeans since 1873, a classic in any wardrobe.",
-        "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542060748-10c28b62716f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Levi's 501 Original | Fashion | Shopora",
             "description": "Classic straight-fit Levi's 501 jeans for timeless style."
@@ -684,7 +749,11 @@
         "price": 449,
         "rating": 4.9,
         "description": "The ultimate stand mixer for all your baking and cooking needs.",
-        "image": "https://images.unsplash.com/photo-1594385208974-2e75f9d8ad48?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1594385208974-2e75f9d8ad48?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1586201375754-1421e5a9a6a4?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "KitchenAid Artisan | Appliances | Shopora",
             "description": "Elevate your baking with the KitchenAid Artisan Stand Mixer."
@@ -736,7 +805,11 @@
         "price": 160,
         "rating": 4.6,
         "description": "Timeless aviator sunglasses with gold frames and crystal lenses.",
-        "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1518544887878-7b8f4a8e6d7f?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Ray-Ban Aviator | Fashion | Shopora",
             "description": "Classic Ray-Ban Aviator sunglasses with UV protection."
@@ -781,261 +854,281 @@
     },
     {
         "id": 16,
-        "title": "Logitech MX Master 3",
-        "slug": "logitech-mx-master-3",
-        "category": "accessories",
-        "brand": "Logitech",
-        "price": 99,
+        "title": "Apple AirPods Pro (2nd Gen)",
+        "slug": "apple-airpods-pro-2",
+        "category": "electronics",
+        "brand": "Apple",
+        "price": 249,
         "rating": 4.8,
-        "description": "Master your workflow with a precision wireless mouse designed for productivity.",
-        "image": "https://images.unsplash.com/photo-1615661093144-1280ec74658e?auto=format&fit=crop&w=600&q=80",
+        "description": "Premium wireless earbuds with active noise cancellation and spatial audio.",
+        "images": [
+            "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
-            "title": "Logitech MX Master 3 | Accessories | Shopora",
-            "description": "Ergonomic productivity with the Logitech MX Master 3 mouse."
+            "title": "Apple AirPods Pro | Electronics | Shopora",
+            "description": "Experience immersive sound with Apple AirPods Pro (2nd Generation)."
         },
         "reviews": [
             {
                 "id": "u16_1",
-                "name": "Kevin K.",
+                "name": "Alex M.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Best mouse for developers."
+                "message": "Noise cancellation is amazing."
             },
             {
                 "id": "u16_2",
-                "name": "Nate R.",
+                "name": "Riya K.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Scrolling wheel is addictive."
+                "message": "Comfortable for long use."
             },
             {
                 "id": "u16_3",
-                "name": "Tina B.",
+                "name": "Sam J.",
                 "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "A bit large for small hands."
+                "message": "Battery life is solid."
             },
             {
                 "id": "u16_4",
-                "name": "James L.",
+                "name": "Liam T.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Switch between devices is fast."
+                "message": "Seamless with iPhone."
             },
             {
                 "id": "u16_5",
-                "name": "Gary F.",
+                "name": "Nora B.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Great ergonomics for wrist."
+                "message": "Worth every penny."
             }
         ]
     },
     {
         "id": 17,
-        "title": "Bose QuietComfort Earbuds",
-        "slug": "bose-quietcomfort-earbuds",
-        "category": "audio",
-        "brand": "Bose",
-        "price": 279,
-        "rating": 4.7,
-        "description": "Truly wireless earbuds with the best noise cancellation in the industry.",
-        "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80",
+        "title": "Samsung Galaxy Watch 6",
+        "slug": "samsung-galaxy-watch-6",
+        "category": "wearables",
+        "brand": "Samsung",
+        "price": 329,
+        "rating": 4.5,
+        "description": "Smartwatch with advanced health tracking and sleek AMOLED display.",
+        "images": [
+            "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
-            "title": "Bose QC Earbuds | Audio | Shopora",
-            "description": "Industry-leading noise cancellation in wireless Bose earbuds."
+            "title": "Samsung Galaxy Watch 6 | Wearables | Shopora",
+            "description": "Track fitness and health with the Samsung Galaxy Watch 6."
         },
         "reviews": [
             {
                 "id": "u17_1",
-                "name": "Laura F.",
+                "name": "Daniel S.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Silence is golden with these."
+                "message": "Display is super crisp."
             },
             {
                 "id": "u17_2",
-                "name": "Mike M.",
-                "rating": 5,
+                "name": "Ayesha R.",
+                "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Comfortable stay-hear tips."
+                "message": "Battery could be better."
             },
             {
                 "id": "u17_3",
-                "name": "Sandi Q.",
-                "rating": 4,
+                "name": "Chris L.",
+                "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Case is slightly bulky."
+                "message": "Accurate health stats."
             },
             {
                 "id": "u17_4",
-                "name": "Paul J.",
-                "rating": 5,
+                "name": "Hassan A.",
+                "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Excellent sound profiles."
+                "message": "Smooth UI experience."
             },
             {
                 "id": "u17_5",
-                "name": "Rita G.",
-                "rating": 4,
+                "name": "Emily W.",
+                "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Transparency mode is top tier."
+                "message": "Great everyday watch."
             }
         ]
     },
     {
         "id": 18,
-        "title": "Samsung Galaxy Watch 6",
-        "slug": "samsung-galaxy-watch-6",
-        "category": "electronics",
-        "brand": "Samsung",
-        "price": 329,
-        "rating": 4.5,
-        "description": "Sleek smartwatch with advanced health monitoring and fitness tracking.",
-        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80",
+        "title": "Nike Air Force 1",
+        "slug": "nike-air-force-1",
+        "category": "fashion",
+        "brand": "Nike",
+        "price": 120,
+        "rating": 4.7,
+        "description": "Iconic basketball-inspired sneakers with timeless street style.",
+        "images": [
+            "https://images.unsplash.com/photo-1606813909027-14f71a3ec6f5?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
-            "title": "Galaxy Watch 6 | Electronics | Shopora",
-            "description": "Stay fit and connected with the Samsung Galaxy Watch 6."
+            "title": "Nike Air Force 1 | Fashion | Shopora",
+            "description": "Classic Nike Air Force 1 sneakers for everyday wear."
         },
         "reviews": [
             {
                 "id": "u18_1",
-                "name": "Alicia W.",
+                "name": "Jason K.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "The bezel is very smooth."
+                "message": "Comfortable and stylish."
             },
             {
                 "id": "u18_2",
-                "name": "Derek G.",
-                "rating": 4,
+                "name": "Zara M.",
+                "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Sleep tracking is accurate."
+                "message": "Matches everything."
             },
             {
                 "id": "u18_3",
-                "name": "Sam K.",
-                "rating": 5,
+                "name": "Omar F.",
+                "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Integrates well with Galaxy."
+                "message": "Runs slightly large."
             },
             {
                 "id": "u18_4",
-                "name": "Fiona M.",
-                "rating": 4,
+                "name": "Lily P.",
+                "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Battery life could be better."
+                "message": "My go-to sneakers."
             },
             {
                 "id": "u18_5",
-                "name": "Terry B.",
-                "rating": 5,
+                "name": "Mark D.",
+                "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Best Android smartwatch."
+                "message": "Durable build."
             }
         ]
     },
     {
         "id": 19,
-        "title": "Hydro Flask 32oz",
-        "slug": "hydro-flask-32oz",
-        "category": "home",
-        "brand": "Hydro Flask",
-        "price": 44,
+        "title": "Logitech MX Master 3S",
+        "slug": "logitech-mx-master-3s",
+        "category": "accessories",
+        "brand": "Logitech",
+        "price": 99,
         "rating": 4.8,
-        "description": "Double-wall vacuum insulated water bottle to keep drinks cold for 24 hours.",
-        "image": "https://images.unsplash.com/photo-1602143399827-bd95968c471c?auto=format&fit=crop&w=600&q=80",
+        "description": "Advanced ergonomic mouse designed for productivity and precision.",
+        "images": [
+            "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1603575448360-153f093fd0b2?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
-            "title": "Hydro Flask 32oz | Home | Shopora",
-            "description": "Keep hydrated with the insulated Hydro Flask 32oz bottle."
+            "title": "Logitech MX Master 3S | Accessories | Shopora",
+            "description": "Boost productivity with the Logitech MX Master 3S mouse."
         },
         "reviews": [
             {
                 "id": "u19_1",
-                "name": "Lily S.",
+                "name": "Kevin R.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Stays cold all day long."
+                "message": "Best mouse I’ve used."
             },
             {
                 "id": "u19_2",
-                "name": "Joe P.",
+                "name": "Ali H.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Durable and looks great."
+                "message": "Silent clicks are amazing."
             },
             {
                 "id": "u19_3",
-                "name": "Emma R.",
+                "name": "Sophie L.",
                 "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "A bit heavy when full."
+                "message": "Perfect for designers."
             },
             {
                 "id": "u19_4",
-                "name": "Ben T.",
+                "name": "Ryan P.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "No condensation ever."
+                "message": "Battery lasts forever."
             },
             {
                 "id": "u19_5",
-                "name": "Will G.",
+                "name": "Usman K.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Best water bottle I've used."
+                "message": "Very ergonomic."
             }
         ]
     },
     {
         "id": 20,
-        "title": "GoPro HERO12",
-        "slug": "gopro-hero-12",
-        "category": "photography",
-        "brand": "GoPro",
-        "price": 399,
-        "rating": 4.7,
-        "description": "The ultimate action camera with HyperSmooth 6.0 and 5.3K video.",
-        "image": "https://images.unsplash.com/photo-1544006659-f0b21f04cb1d?auto=format&fit=crop&w=600&q=80",
+        "title": "Amazon Echo (5th Gen)",
+        "slug": "amazon-echo-5th-gen",
+        "category": "smart-home",
+        "brand": "Amazon",
+        "price": 99,
+        "rating": 4.4,
+        "description": "Smart speaker with Alexa, improved sound, and smart home control.",
+        "images": [
+            "https://images.unsplash.com/photo-1512446816042-444d641267d4?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1581089781785-603411fa81e5?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1591375275612-4b1a9c1a14b4?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
-            "title": "GoPro HERO12 | Photography | Shopora",
-            "description": "Capture adventure with the HERO12 action camera."
+            "title": "Amazon Echo | Smart Home | Shopora",
+            "description": "Control your smart home using Amazon Echo with Alexa."
         },
         "reviews": [
             {
                 "id": "u20_1",
-                "name": "Skater Dan",
+                "name": "Paul S.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Stabilization is mind-blowing."
+                "message": "Sound is much better now."
             },
             {
                 "id": "u20_2",
-                "name": "Diver Di",
-                "rating": 5,
+                "name": "Fatima N.",
+                "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Great color underwater."
+                "message": "Very useful for routines."
             },
             {
                 "id": "u20_3",
-                "name": "Biker Ben",
+                "name": "James T.",
                 "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Voice control works well."
+                "message": "Alexa responds fast."
             },
             {
                 "id": "u20_4",
-                "name": "Jen J.",
+                "name": "Sara L.",
                 "rating": 5,
                 "purchaseDate": "2024-12-15",
-                "message": "Solid build quality."
+                "message": "Great smart home hub."
             },
             {
                 "id": "u20_5",
-                "name": "Leo P.",
+                "name": "Bilal A.",
                 "rating": 4,
                 "purchaseDate": "2024-12-15",
-                "message": "Needs extra batteries for day."
+                "message": "Good value for money."
             }
         ]
     },
@@ -1048,7 +1141,11 @@
         "price": 229,
         "rating": 4.9,
         "description": "Warm, windproof, and water-resistant jacket made with recycled materials.",
-        "image": "https://images.unsplash.com/photo-1504194104404-4cd3c27f241d?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1504194104404-4cd3c27f241d?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1520975682031-a3b8c97f34d2?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542062703-3d59b34c9a46?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Patagonia Nano Puff | Fashion | Shopora",
             "description": "Sustainable warmth with the Patagonia Nano Puff jacket."
@@ -1100,7 +1197,11 @@
         "price": 325,
         "rating": 4.8,
         "description": "Heavy-duty cooler built to withstand the toughest conditions.",
-        "image": "https://images.unsplash.com/photo-1599690925058-90e1a0b46354?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1599690925058-90e1a0b46354?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600697394936-599d3b9a3d6b?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Yeti Tundra 45 | Home | Shopora",
             "description": "Indestructible ice retention with the Yeti Tundra 45 cooler."
@@ -1152,7 +1253,11 @@
         "price": 149,
         "rating": 4.7,
         "description": "Compact portable speaker with loud and vibrant sound from Marshall.",
-        "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1612441804231-77a36b284856?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1611532736570-dd6b097ec5c2?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Marshall Emberton | Audio | Shopora",
             "description": "Iconic sound in a portable Marshall Emberton speaker."
@@ -1204,7 +1309,11 @@
         "price": 1399,
         "rating": 4.9,
         "description": "Premium compact camera with retro styling and excellent film simulations.",
-        "image": "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1519183071298-a2962eadcdb2?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Fujifilm X100V | Photography | Shopora",
             "description": "Retro charm and modern tech with the Fujifilm X100V."
@@ -1256,7 +1365,11 @@
         "price": 65,
         "rating": 4.6,
         "description": "The classic skate shoe that has become a lifestyle staple.",
-        "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1618354691373-0c39ef9d82b8?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Vans Old Skool | Footwear | Shopora",
             "description": "Iconic skate style with the classic Vans Old Skool."
@@ -1308,7 +1421,11 @@
         "price": 99,
         "rating": 4.8,
         "description": "7-in-1 multi-cooker that replaces several kitchen appliances.",
-        "image": "https://images.unsplash.com/photo-1584263347416-85a696b4eda8?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1584263347416-85a696b4eda8?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Instant Pot Duo | Appliances | Shopora",
             "description": "Simplify dinner with the Instant Pot Duo multi-cooker."
@@ -1360,7 +1477,11 @@
         "price": 45,
         "rating": 4.7,
         "description": "The viral travel tumbler with an ergonomic handle and straw.",
-        "image": "https://images.unsplash.com/photo-1678122394503-4c9197c3692a?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1678122394503-4c9197c3692a?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1622473590914-03c4b63a4f07?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1602143399827-bd95968c471c?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Stanley Quencher | Home | Shopora",
             "description": "Hydrate in style with the viral Stanley Quencher tumbler."
@@ -1412,7 +1533,11 @@
         "price": 199,
         "rating": 4.8,
         "description": "Portable percussive therapy device for muscle recovery on the go.",
-        "image": "https://images.unsplash.com/photo-1643329842421-f3162095f93f?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1643329842421-f3162095f93f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Theragun Mini 2.0 | Fitness | Shopora",
             "description": "Compact muscle recovery with the Theragun Mini 2.0."
@@ -1464,7 +1589,11 @@
         "price": 169,
         "rating": 4.6,
         "description": "Mechanical gaming keyboard with RGB lighting and clicky switches.",
-        "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Razer BlackWidow V4 | Gaming | Shopora",
             "description": "Gamer-grade precision with the Razer BlackWidow keyboard."
@@ -1516,7 +1645,11 @@
         "price": 299,
         "rating": 4.8,
         "description": "Advanced electric toothbrush with pressure sensor and interactive display.",
-        "image": "https://images.unsplash.com/photo-1609840112855-9ab5ad8f67e4?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1609840112855-9ab5ad8f67e4?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1616628182505-4c0d12f6e5c3?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Oral-B iO Series 9 | Appliances | Shopora",
             "description": "Professional clean at home with the Oral-B iO Series 9."
@@ -1568,7 +1701,11 @@
         "price": 99,
         "rating": 4.7,
         "description": "Versatile backpack for commuting, hiking, or school with protective laptop sleeve.",
-        "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1520975682031-a3b8c97f34d2?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1542062703-3d59b34c9a46?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "North Face Borealis | Accessories | Shopora",
             "description": "Classic and durable North Face Borealis backpack."
@@ -1620,7 +1757,11 @@
         "price": 699,
         "rating": 4.9,
         "description": "Professional-grade espresso machine with a built-in grinder for the freshest coffee.",
-        "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Breville Barista Express | Appliances | Shopora",
             "description": "Make barista-quality coffee at home with Breville."
@@ -1672,7 +1813,11 @@
         "price": 110,
         "rating": 4.6,
         "description": "Classic mountaineering-style backpack with magnetic strap closures.",
-        "image": "https://images.unsplash.com/photo-1544816153-0975b779a676?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1544816153-0975b779a676?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1514474959185-147d7f5b5c8f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Herschel Little America | Fashion | Shopora",
             "description": "Mountaineering style meets city life with Herschel."
@@ -1724,7 +1869,11 @@
         "price": 299,
         "rating": 4.7,
         "description": "A smart ring that tracks your sleep, activity, and recovery with high precision.",
-        "image": "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Oura Ring Gen 3 | Fitness | Shopora",
             "description": "Subtle health tracking with the Oura Ring Gen 3."
@@ -1776,7 +1925,11 @@
         "price": 98,
         "rating": 4.8,
         "description": "Buttery-soft yoga pants designed for low-impact workouts and everyday wear.",
-        "image": "https://images.unsplash.com/photo-1506629082925-636bb3c19a9e?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1506629082925-636bb3c19a9e?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Lululemon Align Pant | Fashion | Shopora",
             "description": "Unmatched softness with the Lululemon Align yoga pants."
@@ -1828,7 +1981,11 @@
         "price": 2495,
         "rating": 4.9,
         "description": "Indoor cycling with live classes and a rotating screen for off-bike workouts.",
-        "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Peloton Bike+ | Fitness | Shopora",
             "description": "The ultimate home workout with Peloton Bike+."
@@ -1880,7 +2037,11 @@
         "price": 140,
         "rating": 4.7,
         "description": "Classic two-strap sandals with a cork footbed that molds to your feet.",
-        "image": "https://images.unsplash.com/photo-1605812860427-4024433a70fd?auto=format&fit=crop&w=600&q=80",
+        "images": [
+            "https://images.unsplash.com/photo-1605812860427-4024433a70fd?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1528701800489-20be3c6ea7f7?auto=format&fit=crop&w=600&q=80",
+            "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?auto=format&fit=crop&w=600&q=80"
+        ],
         "meta": {
             "title": "Birkenstock Arizona | Footwear | Shopora",
             "description": "Timeless comfort with the Birkenstock Arizona sandal."
@@ -1920,682 +2081,6 @@
                 "rating": 4,
                 "purchaseDate": "2024-12-15",
                 "message": "Quality is very consistent."
-            }
-        ]
-    },
-    {
-        "id": 38,
-        "title": "DJI Mini 4 Pro",
-        "slug": "dji-mini-4-pro",
-        "category": "photography",
-        "brand": "DJI",
-        "price": 759,
-        "rating": 4.8,
-        "description": "Ultralight folding drone with 4K HDR video and obstacle sensing.",
-        "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "DJI Mini 4 Pro | Photography | Shopora",
-            "description": "Pro features in a mini drone with the DJI Mini 4 Pro."
-        },
-        "reviews": [
-            {
-                "id": "u38_1",
-                "name": "Pilot Phil",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Obstacle sensing is a lifesaver."
-            },
-            {
-                "id": "u38_2",
-                "name": "Fly Girl",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Video quality is amazing."
-            },
-            {
-                "id": "u38_3",
-                "name": "Dave B.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Stable even in mild wind."
-            },
-            {
-                "id": "u38_4",
-                "name": "Chris T.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Very easy to fly for beginners."
-            },
-            {
-                "id": "u38_5",
-                "name": "Nate R.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Small and very capable."
-            }
-        ]
-    },
-    {
-        "id": 39,
-        "title": "Allbirds Tree Dashers",
-        "slug": "allbirds-tree-dashers",
-        "category": "footwear",
-        "brand": "Allbirds",
-        "price": 125,
-        "rating": 4.6,
-        "description": "Sustainable running shoes made from eucalyptus tree fibers.",
-        "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Allbirds Tree Dashers | Footwear | Shopora",
-            "description": "Sustainable performance with Allbirds Tree Dashers."
-        },
-        "reviews": [
-            {
-                "id": "u39_1",
-                "name": "Eco Runner",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Love the environmental focus."
-            },
-            {
-                "id": "u39_2",
-                "name": "Sam J.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Lightweight and breathable."
-            },
-            {
-                "id": "u39_3",
-                "name": "Lori G.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Machine washable is a plus."
-            },
-            {
-                "id": "u39_4",
-                "name": "Ben T.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Comfy for daily walks."
-            },
-            {
-                "id": "u39_5",
-                "name": "Amy S.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Soft and springy feel."
-            }
-        ]
-    },
-    {
-        "id": 40,
-        "title": "Nest Learning Thermostat",
-        "slug": "nest-learning-thermostat",
-        "category": "appliances",
-        "brand": "Google",
-        "price": 249,
-        "rating": 4.7,
-        "description": "Smart thermostat that learns your schedule to help save energy.",
-        "image": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Nest Thermostat | Appliances | Shopora",
-            "description": "Smart energy savings with the Google Nest Thermostat."
-        },
-        "reviews": [
-            {
-                "id": "u40_1",
-                "name": "Home Owner H.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Saved me money already."
-            },
-            {
-                "id": "u40_2",
-                "name": "Tech T.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "App is very easy to use."
-            },
-            {
-                "id": "u40_3",
-                "name": "Chris B.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Installation was simple."
-            },
-            {
-                "id": "u40_4",
-                "name": "Emma R.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Looks great on the wall."
-            },
-            {
-                "id": "u40_5",
-                "name": "Mike S.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Highly recommended."
-            }
-        ]
-    },
-    {
-        "id": 41,
-        "title": "Le Creuset Dutch Oven",
-        "slug": "le-creuset-dutch-oven",
-        "category": "home",
-        "brand": "Le Creuset",
-        "price": 390,
-        "rating": 4.9,
-        "description": "Enamelled cast iron cookware that is a must-have for slow-cooking.",
-        "image": "https://images.unsplash.com/photo-1584346133934-a3afd2a33c4c?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Le Creuset Dutch Oven | Home | Shopora",
-            "description": "The gold standard in slow-cooking with Le Creuset."
-        },
-        "reviews": [
-            {
-                "id": "u41_1",
-                "name": "Chef C.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Heats very evenly."
-            },
-            {
-                "id": "u41_2",
-                "name": "Maria G.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Will last a lifetime."
-            },
-            {
-                "id": "u41_3",
-                "name": "Sam B.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Stunning to look at."
-            },
-            {
-                "id": "u41_4",
-                "name": "Linda R.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Very heavy, but worth it."
-            },
-            {
-                "id": "u41_5",
-                "name": "Rick S.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Easy to clean enamel."
-            }
-        ]
-    },
-    {
-        "id": 42,
-        "title": "Lego Star Wars UCS",
-        "slug": "lego-star-wars-ucs",
-        "category": "gaming",
-        "brand": "Lego",
-        "price": 849,
-        "rating": 4.9,
-        "description": "Ultimate Collector Series Millennium Falcon with over 7,500 pieces.",
-        "image": "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Lego Millennium Falcon | Gaming | Shopora",
-            "description": "The ultimate Lego Star Wars building experience."
-        },
-        "reviews": [
-            {
-                "id": "u42_1",
-                "name": "Collector C.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Massive and detailed."
-            },
-            {
-                "id": "u42_2",
-                "name": "Nerd N.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Took a week to build."
-            },
-            {
-                "id": "u42_3",
-                "name": "Ben T.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Amazing display piece."
-            },
-            {
-                "id": "u42_4",
-                "name": "Chris J.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Pricey but iconic."
-            },
-            {
-                "id": "u42_5",
-                "name": "Lego L.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Best Lego set ever."
-            }
-        ]
-    },
-    {
-        "id": 43,
-        "title": "Roomba s9+",
-        "slug": "roomba-s9-plus",
-        "category": "appliances",
-        "brand": "iRobot",
-        "price": 999,
-        "rating": 4.7,
-        "description": "Robot vacuum with automatic dirt disposal and superior suction.",
-        "image": "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Roomba s9+ | Appliances | Shopora",
-            "description": "Hands-free cleaning with the Roomba s9+ robot vacuum."
-        },
-        "reviews": [
-            {
-                "id": "u43_1",
-                "name": "Lazy L.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Empties itself! Love it."
-            },
-            {
-                "id": "u43_2",
-                "name": "Busy B.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Maps the house perfectly."
-            },
-            {
-                "id": "u43_3",
-                "name": "Dave T.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "A bit noisy on turbo."
-            },
-            {
-                "id": "u43_4",
-                "name": "Jen S.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Corner cleaning is great."
-            },
-            {
-                "id": "u43_5",
-                "name": "Phil G.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Worth the investment."
-            }
-        ]
-    },
-    {
-        "id": 44,
-        "title": "Polaroid Now+",
-        "slug": "polaroid-now-plus",
-        "category": "photography",
-        "brand": "Polaroid",
-        "price": 149,
-        "rating": 4.5,
-        "description": "Instant film camera with creative tools and Bluetooth app control.",
-        "image": "https://images.unsplash.com/photo-1526170315870-ef6846088894?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Polaroid Now+ | Photography | Shopora",
-            "description": "Instant memories with a modern twist with Polaroid Now+."
-        },
-        "reviews": [
-            {
-                "id": "u44_1",
-                "name": "Insta I.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Classic feel with new tech."
-            },
-            {
-                "id": "u44_2",
-                "name": "Sara B.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Film can be expensive."
-            },
-            {
-                "id": "u44_3",
-                "name": "Greg F.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Love the lens filters."
-            },
-            {
-                "id": "u44_4",
-                "name": "Nate G.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "App works flawlessly."
-            },
-            {
-                "id": "u44_5",
-                "name": "Emma L.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Fun for parties."
-            }
-        ]
-    },
-    {
-        "id": 45,
-        "title": "ASUS ROG Swift 27\"",
-        "slug": "asus-rog-swift-27",
-        "category": "accessories",
-        "brand": "ASUS",
-        "price": 699,
-        "rating": 4.8,
-        "description": "Fast 240Hz gaming monitor for professional-level esports performance.",
-        "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "ASUS ROG Swift | Accessories | Shopora",
-            "description": "High-speed gaming visuals with ASUS ROG Swift."
-        },
-        "reviews": [
-            {
-                "id": "u45_1",
-                "name": "Pro P.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "240Hz is butter smooth."
-            },
-            {
-                "id": "u45_2",
-                "name": "Nate B.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Colors are vivid and accurate."
-            },
-            {
-                "id": "u45_3",
-                "name": "Phil J.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Stand is a bit bulky."
-            },
-            {
-                "id": "u45_4",
-                "name": "Sam T.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Best monitor for FPS."
-            },
-            {
-                "id": "u45_5",
-                "name": "Lori R.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "No ghosting whatsoever."
-            }
-        ]
-    },
-    {
-        "id": 46,
-        "title": "Vitamix A3500",
-        "slug": "vitamix-a3500",
-        "category": "appliances",
-        "brand": "Vitamix",
-        "price": 649,
-        "rating": 4.9,
-        "description": "Commercial-grade blender with touch screen and programmable settings.",
-        "image": "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Vitamix A3500 | Appliances | Shopora",
-            "description": "High-performance blending with the Vitamix A3500."
-        },
-        "reviews": [
-            {
-                "id": "u46_1",
-                "name": "Smoothie S.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Blends anything smooth."
-            },
-            {
-                "id": "u46_2",
-                "name": "Chef Mike",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Powerful and durable."
-            },
-            {
-                "id": "u46_3",
-                "name": "Emma D.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Self-clean mode is a win."
-            },
-            {
-                "id": "u46_4",
-                "name": "Ben K.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Very loud on high speed."
-            },
-            {
-                "id": "u46_5",
-                "name": "Sara F.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Last blender you'll buy."
-            }
-        ]
-    },
-    {
-        "id": 47,
-        "title": "Wilson Evolution",
-        "slug": "wilson-evolution",
-        "category": "fitness",
-        "brand": "Wilson",
-        "price": 79,
-        "rating": 4.8,
-        "description": "The preferred indoor basketball for competitive players worldwide.",
-        "image": "https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Wilson Evolution | Fitness | Shopora",
-            "description": "The best-selling indoor basketball for pro performance."
-        },
-        "reviews": [
-            {
-                "id": "u47_1",
-                "name": "Baller B.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Best grip in the game."
-            },
-            {
-                "id": "u47_2",
-                "name": "Coach Phil",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Soft feel, very durable."
-            },
-            {
-                "id": "u47_3",
-                "name": "Sam R.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Indoor only, don't use out."
-            },
-            {
-                "id": "u47_4",
-                "name": "Tina G.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Standard for any gym."
-            },
-            {
-                "id": "u47_5",
-                "name": "Leo P.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Consistent bounce and feel."
-            }
-        ]
-    },
-    {
-        "id": 48,
-        "title": "Tile Pro 4-Pack",
-        "slug": "tile-pro-4-pack",
-        "category": "accessories",
-        "brand": "Tile",
-        "price": 99,
-        "rating": 4.5,
-        "description": "Powerful Bluetooth tracker for keys, backpacks, and more.",
-        "image": "https://images.unsplash.com/photo-1568249821856-120531557088?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Tile Pro 4-Pack | Accessories | Shopora",
-            "description": "Never lose your things again with Tile Pro trackers."
-        },
-        "reviews": [
-            {
-                "id": "u48_1",
-                "name": "Forgetful F.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Found my keys in minutes."
-            },
-            {
-                "id": "u48_2",
-                "name": "Traveler T.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Great for luggage tracking."
-            },
-            {
-                "id": "u48_3",
-                "name": "Ben S.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Battery is replaceable."
-            },
-            {
-                "id": "u48_4",
-                "name": "Amy D.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Loud ringtone is helpful."
-            },
-            {
-                "id": "u48_5",
-                "name": "Lori K.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Saves me so much stress."
-            }
-        ]
-    },
-    {
-        "id": 49,
-        "title": "Bellroy Note Sleeve",
-        "slug": "bellroy-note-sleeve",
-        "category": "fashion",
-        "brand": "Bellroy",
-        "price": 89,
-        "rating": 4.7,
-        "description": "Slim leather wallet that balances convenience with minimalist design.",
-        "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Bellroy Note Sleeve | Fashion | Shopora",
-            "description": "Slim and stylish Bellroy leather wallet."
-        },
-        "reviews": [
-            {
-                "id": "u49_1",
-                "name": "Slim S.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "No more bulky pocket."
-            },
-            {
-                "id": "u49_2",
-                "name": "Dave G.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Leather quality is top tier."
-            },
-            {
-                "id": "u49_3",
-                "name": "Rick B.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Fits all my cards easily."
-            },
-            {
-                "id": "u49_4",
-                "name": "Sam J.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Beautiful and functional."
-            },
-            {
-                "id": "u49_5",
-                "name": "Nate D.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Card pull-tab is genius."
-            }
-        ]
-    },
-    {
-        "id": 50,
-        "title": "Philips Airfryer XXL",
-        "slug": "philips-airfryer-xxl",
-        "category": "appliances",
-        "brand": "Philips",
-        "price": 299,
-        "rating": 4.8,
-        "description": "Healthy cooking with fat removal technology for crispy results.",
-        "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80",
-        "meta": {
-            "title": "Philips Airfryer XXL | Appliances | Shopora",
-            "description": "Crispy and healthy meals with the Philips XXL Airfryer."
-        },
-        "reviews": [
-            {
-                "id": "u50_1",
-                "name": "Healthy H.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Crispy fries without the oil."
-            },
-            {
-                "id": "u50_2",
-                "name": "Busy Mom",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "So quick for weeknight meals."
-            },
-            {
-                "id": "u50_3",
-                "name": "John D.",
-                "rating": 4,
-                "purchaseDate": "2024-12-15",
-                "message": "Large capacity is great."
-            },
-            {
-                "id": "u50_4",
-                "name": "Sam L.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Easy to clean parts."
-            },
-            {
-                "id": "u50_5",
-                "name": "Rita G.",
-                "rating": 5,
-                "purchaseDate": "2024-12-15",
-                "message": "Chicken comes out juicy."
             }
         ]
     }

@@ -4,10 +4,10 @@ import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { ReviewCard } from "@/components/compound/cards/ReviewCard";
 import { SwiperCarousel } from "@/components/atomic/SwiperCarousel";
-import { ImageContainer } from "@/components/atomic/ImageContainer";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
 import { HeadingWithLink } from "@/components/compound/headings/HeadingWithLink";
 import { ProductInfoSection } from "@/sections/product-slug-page-related/ProductInfoSection";
+import { ProductImageSlideshow } from "@/sections/product-slug-page-related/ProductImageSlideshow";
 import products from "@/data/products.json";
 
 export async function generateMetadata({ params }) {
@@ -52,16 +52,9 @@ export default async function ProductPage({ params }) {
                 ]}
             />
 
-            <section className="grid grid-cols-1 gap-10 lg:grid-cols-2">
-                <ImageContainer
-                    imageContainerStyle="h-96 rounded-lg overflow-hidden"
-                    imageStyle="object-cover"
-                    imageData={{
-                        fill: true,
-                        priority: true,
-                        src: product?.image,
-                        alt: `Image of ${product?.title}`
-                    }}
+            <section className="grid grid-cols-1 gap-14 lg:grid-cols-2">
+                <ProductImageSlideshow
+                    productData={product}
                 />
 
                 <ProductInfoSection
@@ -117,6 +110,6 @@ export default async function ProductPage({ params }) {
                     ))}
                 </SwiperCarousel>
             </section>
-        </InnerContainer>
+        </InnerContainer >
     );
 }

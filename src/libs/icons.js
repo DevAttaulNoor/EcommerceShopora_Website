@@ -1,5 +1,6 @@
 import { IoMail } from "react-icons/io5";
 import { HiSlash } from "react-icons/hi2";
+import { IoMdClose } from "react-icons/io";
 import { BsTwitterX } from "react-icons/bs";
 import { FiShoppingCart } from "react-icons/fi";
 import { BiSolidPurchaseTag } from "react-icons/bi";
@@ -14,6 +15,7 @@ export const Icons = {
     SLASH: <HiSlash />,
     MINUS: <FaMinus />,
     USER: <FaRegUser />,
+    CLOSE: <IoMdClose />,
     TWITTER: <BsTwitterX />,
     FACEBOOK: <FaFacebook />,
     CART: <FiShoppingCart />,

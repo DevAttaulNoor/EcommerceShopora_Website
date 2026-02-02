@@ -38,35 +38,63 @@ export const Table = () => {
         <table className="w-full">
             <thead>
                 <tr>
-                    <th>Product Details</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                    <th>Total</th>
-                    <th>Action</th>
+                    <th>
+                        <h5 className="p-1 border rounded-tl-lg">
+                            Product Details
+                        </h5>
+                    </th>
+
+                    <th>
+                        <h5 className="p-1 border">
+                            Quantity
+                        </h5>
+                    </th>
+
+                    <th>
+                        <h5 className="p-1 border">
+                            Price
+                        </h5>
+                    </th>
+
+                    <th>
+                        <h5 className="p-1 border">
+                            Total
+                        </h5>
+                    </th>
+
+                    <th>
+                        <h5 className="p-1 border rounded-tr-lg">
+                            Action
+                        </h5>
+                    </th>
                 </tr>
             </thead>
 
             <tbody>
                 {products.map((product) => (
                     <tr key={product.id}>
-                        <td>{product.name}</td>
+                        <td>
+                            {product.name}
+                        </td>
 
-                        <td className="flex items-center justify-center gap-1">
-                            <button
-                                className="p-1 border rounded-md"
-                                onClick={() => decreaseQty(product.id)}
-                            >
-                                {Icons.MINUS}
-                            </button>
+                        <td>
+                            <div className="w-fit flex items-center my-1 gap-1 mx-auto border rounded-md">
+                                <button
+                                    className="text-sm p-1 border-r cursor-pointer"
+                                    onClick={() => decreaseQty(product.id)}
+                                >
+                                    {Icons.MINUS}
+                                </button>
 
-                            <p>{product.quantity}</p>
+                                <p>{product.quantity}</p>
 
-                            <button
-                                className="p-1 border rounded-md"
-                                onClick={() => increaseQty(product.id)}
-                            >
-                                {Icons.PLUS}
-                            </button>
+                                <button
+                                    className="text-sm p-1 border-l cursor-pointer"
+                                    onClick={() => increaseQty(product.id)}
+                                >
+                                    {Icons.PLUS}
+                                </button>
+                            </div>
                         </td>
 
                         <td className="text-center">
@@ -77,10 +105,15 @@ export const Table = () => {
                             {product.price * product.quantity}
                         </td>
 
-                        <td className="mx-auto">
-                            <button onClick={() => removeItem(product.id)}>
-                                X
-                            </button>
+                        <td>
+                            <div className="w-fit mx-auto">
+                                <button
+                                    className="text-xs p-1 border rounded-full cursor-pointer"
+                                    onClick={() => removeItem(product.id)}
+                                >
+                                    {Icons.CLOSE}
+                                </button>
+                            </div>
                         </td>
                     </tr>
                 ))}

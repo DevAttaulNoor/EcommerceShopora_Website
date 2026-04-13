@@ -8,8 +8,8 @@ import { ShopNowSection } from "@/sections/universal/ShopNowSection";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
 import { HeadingWithLink } from "@/components/compound/headings/HeadingWithLink";
 import { PlatformStatsSection } from "@/sections/universal/PlatformStatsSection";
-import products from "@data/products.json"
-import categories from "@data/categories.json"
+import products from "@/data/products.json"
+import categories from "@/data/categories.json"
 
 export default function Home() {
     return (

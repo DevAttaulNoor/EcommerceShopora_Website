@@ -4,8 +4,8 @@ import Link from "next/link";
 import { Routes } from "@/config/routes";
 import { usePathname } from "next/navigation";
 import { ImageContainer } from "@/components/atomic/ImageContainer";
-import brands from "@data/brands.json"
-import categories from "@data/categories.json"
+import brands from "@/data/brands.json"
+import categories from "@/data/categories.json"
 
 const companyLinks = [
     {

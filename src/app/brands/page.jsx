@@ -1,8 +1,8 @@
 import { Routes } from "@/config/routes";
 import { InnerContainer } from "@/layouts/InnerContainer";
 import { BrandCategoryLayout } from "@/layouts/BrandCategoryLayout";
-import brands from "@data/brands.json";
-import products from "@data/products.json";
+import brands from "@/data/brands.json";
+import products from "@/data/products.json";
 
 export const metadata = {
     title: Routes.BRANDS.meta.title,

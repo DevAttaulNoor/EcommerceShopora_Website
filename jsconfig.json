@@ -1,22 +1,31 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./src/*"],
+//       "@app/*": ["src/app/*"],
+//       "@data/*": ["src/data/*"],
+//       "@libs/*": ["src/libs/*"],
+//       "@store/*": ["src/store/*"],
+//       "@models/*": ["src/models/*"],
+//       "@config/*": ["src/config/*"],
+//       "@layouts/*": ["src/layouts/*"],
+//       "@services/*": ["src/services/*"],
+//       "@sections/*": ["src/sections/*"],
+//       "@components/*": ["src/components/*"],
+//       "@controllers/*": ["src/controllers/*"],
+//       "@middlewares/*": ["src/middlewares/*"]
+//     },
+//     "ignoreDeprecations": "6.0"
+//   }
+// }
+
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@app/*": ["src/app/*"],
-      "@data/*": ["src/data/*"],
-      "@libs/*": ["src/libs/*"],
-      "@store/*": ["src/store/*"],
-      // "@utils/*": ["src/utils/*"],
-      // "@hooks/*": ["src/hooks/*"],
-      "@models/*": ["src/models/*"],
-      "@config/*": ["src/config/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@services/*": ["src/services/*"],
-      "@sections/*": ["src/sections/*"],
-      "@components/*": ["src/components/*"],
-      "@controllers/*": ["src/controllers/*"],
-      "@middlewares/*": ["src/middlewares/*"]
-    }
+      "@/*": ["./src/*"]
+    },
+    "ignoreDeprecations": "6.0"
   }
 }

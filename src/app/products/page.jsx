@@ -3,9 +3,9 @@ import { InnerContainer } from "@/layouts/InnerContainer";
 import { IntroSection } from "@/sections/universal/IntroSection";
 import { FilterSection } from "@/sections/universal/FilterSection";
 import { ProductCard } from "@/components/compound/cards/ProductCard";
-import brands from "@data/brands.json";
-import products from "@data/products.json";
-import categories from "@data/categories.json";
+import brands from "@/data/brands.json";
+import products from "@/data/products.json";
+import categories from "@/data/categories.json";
 
 export const metadata = {
     title: Routes.PRODUCTS.meta.title,
